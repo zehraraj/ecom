@@ -1,0 +1,61 @@
+.collectionsRoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin-top: 7.8125vw;
+}
+
+.collectionsRoot .collectionsCardBorder {
+  width: 18.48958vw;
+}
+
+.collectionsRoot .collectionsCardBorder .collectionsCard {
+  width: 18.22917vw;
+  height: 28.64583vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.collectionsRoot .collectionsCardBorder .collectionsCard img {
+  width: inherit;
+  margin: 0.26042vw;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: blur(0.10417vw);
+  -webkit-filter: blur(0.10417vw);
+}
+
+.collectionsRoot .collectionsCardBorder .collectionsCard img:hover {
+  margin: 0vw;
+  filter: blur(0vw);
+  -webkit-filter: blur(0vw);
+}
+
+.collectionsRoot .collectionsCardBorder .collectionsCard .collectionsCardText {
+  position: absolute;
+  display: block;
+  color: white;
+  font-size: 1.30208vw;
+}
+
+.collectionsRoot .collectionsCardBorder .collectionsCard:hover {
+  border: none;
+}
+
+.collectionsRoot .collectionsCardBorder .collectionsCard:hover .collectionsCardText {
+  display: none;
+}
+/*# sourceMappingURL=Collections.css.map */

@@ -1,0 +1,28 @@
+.SearchContainer {
+  width: 3.64583vw;
+  height: 3.02083vw;
+  margin-left: 26.04167vw;
+  margin-top: 1.61458vw;
+}
+
+.SearchContainer .inpt {
+  width: 29.32292vw;
+  height: 1.97917vw;
+  border-radius: 0.41667vw;
+  background-color: #ffffff;
+  margin-left: -0.26042vw;
+}
+
+.SearchContainer .img {
+  width: 1.0625vw;
+  height: 1.0625vw;
+  margin-top: 0.625vw;
+  float: left;
+}
+
+@media screen and (max-width: 480px) {
+  .SearchContainer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Search.css.map */

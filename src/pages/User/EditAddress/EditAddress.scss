@@ -1,0 +1,39 @@
+$desk: 100 / 1920;
+
+.EditAdd-flex-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1920 * $desk + vw;
+    height: 1000 * $desk + vw;
+    overflow: hidden!important;
+    
+    .content-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top:70 * $desk +vw;
+        width: 1920 * $desk + vw;
+        height: 908 * $desk + vw;
+    }
+
+    .content-container1{
+        position: relative;
+        margin-top:50 * $desk +vw;
+        width: 1920 * $desk + vw; 
+        height: 500 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .content-container2{
+        position: relative;
+        margin-left: 30 * $desk +vw ;
+        margin-top:0 * $desk +vw;
+        width: 1540 * $desk + vw;
+        height: 632 * $desk + vw;
+    }
+}

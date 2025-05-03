@@ -1,0 +1,23 @@
+$desk: 100 / 1920;
+.sidenavContainer{
+  display: relative;
+  position: absolute;
+  transition: 0.3s ;
+  float: left;
+  width: 350 * $desk + vw;
+  height: 1050 * $desk + vw;
+  background-color: #0e0030;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  margin-top: 68 * $desk + vw;
+  padding-top: 15 * $desk + vw;
+
+  .nav{
+    // text-decoration: none;
+    :hover {
+      left: 0;
+      background-color: #ffffff;
+      color: #0e0030 ;
+    } 
+  }
+}

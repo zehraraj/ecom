@@ -1,0 +1,49 @@
+@import "../../../utilities/variables";
+
+.collectionsRoot {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 150 * $desk + vw;
+  .collectionsCardBorder {
+    width: 355 * $desk + vw;
+    // height: 555 * $desk + vw;
+    .collectionsCard {
+      width: 350 * $desk + vw;
+      height: 550 * $desk + vw;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      // border: solid 5 * $desk + vw black;
+      img {
+        width: inherit;
+        margin: 5 * $desk + vw;
+        height: inherit;
+        object-fit: cover;
+        filter: blur(2 * $desk + vw);
+        -webkit-filter: blur(2 * $desk + vw);
+      }
+      img:hover {
+        margin: 0 * $desk + vw;
+        filter: blur(0 * $desk + vw);
+        -webkit-filter: blur(0 * $desk + vw);
+      }
+      .collectionsCardText {
+        position: absolute;
+        display: block;
+        // bottom: 30 * $desk + vw;
+        // bottom: 150 * $desk + vw;
+        color: white;
+        font-size: 25 * $desk + vw;
+      }
+    }
+    .collectionsCard:hover {
+      border: none;
+    }
+    .collectionsCard:hover .collectionsCardText {
+      display: none;
+    }
+  }
+}

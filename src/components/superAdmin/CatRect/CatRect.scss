@@ -1,0 +1,67 @@
+$desk: 100/ 1920;
+.pro-textIconContainer2{
+    display: flex;
+    height: 70 * $desk+vw;
+    width: 960 * $desk + vw;
+    align-items: baseline;
+    // margin-top: 50 * $desk + vw;
+    // margin-top: 20 * $desk + vw;
+    margin-bottom: 20 * $desk + vw;
+    margin-left: 85 * $desk + vw ;
+    // flex-direction: column;
+    // padding-bottom: 80 * $desk + vw;
+    flex-wrap:wrap;
+    // flex-direction: column;
+    .txt{
+        width: 140 * $desk + vw;
+        height: 60 * $desk + vw;
+        font-family: BebasNeue;
+        font-size: 50 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #7e7e7e;
+        // padding-left: 114 * $desk + vw ;
+        margin-top: 0 * $desk +vw;
+        white-space: nowrap;
+    }
+    
+    .img{
+        padding-left: 40 * $desk +vw;
+        width: 40 * $desk +vw;
+        height: 40 * $desk + vw;
+        padding-top: 10 * $desk + vw;
+    }
+    .pro-Header-Container{
+        display: flex;
+        flex-wrap: wrap;
+
+        .tt{
+            width: 97* $desk + vw;
+            height: 43* $desk + vw;
+            font-family: BebasNeue;
+            font-size: 36* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.19;
+            letter-spacing: normal;
+            color: #0e0030;
+            padding-left: 20 * $desk + vw;
+            padding-top: 20 * $desk + vw;
+            white-space: nowrap;
+        }
+
+        .image{
+            width: 37.5 * $desk +vw;
+            height: 40 * $desk + vw;
+            margin-top: 17 * $desk +vw;
+            margin-left: 65 * $desk + vw;
+        }
+
+    }
+}
+

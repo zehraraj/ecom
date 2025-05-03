@@ -1,0 +1,74 @@
+{
+  "name": "ecom_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "latest",
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.48",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.3.4",
+    "bootstrap": "^4.4.1",
+    "calendar-month-array": "^2.1.1",
+    "jquery": "^3.5.1",
+    "material-icons": "^0.3.1",
+    "material-ui-search-bar": "^0.4.2",
+    "mdbreact": "^4.25.6",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.0",
+    "react-alice-carousel": "^1.18.0",
+    "react-bootstrap": "^1.0.0",
+    "react-burger-menu": "^2.6.14",
+    "react-card-carousel": "^1.1.3",
+    "react-carousel-slider": "^2.0.13",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-datepicker": "^2.13.0",
+    "react-dom": "^16.13.0",
+    "react-dropdown": "^1.7.0",
+    "react-icons": "^3.10.0",
+    "react-items-carousel": "^2.8.0",
+    "react-loadingg": "^1.7.2",
+    "react-multi-carousel": "^2.5.5",
+    "react-native-paper": "^3.8.0",
+    "react-navbar-dropdown": "^1.1.5",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-slick": "^0.25.2",
+    "react-smart-scroller": "^1.1.1",
+    "react-widgets": "^4.5.0",
+    "reactjs-dropdown-component": "^1.1.2",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.5",
+    "redux-saga": "^1.1.3",
+    "semantic-ui-react": "^0.88.2",
+    "slick-carousel": "^1.8.1",
+    "slider": "^1.0.4",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-local": "set \"REACT_APP_LOCAL=true\" && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

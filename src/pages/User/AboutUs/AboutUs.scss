@@ -1,0 +1,49 @@
+@import "../../../utilities/variables";
+
+.AboutUsRoot {
+  margin-left: 80 * $desk + vw;
+  margin-right: 80 * $desk + vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50 * $desk + vw;
+
+  .aboutUsLeft {
+    .img-con {
+      width: 768 * $desk + vw;
+      height: 576 * $desk + vw;
+      img {
+        width: inherit;
+        height: inherit;
+        object-fit: contain;
+        border-radius: 20 * $desk + vw;
+      }
+    }
+  }
+
+  .aboutUsRight {
+    margin-top: 50 * $desk + vw;
+    width: 800 * $desk + vw;
+    .text {
+      font-size: 28 * $desk + vw;
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: 1.21;
+      letter-spacing: normal;
+      text-align: left;
+      color: #707070;
+    }
+    .text1 {
+      font-family: montserrat-regular;
+      margin-top: 50 * $desk + vw;
+      font-size: 24 * $desk + vw;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: italic;
+      line-height: 1.21;
+      letter-spacing: normal;
+      text-align: left;
+      color: #707070;
+    }
+  }
+}

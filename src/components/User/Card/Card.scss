@@ -1,0 +1,75 @@
+@import "../../../utilities/variables";
+
+.cardRoot {
+  margin-top: 50 * $desk + vw;
+  width: min-content;
+  .cardImage {
+    width: 260 * $desk + vw;
+    height: 345 * $desk + vw;
+    position: relative;
+    img {
+      object-fit: cover;
+      width: inherit;
+      height: inherit;
+    }
+
+    .cardBubbleContainer {
+      position: absolute;
+      left: 15 * $desk + vw;
+      top: 15 * $desk + vw;
+      font-size: 16 * $desk + vw;
+
+      .cardSaleBubble {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #98d8ca;
+        color: white;
+        font-weight: bold;
+        width: 55 * $desk + vw;
+        height: 55 * $desk + vw;
+        border-radius: 50 * $desk + vw;
+        margin-bottom: 15 * $desk + vw;
+        text-transform: lowercase;
+      }
+      .cardRibbonBubble {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        background: #c61932;
+        color: white;
+        width: 55 * $desk + vw;
+        height: 55 * $desk + vw;
+        border-radius: 50 * $desk + vw;
+        text-transform: lowercase;
+      }
+    }
+  }
+
+  .cardTitle {
+    font-family: montserrat-regular;
+    font-size: 24 * $desk + vw;
+    margin-top: 20 * $desk + vw;
+    margin-left: 20 * $desk + vw;
+  }
+
+  .cardRates {
+    margin-top: 12 * $desk + vw;
+    display: flex;
+    align-items: flex-end;
+    .cardRatesSale {
+      color: gray;
+      text-decoration: line-through;
+      font-size: 16 * $desk + vw;
+      margin-left: 20 * $desk + vw;
+      font-weight: bold;
+    }
+    .cardRatesPrice {
+      font-weight: bold;
+      margin-left: 20 * $desk + vw;
+      margin-left: 10 * $desk + vw;
+      font-size: 18 * $desk + vw;
+    }
+  }
+}

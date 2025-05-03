@@ -1,0 +1,177 @@
+.Wishlist-img-box {
+  width: 17.55208vw;
+  height: 32.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 4.01042vw;
+  background-color: #ffffff;
+}
+
+.Wishlist-img-box .img {
+  width: 17.65625vw;
+  height: 23.4375vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+.Wishlist-img-box .btn-cont {
+  width: 19.11458vw;
+  height: 2.76042vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 0.72917vw;
+}
+
+.Wishlist-img-box .btn-cont .bttn1 {
+  width: 17.55208vw;
+  height: 2.76042vw;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0 0.26042vw 0.26042vw 0 rgba(65, 45, 45, 0.1);
+          box-shadow: 0 0.26042vw 0.26042vw 0 rgba(65, 45, 45, 0.1);
+  background-color: #ffffff;
+}
+
+.Wishlist-img-box .btn-cont .bttn1 .btn-txt {
+  width: 7.29167vw;
+  height: 1.875vw;
+  font-family: BebasNeue;
+  font-size: 1.5625vw;
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 5.20833vw;
+  margin-top: 0.78125vw;
+}
+
+.Wishlist-img-box .p-txt-cont {
+  width: 17.55208vw;
+  height: 5.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 0.26042vw;
+  margin-left: 0.52083vw;
+}
+
+.Wishlist-img-box .p-txt-cont .txt1 {
+  width: 5.67708vw;
+  height: 1.71875vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+}
+
+.Wishlist-img-box .p-txt-cont .txt2 {
+  width: 13.33333vw;
+  height: 1.71875vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afafaf;
+  white-space: nowrap;
+}
+
+.Wishlist-img-box .p-txt-cont .iner-txt {
+  width: 17.55208vw;
+  height: 1.51042vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Wishlist-img-box .p-txt-cont .iner-txt .txt1 {
+  width: 3.85417vw;
+  height: 1.51042vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afafaf;
+  text-decoration: line-through;
+  white-space: nowrap;
+  margin-top: 0.52083vw;
+}
+
+.Wishlist-img-box .p-txt-cont .iner-txt .txt2 {
+  width: 3.85417vw;
+  height: 1.51042vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afafaf;
+  white-space: nowrap;
+  margin-top: 0.52083vw;
+  margin-left: 0.52083vw;
+}
+
+.Wishlist-img-box .p-txt-cont .iner-txt .txt3 {
+  width: 6.09375vw;
+  height: 1.71875vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.19792vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff2753;
+  white-space: nowrap;
+  margin-top: 0.36458vw;
+  margin-left: 0.52083vw;
+}
+/*# sourceMappingURL=WishlistImgcont.css.map */

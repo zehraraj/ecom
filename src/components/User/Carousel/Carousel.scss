@@ -1,0 +1,21 @@
+@import "../../../utilities/variables";
+
+.carouselRoot {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  // height: 600 * $desk + vw;
+  height: 860 * $desk + vw;
+  overflow: hidden;
+  @media only screen and (max-width: $other) {
+    height: 800 * $desk + vw;
+  }
+  .carousel {
+    object-fit: cover;
+    width: 100%;
+    // width: 1200 * $desk + vw;
+    @media only screen and (max-width: $other) {
+      object-fit: fill;
+    }
+  }
+}

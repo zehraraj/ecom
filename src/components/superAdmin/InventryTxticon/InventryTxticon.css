@@ -1,0 +1,39 @@
+.in-textIconContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.64583vw;
+  width: 13.54167vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 1.04167vw;
+  margin-bottom: 1.04167vw;
+  margin-left: 4.42708vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.in-textIconContainer2 .txt {
+  width: 7.29167vw;
+  height: 3.125vw;
+  font-family: BebasNeue;
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  margin-top: 0vw;
+  white-space: nowrap;
+}
+
+.in-textIconContainer2 .img {
+  padding-left: 1.04167vw;
+  width: 2.08333vw;
+  height: 2.08333vw;
+  padding-top: 0.52083vw;
+}
+/*# sourceMappingURL=InventryTxticon.css.map */

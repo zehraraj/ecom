@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ssdfsdf {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  font-family: RobotoSlab;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+  margin-bottom: 2.60417vw;
+}
+
+.ssdfsdf .header {
+  margin-top: 0.26042vw;
+}
+
+.ssdfsdf .content .input {
+  margin-top: 1.04167vw;
+}
+
+.ssdfsdf .content .input .variantContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 0.10417vw;
+  background-color: #fbfbfb;
+  font-family: RobotoSlab;
+  font-size: 1.04167vw;
+  margin-bottom: 0.52083vw;
+  padding-left: 5.20833vw;
+  padding-right: 1.04167vw;
+  padding-top: 1.5625vw;
+  padding-bottom: 1.5625vw;
+}
+
+.ssdfsdf .content .input .variantContainer .text {
+  color: #7e7e7e;
+  font-weight: 400;
+  width: 14.0625vw;
+  margin-top: 0.46875vw;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent {
+  width: 100%;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon {
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .inputBox {
+  width: 100%;
+  height: 2.60417vw;
+  border: 5px black solid;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  padding-left: 1.04167vw;
+  padding-right: 1.04167vw;
+  background-color: #ffffff;
+  font-family: inherit;
+  font-size: 0.83333vw;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .inputBox::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .inputBox:-ms-input-placeholder {
+  color: #777777;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .inputBox::-ms-input-placeholder {
+  color: #777777;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .inputBox::placeholder {
+  color: #777777;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .icon {
+  right: 1.5625vw;
+  top: 1.82292vw;
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.ssdfsdf .content .input .variantContainer .variantContent .inputIcon .icon img {
+  position: absolute;
+  height: 2.08333vw;
+  position: relative;
+}
+
+.ssdfsdf .content .saveDiv {
+  cursor: pointer;
+  height: 4.47917vw;
+  font-weight: 100;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  margin-bottom: 1.04167vw;
+  margin-top: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0e0030;
+  font-size: 1.04167vw;
+}
+
+.ssdfsdf .content .saveDiv .txtsave {
+  font-weight: 300;
+}
+/*# sourceMappingURL=AddProductRect.css.map */

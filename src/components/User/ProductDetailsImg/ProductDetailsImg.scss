@@ -1,0 +1,19 @@
+$desk: 100 / 1920;
+
+.ProDImg-flex-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800 * $desk + vw;
+    height: 480 * $desk + vw;
+    overflow: hidden;
+
+    .img{
+        width: 360* $desk + vw;
+        height: 480 * $desk + vw;
+        object-fit: contain;
+        margin-top: 20 * $desk + vw;
+        margin-left: 40 * $desk + vw;
+    }
+}

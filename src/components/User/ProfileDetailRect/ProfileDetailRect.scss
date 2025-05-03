@@ -1,0 +1,237 @@
+@import "../../../utilities/variables";
+
+.Prorect {
+  .title {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headtitle {
+    width: 321 * $desk + vw;
+    height: 53 * $desk + vw;
+    font-family: Montserrat-Regular;
+    font-size: 40 * $desk + vw;
+    font-weight: normal;
+    text-align: left;
+    color: #0e0030;
+    margin-left: 40 * $desk + vw;
+    margin-top: 50 * $desk + vw;
+    margin-bottom: 15 * $desk + vw;
+    @media screen and (max-width: $other) {
+      width: 721 * $desk + vw;
+      height: 100 * $desk + vw;
+      font-family: Montserrat-Regular;
+      font-size: 100 * $desk + vw;
+      font-weight: normal;
+      text-align: left;
+      color: #0e0030;
+      margin-top: 50 * $desk + vw;
+      margin-bottom: 15 * $desk + vw;
+      margin-left: 40 * $desk + vw;
+    }
+  }
+  .hr {
+    display: block;
+    margin-top: 2 * $desk + vw;
+    margin-bottom: 0.5 * $desk + vw;
+    margin-left: 40 * $desk + vw;
+    margin-right: 50.7 * $desk + vw;
+    border-style: inset;
+    border-width: 1px;
+    @media screen and (max-width: $other) {
+      display: block;
+      margin-top: 2 * $desk + vw;
+      margin-bottom: 0.5 * $desk + vw;
+      margin-left: 40 * $desk + vw;
+      margin-right: 50.7 * $desk + vw;
+      border-style: inset;
+      border-width: 1px;
+    }
+  }
+
+  .Procont {
+    width: 1191 * $desk + vw;
+    height: 375 * $desk + vw;
+    margin-top: 40 * $desk + vw;
+    margin-left: 40 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: $other) {
+      width: 100%;
+      height: 900 * $desk + vw;
+      margin-top: 40 * $desk + vw;
+      margin-left: 40 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .datacont {
+      width: 1191 * $desk + vw;
+      height: 325 * $desk + vw;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      @media screen and (max-width: $other) {
+        width: 100%;
+        height: 900 * $desk + vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .txt1-cont {
+        width: 395.5 * $desk + vw;
+        height: 325 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        @media screen and (max-width: $other) {
+          width: 50%;
+          height: 900 * $desk + vw;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+        .txt1 {
+          width: 256 * $desk + vw;
+          height: 30 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 27 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+          margin-top: 0 * $desk + vw;
+          margin-bottom: 0 * $desk + vw;
+          @media screen and (max-width: $other) {
+            width: 556 * $desk + vw;
+            height: 150 * $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 80 * $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+            margin-top: 0 * $desk + vw;
+            margin-bottom: 0 * $desk + vw;
+          }
+        }
+
+        .txt2 {
+          width: 256 * $desk + vw;
+          height: 30 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 27 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+          margin-top: 30 * $desk + vw;
+          margin-bottom: 0 * $desk + vw;
+          @media screen and (max-width: $other) {
+            width: 756 * $desk + vw;
+            height: 150 * $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 80 * $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+            margin-top: 30 * $desk + vw;
+            margin-bottom: 0 * $desk + vw;
+          }
+        }
+      }
+
+      .txt2-cont {
+        width: 395.5 * $desk + vw;
+        height: 325 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        @media screen and (max-width: $other) {
+          width: 50%;
+          height: 900 * $desk + vw;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+        .txt1 {
+          width: 256 * $desk + vw;
+          height: 30 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 27 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+          margin-top: 0 * $desk + vw;
+          margin-bottom: 0 * $desk + vw;
+          @media screen and (max-width: $other) {
+            width: 556 * $desk + vw;
+            height: 150 * $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 80 * $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+            margin-top: 0 * $desk + vw;
+            margin-bottom: 0 * $desk + vw;
+          }
+        }
+        .txt2 {
+          width: 256 * $desk + vw;
+          height: 30 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 27 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+          margin-top: 30 * $desk + vw;
+          margin-bottom: 0 * $desk + vw;
+          @media screen and (max-width: $other) {
+            width: 556 * $desk + vw;
+            height: 150 * $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 80 * $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+            margin-top: 30 * $desk + vw;
+            margin-bottom: 0 * $desk + vw;
+          }
+        }
+      }
+    }
+  }
+  .nav {
+    text-decoration: none;
+  }
+}

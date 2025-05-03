@@ -1,0 +1,276 @@
+.addProductRootContainer {
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 5.20833vw;
+  padding-left: 5.20833vw;
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.addProductRootContainer .headerContainer {
+  margin-top: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.addProductRootContainer .headerContainer .nav {
+  text-decoration: none;
+}
+
+.addProductRootContainer .innerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5.20833vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+  margin-bottom: 2.60417vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .header {
+  margin-top: 0.26042vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input {
+  margin-top: 1.04167vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .productQuestionsButton {
+  cursor: pointer;
+  height: 2.60417vw;
+  font-weight: 100;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0e0030;
+  font-size: 1.04167vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .productQuestionsButton .txtsave {
+  font-weight: 300;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 0.10417vw;
+  background-color: #fbfbfb;
+  font-size: 1.04167vw;
+  margin-bottom: 0.52083vw;
+  padding-left: 5.20833vw;
+  padding-right: 1.04167vw;
+  padding-top: 1.5625vw;
+  padding-bottom: 1.5625vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .text {
+  color: #7e7e7e;
+  font-weight: 400;
+  width: 11.97917vw;
+  margin-top: 0.46875vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .text {
+    font-size: 1.30208vw;
+  }
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent {
+  width: 43.80208vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent {
+    width: 62.5vw;
+  }
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .bottom {
+  margin-bottom: 2.60417vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon {
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .inputBox {
+  width: 100%;
+  height: 2.60417vw;
+  border: 5px black solid;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  padding-left: 1.04167vw;
+  padding-right: 1.04167vw;
+  background-color: #ffffff;
+  font-family: inherit;
+  font-size: 0.83333vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .inputBox {
+    font-size: 1.04167vw;
+    height: 3.64583vw;
+  }
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .inputBox::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .inputBox:-ms-input-placeholder {
+  color: #777777;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .inputBox::-ms-input-placeholder {
+  color: #777777;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .inputBox::placeholder {
+  color: #777777;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .icon1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.26042vw;
+  margin-right: 1.04167vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .icon1 {
+    margin-top: 0.52083vw;
+  }
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .icon1 img {
+  position: relative;
+  height: 2.08333vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .inputIcon .icon1 img {
+    height: 2.60417vw;
+  }
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .input .variantContainer .variantContent .error {
+  color: red;
+  margin-top: 0.625vw;
+  margin-left: 0.52083vw;
+  font-size: 0.78125vw;
+  text-transform: capitalize;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .saveDiv {
+  cursor: pointer;
+  height: 4.47917vw;
+  font-weight: 100;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  margin-bottom: 1.04167vw;
+  margin-top: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0e0030;
+  font-size: 1.04167vw;
+}
+
+.addProductRootContainer .innerContainer .ssdfsdfprodu .content .saveDiv .txtsave {
+  font-weight: 300;
+}
+/*# sourceMappingURL=AddProduct.css.map */

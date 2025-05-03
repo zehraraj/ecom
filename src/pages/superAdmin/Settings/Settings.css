@@ -1,0 +1,113 @@
+.SettingsRoootContainer {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 5.20833vw;
+  padding-left: 5.20833vw;
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .SettingsRoootContainer {
+    padding-top: 2.60417vw;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .SettingsRoootContainer {
+    padding-top: 2.60417vw;
+    width: 100%;
+  }
+}
+
+.SettingsRoootContainer .headerContainer {
+  margin-top: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.SettingsRoootContainer .innerContainerres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.SettingsRoootContainer .innerContainerres .handle {
+  margin-top: 13.02083vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: inherit;
+}
+
+@media only screen and (max-width: 1023px) {
+  .SettingsRoootContainer .innerContainerres .handle {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 67.70833vw;
+    margin-top: 10.41667vw;
+    margin-left: 0vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.SettingsRoootContainer .innerContainerres .handle1 {
+  margin-top: 13.02083vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: inherit;
+}
+
+@media only screen and (max-width: 1023px) {
+  .SettingsRoootContainer .innerContainerres .handle1 {
+    width: 100%;
+    height: 67.70833vw;
+    margin-top: -15.57292vw;
+    margin-left: 0vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=Settings.css.map */

@@ -1,0 +1,372 @@
+@import "../../../utilities/variables";
+
+.footer-container {
+  height: inherit;
+  background-color: #f8f8f8;
+  position: relative;
+  border-top: solid 2px gray;
+  @media only screen and (max-width: $other) {
+  }
+
+  .cont1 {
+    width: 1920 * $desk + vw;
+    height: 454 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+
+    .info-container {
+      width: 1120 * $desk + vw;
+      height: 60 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+
+      .logo {
+        float: left;
+        background: url("/home/suchit/Desktop/React/ecom/src/static/Invetry1.png");
+        width: 220 * $desk + vw;
+        height: 41 * $desk + vw;
+        object-fit: contain;
+        margin-left: 43 * $desk + vw;
+        margin-top: 121 * $desk + vw;
+      }
+      .copy {
+        width: 25 * $desk + vw;
+        height: 25 * $desk + vw;
+        object-fit: contain;
+        margin-left: 80 * $desk + vw;
+        margin-top: 56 * $desk + vw;
+      }
+      .info {
+        width: 202 * $desk + vw;
+        height: 30 * $desk + vw;
+
+        .infotxt {
+          width: 462 * $desk + vw;
+          height: 20 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 25 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: #999999;
+          white-space: nowrap;
+          margin-left: 120 * $desk + vw;
+          margin-top: -25 * $desk + vw;
+        }
+        .infotxt1 {
+          width: 462 * $desk + vw;
+          height: 20 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 25 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: #999999;
+          line-height: 1.9;
+          white-space: nowrap;
+          margin-left: 85 * $desk + vw;
+          margin-top: 20 * $desk + vw;
+        }
+      }
+    }
+
+    .about-container {
+      margin-left: -650 * $desk + vw;
+      width: 300 * $desk + vw;
+      height: 494 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+
+      .txt1 {
+        margin-top: 147 * $desk + vw;
+        width: 69 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+
+      .txt2 {
+        line-height: 1.2;
+        margin-top: 20 * $desk + vw;
+        white-space: nowrap;
+        width: 82 * $desk + vw;
+        height: 22 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #999999;
+      }
+    }
+
+    .icon-container {
+      width: 300 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+      margin-top: 64 * $desk + vw;
+
+      .icon {
+        margin-top: 20 * $desk + vw;
+        width: 25 * $desk + vw;
+        height: 25 * $desk + vw;
+        background-color: #707070;
+      }
+      .icon2 {
+        width: 25 * $desk + vw;
+        height: 25 * $desk + vw;
+        background-color: #707070;
+      }
+
+      .txt1 {
+        margin-top: 80 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+      .txt2 {
+        line-height: 1.2;
+        margin-top: 20 * $desk + vw;
+        white-space: nowrap;
+        width: 82 * $desk + vw;
+        height: 22 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #999999;
+      }
+
+      .socialLogoText {
+        display: flex;
+        // width: 100 * $desk + vw;
+        margin-top: 20 * $desk + vw;
+        img {
+          width: 25 * $desk + vw;
+          height: 25 * $desk + vw;
+          background-color: #707070;
+        }
+        .socialText {
+          display: flex;
+          line-height: 1.2;
+          white-space: nowrap;
+          margin-left: 10 * $desk + vw;
+          // width: 82 * $desk + vw;
+          // height: 22 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 25 * $desk + vw;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: #999999;
+        }
+      }
+    }
+
+    .contact-container {
+      width: 324 * $desk + vw;
+      height: 494 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+
+      .txt1 {
+        margin-top: 147 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+
+      .txt2 {
+        line-height: 1.2;
+        margin-top: 20 * $desk + vw;
+        white-space: nowrap;
+        width: 82 * $desk + vw;
+        height: 22 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #999999;
+      }
+    }
+    .feedback-container {
+      width: 300 * $desk + vw;
+      height: 494 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+
+      .txt1 {
+        margin-top: 147 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 25 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+      .feed-inp {
+        width: 500 * $desk + vw;
+        height: 100 * $desk + vw;
+        .inp {
+          height: 30 * $desk + vw;
+          width: 400 * $desk + vw;
+          margin-top: 60 * $desk + vw;
+          border: none;
+          border-bottom: solid 1px #000000;
+        }
+      }
+      .feed-sub {
+        margin-top: 10 * $desk + vw;
+        margin-left: 300 * $desk + vw;
+      }
+    }
+  }
+}
+
+// @media only screen and (max-width: $other) {
+//   .footer-container {
+//     width: 450 * $desk + vw;
+//     height: 290 * $desk + vw;
+//     background-color: #0e0030;
+//     .cont1 {
+//       width: 450 * $desk + vw;
+//       height: 200 * $desk + vw;
+//       .info-container {
+//         width: 250 * $desk + vw;
+//         height: 290 * $desk + vw;
+//         .logo {
+//           width: 89 * $desk + vw;
+//           height: 25 * $desk + vw;
+//           object-fit: contain;
+//         }
+
+//         .info {
+//           width: 185 * $desk + vw;
+//           height: 54 * $desk + vw;
+//           font-family: PTSans;
+//           font-size: 8 * $desk + vw;
+//           font-weight: normal;
+//           font-stretch: normal;
+//           font-style: normal;
+//           line-height: 1.38;
+//           letter-spacing: normal;
+//           text-align: left;
+//           color: #999999;
+
+//           .infotxt {
+//             width: 185 * $desk + vw;
+//             height: 14 * $desk + vw;
+//             font-family: PTSans;
+//             font-size: 9 * $desk + vw;
+//             font-weight: normal;
+//             font-stretch: normal;
+//             font-style: normal;
+//             line-height: 1.38;
+//             letter-spacing: normal;
+//             text-align: left;
+//             color: #999999;
+//           }
+//         }
+
+//         .icon-container {
+//           width: 408 * $desk + vw;
+//           height: 40 * $desk + vw;
+//           display: flex;
+//           flex-direction: row;
+//           margin-left: 154 * $desk + vw;
+//           margin-top: 64 * $desk + vw;
+//           .icon {
+//             width: 15 * $desk + vw;
+//             height: 15 * $desk + vw;
+//           }
+//           .icon2 {
+//             width: 15 * $desk + vw;
+//             height: 15 * $desk + vw;
+//           }
+//         }
+//       }
+
+//       .about-container {
+//         margin-left: 30 * $desk + vw;
+//         margin-top: 30 * $desk + vw;
+//         .txt1 {
+//           width: 185 * $desk + vw;
+//           height: 14 * $desk + vw;
+//           font-family: PTSans;
+//           font-size: 12 * $desk + vw;
+//           font-weight: normal;
+//           font-stretch: normal;
+//           font-style: normal;
+//           line-height: 1.38;
+//           letter-spacing: normal;
+//           text-align: left;
+//           color: #999999;
+//         }
+
+//         .txt2 {
+//           width: 185 * $desk + vw;
+//           height: 14 * $desk + vw;
+//           font-family: PTSans;
+//           font-size: 8 * $desk + vw;
+//           font-weight: normal;
+//           font-stretch: normal;
+//           font-style: normal;
+//           line-height: 2;
+//           letter-spacing: normal;
+//           text-align: left;
+//           margin-left: 10 * $desk + vw;
+//           color: #999999;
+//         }
+//       }
+
+//       .contact-container {
+//         display: none;
+//       }
+//     }
+//     .hr {
+//       display: block;
+//       margin-top: 0 * $desk + vw;
+//       margin-bottom: 15 * $desk + vw;
+//       margin-left: 60 * $desk + vw;
+//       margin-right: 191 * $desk + vw;
+//       border-style: inset;
+//       border-width: 1px;
+//       background-color: #0e0030;
+//     }
+//   }
+// }

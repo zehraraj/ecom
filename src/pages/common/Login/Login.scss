@@ -1,0 +1,187 @@
+@import "../../../utilities/variables";
+
+.Main3 {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  font-weight: 400;
+  justify-content: center;
+  // @media screen and (max-width: $other) {
+  //   .img-container {
+  //     display: none;
+  //   }
+  //   .rightconsdftainer {
+  //     width: 100vw !important;
+  //     margin-left: 200 * $desk + vw;
+  //     margin-right: 200 * $desk + vw;
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //     align-items: center;
+  //     .img-container1 {
+  //       margin-top: -1000 * $desk + vw;
+  //       width: 200px;
+  //       height: 200px;
+  //       img {
+  //         margin-top: -500 * $desk + vw;
+  //         margin-left: -430 * $desk + vw;
+  //         width: 1850 * $desk + vw;
+  //         height: 1400 * $desk + vw;
+  //       }
+  //     }
+  //     .error {
+  //       margin-top: 35 * $desk + vw !important;
+  //       color: red;
+  //     }
+
+  //     .form-container {
+  //       width: 100% !important;
+  //       display: flex;
+  //       flex-direction: column;
+  //       justify-content: center;
+
+  //       .bottom-container {
+  //         // display: flex;
+  //         // justify-content: space-between;
+  //         // margin-top: 90 * $desk + vw;
+  //         .forgot-password {
+  //           font-size: 50 * $desk + vw !important;
+  //         }
+  //         .right-bottom {
+  //           .submit-bc {
+  //             margin-left: 0px !important;
+  //             width: auto !important;
+  //             padding-top: 20 * $desk + vw;
+  //             padding-bottom: 20 * $desk + vw;
+  //             h3 {
+  //               font-size: 50 * $desk + vw !important;
+  //             }
+  //           }
+  //           .not-a-user {
+  //             font-size: 50 * $desk + vw !important;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  .img-container {
+    width: 1182 * $desk + vw;
+    // height: 938 * $desk + vw;
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media only screen and (max-device-width: $other) {
+      display: none;
+    }
+  }
+
+  .rightconsdftainer {
+    width: 738 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-device-width: $other) {
+      width: 800 * $desk + vw;
+    }
+    // @media only screen and (min-width: 480px) {
+    //   .img-container1 {
+    //     visibility: hidden;
+    //     img {
+    //       width: 0px;
+    //       height: 0px;
+    //     }
+    //   }
+    // }
+    .loginContent {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .error {
+        margin-top: 30 * $desk + vw;
+        color: red;
+      }
+
+      .loginTitle {
+        @media only screen and (max-device-width: $other) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      .form-container {
+        width: 450 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @media only screen and (max-device-width: $other) {
+          width: 100%;
+        }
+
+        .bottom-container {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 90 * $desk + vw;
+          .forgot-password {
+            color: #2029a0;
+            cursor: pointer;
+            font-size: 20 * $desk + vw;
+            @media only screen and (max-device-width: $other) {
+              font-size: 30 * $desk + vw;
+            }
+          }
+          .right-bottom {
+            display: flex;
+            justify-content: right;
+            flex-direction: column;
+            .submit-bc {
+              margin-left: 32 * $desk + vw;
+              left: 5 * $desk + vw;
+              width: 155 * $desk + vw;
+              height: 52 * $desk + vw;
+              background-color: #2029a0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              @media only screen and (max-device-width: $other) {
+                width: 300 * $desk + vw;
+                height: 100 * $desk + vw;
+              }
+              h3 {
+                font-family: inherit;
+                font-weight: inherit;
+                color: white;
+                font-size: 20 * $desk + vw;
+                @media only screen and (max-device-width: $other) {
+                  font-size: 40 * $desk + vw;
+                }
+              }
+            }
+
+            .not-a-user {
+              width: fit-content;
+              margin-top: 12 * $desk + vw;
+              color: #ff094c;
+              cursor: pointer;
+              font-size: 20 * $desk + vw;
+              @media only screen and (max-device-width: $other) {
+                font-size: 30 * $desk + vw;
+                margin-left: 30 * $desk + vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

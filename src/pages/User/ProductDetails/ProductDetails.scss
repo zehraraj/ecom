@@ -1,0 +1,259 @@
+$desk: 100 / 1920;
+
+.ProD-flex-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1920 * $desk + vw;
+    height: 1000 * $desk + vw;
+    overflow: hidden;
+    
+    .content-container{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top:100 * $desk +vw;
+        overflow-y: scroll;
+        overflow-x: hidden !important;
+        width: 1920 * $desk + vw;
+        height: 908 * $desk + vw;
+    }
+
+    .content-container1{
+        position: relative;
+        margin-left: 92 * $desk +vw ;
+        margin-top:72 * $desk +vw;
+        width: 820 * $desk + vw; 
+        height: 1000 * $desk + vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .inner-content-container1{
+            position: relative;
+            margin-left: 00 * $desk +vw ;
+            margin-top:0 * $desk +vw;
+            width: 820 * $desk + vw;
+            height: 500 * $desk + vw;
+        }
+    }
+
+    .content-container2{
+        position: relative;
+        margin-left: 94 * $desk +vw ;
+        margin-top:92 * $desk +vw;
+        width: 890 * $desk + vw; 
+        height: 1000 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-txt-cont{
+        position: relative;
+        width: 890 * $desk + vw; 
+        height: 1000 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .main-txt1{
+            width: 124* $desk + vw;
+            height: 34* $desk + vw;
+            opacity: 0.66;
+            font-family: RobotoSlab;
+            font-size: 20* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.31;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0e0030;
+            white-space: nowrap;
+        }
+
+        .main-txt2{
+            width: 256* $desk + vw;
+            height: 36* $desk + vw;
+            font-family: RobotoSlab;
+            font-size: 20* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.31;
+            letter-spacing: normal;
+            text-align: left;
+            color: #afafaf;
+            white-space: nowrap;
+            margin-top: 8 * $desk + vw;
+        }
+
+        .main-txt3{
+            width: 195* $desk + vw;
+            height: 26* $desk + vw;
+            font-family: RobotoSlab;
+            font-size: 20* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ff2753;
+            white-space: nowrap;
+            margin-top: 10 * $desk + vw;
+        }
+
+        .txt-cont1{
+            position: relative;
+            width: 412 * $desk + vw; 
+            height:44 * $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 17 * $desk + vw;
+    
+            .cont1-txt1{
+                width: 117* $desk + vw;
+                height: 44* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 25* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #afafaf;
+                white-space: nowrap;
+            }
+    
+            .cont1-txt2{
+                width: 135 * $desk + vw;
+                height: 44* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 25* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #afafaf;
+                white-space: nowrap;
+                text-decoration: line-through;
+                margin-top: 0 * $desk + vw;
+                margin-left: -70 * $desk + vw;
+            }
+
+            .cont1-txt3{
+                width: 160* $desk + vw;
+                height: 44* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 23* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ff2753;
+                white-space: nowrap;
+                margin-left: -70 * $desk + vw;
+            }
+        }
+
+        .txt-cont2{
+            position: relative;
+            width: 412 * $desk + vw; 
+            height:100 * $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 57 * $desk + vw;
+    
+            .cont2-txt1{
+                width: 182* $desk + vw;
+                height: 26* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 25* $desk + vw;
+                opacity: 0.66;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                white-space: nowrap;
+                margin-bottom: 12 * $desk + vw;
+            }
+    
+            .cont2-txt2{
+                width: 156 * $desk + vw;
+                height: 20* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 16* $desk + vw;
+                opacity: 0.66;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                white-space: nowrap;
+                margin-top: 0 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+            }
+        }
+
+        .txt-cont3{
+            position: relative;
+            width: 412 * $desk + vw; 
+            height:100 * $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 27 * $desk + vw;
+    
+            .cont3-txt1{
+                width: 182* $desk + vw;
+                height: 26* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 23* $desk + vw;
+                opacity: 0.66;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                white-space: nowrap;
+                margin-bottom: 12 * $desk + vw;
+            }
+    
+            .cont3-txt2{
+                width: 156 * $desk + vw;
+                height: 19* $desk + vw;
+                font-family: RobotoSlab;
+                font-size: 16* $desk + vw;
+                opacity: 0.66;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                white-space: nowrap;
+                margin-top: 0 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+            }
+        }
+    }
+}

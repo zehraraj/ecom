@@ -1,0 +1,14 @@
+@import "../../../utilities/variables";
+
+.EmptyData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20 * $desk + vw;
+  height: 440 * $desk + vw;
+  text-transform: uppercase;
+
+  @media (max-width: $mobile) {
+    font-size: 30 * $desk + vw;
+  }
+}

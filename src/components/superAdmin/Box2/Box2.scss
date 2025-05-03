@@ -1,0 +1,42 @@
+@import "../../../utilities/variables";
+
+.Box2 {
+  width: 386 * $desk + vw;
+  height: 74 * $desk + vw;
+  border-radius: 12 * $desk + vw;
+  box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin: 0 * $desk + vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .tt {
+    font-size: 36 * $desk + vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    color: #0e0030;
+    white-space: nowrap;
+    text-transform: capitalize;
+  }
+}
+
+@media only screen and (max-width: $other) {
+  .Box2 {
+    width: 400 * $desk + vw;
+    height: 100 * $desk + vw;
+    border-radius: 3 * $desk + vw;
+    box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 20 * $desk + vh;
+
+    .tt {
+      font-size: 40 * $desk + vw;
+    }
+  }
+}

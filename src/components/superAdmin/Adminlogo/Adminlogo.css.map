@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,CAAA;EACA,KAAK,EAAE,IAAI;EACX,UAAU,EAAC,8DAA8D;EACzE,KAAK,EAAE,SAAkB;EACzB,MAAM,EAAE,SAAe;EACvB,UAAU,EAAE,OAAO;EAGnB,WAAW,EAAE,SAAc;EAC3B,UAAU,EAAE,SAAc;CAC7B",
+    "sources": [
+        "Adminlogo.scss"
+    ],
+    "names": [],
+    "file": "Adminlogo.css"
+}

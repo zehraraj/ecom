@@ -1,0 +1,32 @@
+$desk: 100 / 1920;
+
+.colLine {
+  display: flex;
+  align-items: center;
+  background-color: rgba(238, 238, 238, 0.24);
+  font-family: RobotoSlab;
+  font-size: 20 * $desk + vw;
+  font-weight: 300;
+  padding-left: 150 * $desk + vw;
+  padding-right: 50 * $desk + vw;
+  margin-top: 50 * $desk + vw;
+  margin-bottom: 50 * $desk + vw;
+
+  .coll-text {
+    width: 280 * $desk + vw;
+    color: #444343;
+    white-space: nowrap;
+  }
+
+  .addcollBox {
+    width: 100%;
+    height: 100 * $desk + vh;
+    box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    text-indent: 20 * $desk + vw;
+    font-size: 16 * $desk + vw;
+  }
+}

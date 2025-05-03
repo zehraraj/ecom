@@ -1,0 +1,41 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 3.64583vw;
+  height: 5.20833vw;
+  margin-top: 0.52083vw;
+  margin-left: 2.5vw;
+}
+
+.container .img {
+  width: 1.30208vw;
+  height: 1.30208vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 1.04167vw;
+  margin-left: 0.9375vw;
+}
+
+.container .text {
+  width: 4.47917vw;
+  height: 1.30208vw;
+  font-family: Montserrat-Regular;
+  font-size: 0.88542vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-top: 0.26042vw;
+}
+/*# sourceMappingURL=ImgTxt.css.map */

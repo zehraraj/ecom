@@ -1,0 +1,23 @@
+@import "../../../utilities/variables";
+
+.userBaseRoot {
+  display: flex;
+  min-height: 986 * $desk + vw;
+  // justify-content: space-between;
+  // align-items: ;
+  position: relative;
+  flex-direction: column;
+  .userBaseHeader {
+    height: 100 * $desk + vw;
+    z-index: 10000;
+  }
+  .userBasecontent {
+    width: 100%;
+    // min-height: 342 * $desk + vw;
+    min-height: calc(100vh - #{494 * $desk + vw} - #{100 * $desk + vw});
+    padding-bottom: 200 * $desk + vw;
+  }
+  .userBaseFooter {
+    height: 494 * $desk + vw;
+  }
+}

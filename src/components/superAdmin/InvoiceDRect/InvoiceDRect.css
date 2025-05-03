@@ -1,0 +1,370 @@
+.invoicedrect {
+  padding-bottom: 1.04167vw;
+  min-height: 35.41667vw;
+  height: auto;
+  border-radius: 0.36458vw;
+  -webkit-box-shadow: 0vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  -webkit-box-align: inline;
+      -ms-flex-align: inline;
+          align-items: inline;
+  margin-bottom: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 1023px) {
+  .invoicedrect {
+    width: 104.16667vw;
+  }
+}
+
+.invoicedrect hr {
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 0.05208vw;
+}
+
+.invoicedrect .title {
+  margin-left: 1.14583vw;
+  margin-right: 1.14583vw;
+  margin-top: 2.08333vw;
+}
+
+.invoicedrect .title .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bolder;
+  font-size: 0.78125vw;
+  color: #8e8e8e;
+  white-space: nowrap;
+  margin-left: 1.5625vw;
+  margin-right: 1.5625vw;
+  margin-bottom: 0.52083vw;
+}
+
+.invoicedrect .title .div1 h1 {
+  font-weight: inherit;
+}
+
+.invoicedrect .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 2.60417vw;
+  margin-right: 2.60417vw;
+  margin-top: 2.60417vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.invoicedrect .div2 .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #8e8e8e;
+}
+
+.invoicedrect .div2 .left .sinner-txt {
+  margin-right: 0.52083vw;
+  white-space: nowrap;
+  font-weight: 400;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.invoicedrect .div2 .left .sinner-txt .sleft-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.04167vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 1.5625vw;
+  white-space: nowrap;
+}
+
+.invoicedrect .div2 .left .colonContainer {
+  margin-right: 0.52083vw;
+  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.26042vw;
+  font-size: 1.04167vw;
+}
+
+.invoicedrect .div2 .left .colonContainer .col {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 1.5625vw;
+  white-space: nowrap;
+}
+
+.invoicedrect .div2 .left .valuedsfs {
+  margin-right: 0.52083vw;
+  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.26042vw;
+  font-size: 1.04167vw;
+}
+
+.invoicedrect .div2 .left .valuedsfs .val {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 1.5625vw;
+  white-space: nowrap;
+}
+
+.invoicedrect .div2 .left .valuedsfs .caps {
+  text-transform: capitalize;
+}
+
+.invoicedrect .div2 .sinner-txt2 {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #7e7e7e;
+  width: 24.42708vw;
+}
+
+.invoicedrect .div2 .sinner-txt2 .middle-txt {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.14583vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.invoicedrect .div2 .sinner-txt2 .innerrect {
+  font-size: 1.04167vw;
+  margin-top: 0.52083vw;
+  line-height: 2.08333vw;
+}
+
+.invoicedrect .div3 {
+  margin-top: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.04167vw;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 1.5625vw;
+  margin-left: 1.5625vw;
+  color: #7e7e7e;
+}
+
+.invoicedrect .div3 .headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.625vw;
+  margin-bottom: 0.625vw;
+  margin-right: 1.04167vw;
+  margin-left: 1.04167vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.invoicedrect .div3 .headers .m-r {
+  margin-right: 4.16667vw;
+}
+
+.invoicedrect .div3 .headers .lower-txt {
+  white-space: nowrap;
+  color: #7e7e7e;
+}
+
+.invoicedrect .div3 .values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1.04167vw;
+  margin-bottom: 0.625vw;
+  margin-right: 1.04167vw;
+  margin-left: 1.04167vw;
+  font-size: 1.04167vw;
+  font-weight: 200;
+}
+
+.invoicedrect .div3 .values .val1 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 13.17708vw;
+}
+
+.invoicedrect .div3 .values .val2 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 5.3125vw;
+}
+
+.invoicedrect .div3 .values .val3 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 10.41667vw;
+}
+
+.invoicedrect .div3 .values .val4 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 10.57292vw;
+}
+
+.invoicedrect .div3 .values .val5 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 9.375vw;
+}
+
+.invoicedrect .div3 .values .val6 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 7.03125vw;
+}
+
+.invoicedrect .div3 .values .val7 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  width: 5.98958vw;
+}
+
+.invoicedrect .div3 .values .val8 {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.invoicedrect .final {
+  margin-top: 4.16667vw;
+  margin-left: 18.22917vw;
+  margin-right: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #7e7e7e;
+  font-size: 1.14583vw;
+  font-weight: bold;
+}
+
+.invoicedrect .final .data {
+  margin-top: 0.625vw;
+  margin-bottom: 0.625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.invoicedrect .final .data .txt {
+  margin-left: 1.04167vw;
+  font-size: inherit;
+  white-space: nowrap;
+}
+
+.invoicedrect .final .data .val {
+  margin-right: 2.08333vw;
+  font-weight: 200;
+  font-size: inherit;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=InvoiceDRect.css.map */

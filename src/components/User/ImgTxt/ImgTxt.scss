@@ -1,0 +1,35 @@
+$desk: 100 / 1920;
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70* $desk + vw;
+    height: 100* $desk + vw;
+    margin-top: 10 * $desk + vw;
+    margin-left: 48* $desk + vw;
+
+    .img{
+        width: 25* $desk + vw;
+        height: 25 * $desk + vw;
+        object-fit: contain;
+        margin-top: 20 * $desk + vw;
+        margin-left: 18 * $desk + vw;
+    }
+
+    .text{
+        width: 86* $desk + vw;
+        height: 25 * $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 17 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color:#0e0030;
+        white-space: nowrap;
+        margin-top: 5 * $desk + vw;
+    }
+
+}

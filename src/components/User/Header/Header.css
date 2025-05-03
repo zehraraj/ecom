@@ -1,0 +1,57 @@
+.HeaderContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0vw 0.15625vw 1.04167vw 0vw rgba(0, 0, 0, 0.1);
+          box-shadow: 0vw 0.15625vw 1.04167vw 0vw rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 640px) {
+  .HeaderContainer {
+    display: none;
+  }
+}
+
+.HeaderContainer .nav {
+  text-decoration: none;
+}
+
+.HeaderContainer .logo {
+  height: inherit;
+  margin-left: 0.78125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.HeaderContainer .logo img {
+  height: 2.60417vw;
+}
+
+.HeaderContainer .headerRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 14.0625vw;
+}
+/*# sourceMappingURL=Header.css.map */

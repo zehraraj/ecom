@@ -1,0 +1,164 @@
+// @import "../../../utilities/variables";
+
+// .categoriesRoot {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin-top: 100 * $desk + vw;
+//   height: 400 * $desk + vw;
+//   position: relative;
+
+//   .categoriesLeftArrowContainer {
+//     position: absolute;
+//     background-color: white;
+//     height: 100%;
+//     z-index: 2;
+//     justify-content: center;
+//     align-items: center;
+//     display: flex;
+//     width: 50 * $desk + vw;
+//     // width: 100%;
+//     cursor: pointer;
+//     // display: none;
+//     img {
+//       position: absolute;
+//       top: 150 * $desk + vw;
+//       left: 25 * $desk + vw;
+//       width: 25 * $desk + vw;
+//     }
+//   }
+//   .categoriesContent {
+//     // width: 1500 * $desk + vw;
+//     width: 100%;
+//     height: 100%;
+//     // width: fit-content;
+//     position: relative;
+//     padding-right: 50 * $desk + vw;
+//     padding-left: 50 * $desk + vw;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+
+//     @keyframes prev {
+//       0% {
+//         position: absolute;
+//         left: 0px;
+//       }
+//       99% {
+//         left: -1000px;
+//       }
+//       100% {
+//         position: relative;
+//       }
+//     }
+//     .categoriesCard {
+//       display: flex;
+//       // position: absolute;
+//       flex-direction: column;
+//       width: 440 * $desk + vw;
+//       transition: ease;
+
+//       .categoriesCardImage {
+//         width: 440 * $desk + vw;
+//         height: 225 * $desk + vw;
+//         cursor: pointer;
+//         border: 1 * $desk + vw solid black;
+//         img {
+//           width: inherit;
+//           height: inherit;
+//           object-fit: cover;
+//         }
+//         img:hover {
+//           object-fit: cover;
+//         }
+//       }
+//       .categoriesCardContent {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: flex-end;
+//         height: 50 * $desk + vw;
+//         margin-top: 10 * $desk + vw;
+//         margin-left: 20 * $desk + vw;
+//         margin-right: 20 * $desk + vw;
+//         .categoriesCardText {
+//           font-size: 25 * $desk + vw;
+//           font-weight: bold;
+//           display: flex;
+//           align-items: flex-end;
+//           cursor: pointer;
+//         }
+//         .categoriesCardNumberLine {
+//           display: flex;
+//           font-size: 15 * $desk + vw;
+//           font-weight: bold;
+//           height: 100%;
+//           color: gray;
+//           align-items: flex-end;
+//           .categoriesCardNumberLineContent {
+//             height: 15 * $desk + vw;
+//             margin-bottom: 5 * $desk + vw;
+//           }
+//         }
+//       }
+//     }
+
+//     .categoriesCardPrev {
+//       // left: -1000px;
+//       animation: prev 4s;
+//     }
+
+//     .categoriesCardNext {
+//       position: absolute;
+//       // right: -1000px;
+//       animation: leftOut 1s;
+//     }
+
+//     .categoriesCardNo0 {
+//       position: absolute;
+//       left: -1000 * $desk + vw;
+//       top: 50 * $desk + vw;
+//     }
+
+//     .categoriesCardNo1 {
+//       position: absolute;
+//       left: 50 * $desk + vw;
+//       top: 50 * $desk + vw;
+//     }
+//     .categoriesCardNo2 {
+//       position: absolute;
+//       left: 750 * $desk + vw;
+//       top: 50 * $desk + vw;
+//     }
+//     .categoriesCardNo3 {
+//       position: absolute;
+//       left: 1400 * $desk + vw;
+//       top: 50 * $desk + vw;
+//     }
+//   }
+//   .categoriesRightArrowContainer {
+//     width: 25 * $desk + vw;
+//     position: absolute;
+//     top: 150 * $desk + vw;
+//     right: 25 * $desk + vw;
+//     cursor: pointer;
+//     // display: none;
+//     img {
+//       width: inherit;
+//     }
+//   }
+// }
+
+// .categoriesRoot:hover {
+//   justify-content: space-between;
+// }
+
+// .categoriesRoot:hover .categoriesLeftArrowContainer {
+//   display: block;
+// }
+// .categoriesRoot:hover .categoriesRightArrowContainer {
+//   display: block;
+// }
+
+// .disable {
+//   display: none;
+// }

@@ -1,0 +1,46 @@
+@import "../../../utilities/variables";
+
+.textIconContainer {
+  display: flex;
+  // height: 60 * $desk + vw;
+  // width: fit-content;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .text {
+    font-size: 50 * $desk + vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7e7e7e;
+    white-space: nowrap;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: $mobile) {
+      font-size: 80 * $desk + vw;
+    }
+  }
+
+  .text-icon-img {
+    margin-left: 20 * $desk + vw;
+    height: 45 * $desk + vw;
+    display: flex;
+    align-items: center;
+    // margin-top: 8 * $desk + vw;
+    // margin-bottom: 1 * $desk + vw;
+
+    img {
+      height: inherit;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      margin-left: 24 * $desk + vw;
+      // margin-top: 15 * $desk + vw;
+      height: 60 * $desk + vw;
+    }
+  }
+}

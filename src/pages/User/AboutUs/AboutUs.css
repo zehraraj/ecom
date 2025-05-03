@@ -1,0 +1,54 @@
+.AboutUsRoot {
+  margin-left: 4.16667vw;
+  margin-right: 4.16667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.60417vw;
+}
+
+.AboutUsRoot .aboutUsLeft .img-con {
+  width: 40vw;
+  height: 30vw;
+}
+
+.AboutUsRoot .aboutUsLeft .img-con img {
+  width: inherit;
+  height: inherit;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 1.04167vw;
+}
+
+.AboutUsRoot .aboutUsRight {
+  margin-top: 2.60417vw;
+  width: 41.66667vw;
+}
+
+.AboutUsRoot .aboutUsRight .text {
+  font-size: 1.45833vw;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.AboutUsRoot .aboutUsRight .text1 {
+  font-family: montserrat-regular;
+  margin-top: 2.60417vw;
+  font-size: 1.25vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+/*# sourceMappingURL=AboutUs.css.map */

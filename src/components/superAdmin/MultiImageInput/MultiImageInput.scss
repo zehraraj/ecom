@@ -1,0 +1,41 @@
+@import "../../../utilities/variables";
+
+.MultiImageInputRootContainer {
+  display: flex;
+  margin: 200px;
+  border: thin solid peru;
+  width: auto;
+
+  .labelInputContainer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-left: 150 * $desk + vw;
+    margin-right: 300 * $desk + vw;
+    .inputLabel {
+      font-size: 24 * $desk + vw;
+      text-transform: capitalize;
+    }
+    .imageInputCollection {
+      display: flex;
+      justify-content: space-between;
+      width: 600 * $desk + vw;
+      .imageInput {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150 * $desk + vw;
+        width: 120 * $desk + vw;
+        border: 1px solid black;
+        // background-color: red;
+
+        .addImageDiv {
+          cursor: pointer;
+          img {
+          }
+        }
+      }
+    }
+  }
+}

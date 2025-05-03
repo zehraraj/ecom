@@ -1,0 +1,52 @@
+.Button3 {
+  width: 10.41667vw;
+  height: 2.60417vw;
+  outline-style: solid;
+  outline-color: #d5d3da;
+  outline-width: 1px;
+  background-color: #ffffff;
+  margin-left: 5.20833vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  margin-top: -5.20833vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Button3 {
+    width: 26.04167vw;
+    height: 6.77083vw;
+    margin-top: 78.125vw;
+    margin-left: 26.04167vw;
+  }
+}
+
+.Button3 .text123 {
+  font-family: BebasNeue;
+  font-size: 1.5625vw;
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Button3 .text123 {
+    font-size: 3.90625vw;
+  }
+}
+
+.Button3:hover {
+  background-color: #0e0030;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+}
+
+.text123:hover {
+  color: #ffffff;
+}
+/*# sourceMappingURL=Button3.css.map */

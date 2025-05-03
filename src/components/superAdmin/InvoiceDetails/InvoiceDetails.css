@@ -1,0 +1,53 @@
+.invoicedmaincont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.125vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 4.16667vw;
+  margin-left: 7.5vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.invoicedmaincont .btn {
+  width: 20.10417vw;
+  height: 3.85417vw;
+  border-radius: 0.625vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 0.78125vw;
+  margin-left: 35.9375vw;
+  text-align: center;
+}
+
+.invoicedmaincont .btn .tt {
+  width: 5.05208vw;
+  height: 2.23958vw;
+  font-family: BebasNeue;
+  font-size: 1.875vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #0e0030;
+  margin-left: 6.25vw;
+  white-space: nowrap;
+  padding-top: 0.78125vw;
+}
+
+.invoicedmaincont .inner-container {
+  margin-top: 5.52083vw;
+  margin-left: 15.625vw;
+  width: 69.27083vw;
+  height: 52.08333vw;
+  border-radius: 0.46875vw;
+  -webkit-box-shadow: 20px 10px 30px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 20px 10px 30px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=InvoiceDetails.css.map */

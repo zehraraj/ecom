@@ -1,0 +1,123 @@
+.SaveAddrect .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.SaveAddrect .headtitle {
+  width: 16.71875vw;
+  height: 2.76042vw;
+  font-family: Montserrat-Regular;
+  font-size: 2.08333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 2.08333vw;
+  margin-top: 2.60417vw;
+  margin-bottom: 0.78125vw;
+}
+
+.SaveAddrect .hr {
+  display: block;
+  margin-top: 0.10417vw;
+  margin-bottom: 0.02604vw;
+  margin-left: 2.08333vw;
+  margin-right: 2.64063vw;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.SaveAddrect .title2 {
+  display: none;
+}
+
+.SaveAddrect .adsline {
+  width: 72.70833vw;
+  height: 30.34375vw;
+  margin-top: 0.26042vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+}
+
+.SaveAddrect .nav {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .SaveAddrect {
+    width: 100%;
+    height: 50vh;
+  }
+  .SaveAddrect .title {
+    display: none;
+  }
+  .SaveAddrect .title2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 9.375vw;
+  }
+  .SaveAddrect .title2 .headtitle {
+    width: 37.55208vw;
+    height: 5.20833vw;
+    font-family: Montserrat-Regular;
+    font-size: 5.20833vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0e0030;
+    white-space: nowrap;
+    margin-top: 2.60417vw;
+    margin-bottom: 0.78125vw;
+    margin-left: 2.08333vw;
+  }
+  .SaveAddrect .hr {
+    display: block;
+    margin-top: 0.10417vw;
+    margin-bottom: 0.02604vw;
+    margin-left: 2.08333vw;
+    margin-right: 2.64063vw;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .SaveAddrect .adsline {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0.26042vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+  }
+  .SaveAddrect .nav {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=SaveAddressRect.css.map */

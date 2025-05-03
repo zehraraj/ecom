@@ -1,0 +1,279 @@
+@import "../../../utilities/variables";
+
+.invoicedrect {
+  // width: 1360 * $desk + vw;
+  padding-bottom: 20 * $desk + vw;
+  min-height: 680 * $desk + vw;
+  height: auto;
+  border-radius: 7 * $desk + vw;
+  box-shadow: 0 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+    rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  align-items: inline;
+  margin-bottom: 50 * $desk + vw;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  @media only screen and(max-width:$other) {
+    width: 2000 * $desk + vw;
+  }
+
+  hr {
+    border-style: solid;
+    border-color: #c9c9c9;
+    border-width: 1 * $desk + vw;
+  }
+
+  .title {
+    margin-left: 22 * $desk + vw;
+    margin-right: 22 * $desk + vw;
+    margin-top: 40 * $desk + vw;
+    .div1 {
+      // width: 1238 * $desk + vw;
+      // height: 43 * $desk + vw;
+      // height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-weight: bolder;
+      font-size: 15 * $desk + vw;
+      color: #8e8e8e;
+      white-space: nowrap;
+      margin-left: 30 * $desk + vw;
+      margin-right: 30 * $desk + vw;
+      margin-bottom: 10 * $desk + vw;
+
+      h1 {
+        font-weight: inherit;
+      }
+    }
+  }
+
+  .div2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50 * $desk + vw;
+    margin-right: 50 * $desk + vw;
+    margin-top: 50 * $desk + vw;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      flex-direction: row;
+      color: #8e8e8e;
+      .sinner-txt {
+        margin-right: 10 * $desk + vw;
+        white-space: nowrap;
+        font-weight: 400;
+        flex-direction: column;
+        height: fit-content;
+        display: flex;
+        //   flex-direction: row;
+        .sleft-txt {
+          // width: 130 * $desk + vw;
+          // height: 43 * $desk + vw;
+          display: flex;
+          font-size: 20 * $desk + vw;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.19;
+          letter-spacing: normal;
+          text-align: left;
+          // margin-left: 19 * $desk + vw;
+          margin-bottom: 30 * $desk + vw;
+          white-space: nowrap;
+        }
+      }
+      .colonContainer {
+        margin-right: 10 * $desk + vw;
+        white-space: nowrap;
+        // font-weight: 600;
+        flex-direction: column;
+        height: fit-content;
+        display: flex;
+        height: 5 * $desk + vw;
+        font-size: 20 * $desk + vw;
+        .col {
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.19;
+          letter-spacing: normal;
+          text-align: left;
+          // margin-left: 19 * $desk + vw;
+          margin-bottom: 30 * $desk + vw;
+          white-space: nowrap;
+        }
+      }
+      .valuedsfs {
+        margin-right: 10 * $desk + vw;
+        white-space: nowrap;
+        // font-weight: 600;
+        flex-direction: column;
+        height: fit-content;
+        display: flex;
+        height: 5 * $desk + vw;
+        font-size: 20 * $desk + vw;
+        .val {
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.19;
+          letter-spacing: normal;
+          text-align: left;
+          // margin-left: 19 * $desk + vw;
+          margin-bottom: 30 * $desk + vw;
+          white-space: nowrap;
+        }
+        .caps {
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .sinner-txt2 {
+      // margin-top: 85 * $desk + vw;
+      white-space: nowrap;
+      //   width: 608 * $desk + vw;
+      //   height: 300 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+      color: #7e7e7e;
+      width: 469 * $desk + vw;
+
+      .middle-txt {
+        width: fit-content;
+        font-size: 22 * $desk + vw;
+        // height: 29 * $desk + vw;
+        // font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.32;
+        letter-spacing: normal;
+        text-align: left;
+        // margin-left: 120 * $desk + vw;
+        // margin-top: 10 * $desk + vw;
+        white-space: nowrap;
+      }
+
+      .innerrect {
+        font-size: 20 * $desk + vw;
+        margin-top: 10 * $desk + vw;
+        line-height: 40 * $desk + vw;
+      }
+    }
+  }
+
+  .div3 {
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 20 * $desk + vw;
+    justify-content: flex-start;
+    margin-right: 30 * $desk + vw;
+    margin-left: 30 * $desk + vw;
+    color: #7e7e7e;
+
+    .headers {
+      display: flex;
+      flex-direction: row;
+      margin-top: 12 * $desk + vw;
+      margin-bottom: 12 * $desk + vw;
+      margin-right: 20 * $desk + vw;
+      margin-left: 20 * $desk + vw;
+      justify-content: space-between;
+      .m-r {
+        margin-right: 80 * $desk + vw;
+      }
+      .lower-txt {
+        white-space: nowrap;
+        color: #7e7e7e;
+      }
+    }
+    .values {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20 * $desk + vw;
+      margin-bottom: 12 * $desk + vw;
+      margin-right: 20 * $desk + vw;
+      margin-left: 20 * $desk + vw;
+      // justify-content: space-between;
+      font-size: 20 * $desk + vw;
+      font-weight: 200;
+      .val1 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 253 * $desk + vw;
+      }
+      .val2 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 102 * $desk + vw;
+      }
+      .val3 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 200 * $desk + vw;
+      }
+      .val4 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 203 * $desk + vw;
+      }
+      .val5 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 180 * $desk + vw;
+      }
+      .val6 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 135 * $desk + vw;
+      }
+      .val7 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        width: 115 * $desk + vw;
+      }
+      .val8 {
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+      }
+    }
+  }
+
+  .final {
+    margin-top: 80 * $desk + vw;
+    margin-left: 350 * $desk + vw;
+    margin-right: 20 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    color: #7e7e7e;
+    font-size: 22 * $desk + vw;
+    font-weight: bold;
+    .data {
+      margin-top: 12 * $desk + vw;
+      margin-bottom: 12 * $desk + vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .txt {
+        margin-left: 20 * $desk + vw;
+        font-size: inherit;
+        white-space: nowrap;
+      }
+      .val {
+        margin-right: 40 * $desk + vw;
+        font-weight: 200;
+        font-size: inherit;
+        white-space: nowrap;
+      }
+    }
+  }
+}

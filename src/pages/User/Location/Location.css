@@ -1,0 +1,49 @@
+.LocationRoot {
+  margin-left: 4.16667vw;
+  margin-right: 4.16667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -0.52083vw;
+}
+
+.LocationRoot .LocationLeft .con {
+  width: 40vw;
+  margin-top: 10.41667vw;
+  height: 20.83333vw;
+}
+
+.LocationRoot .LocationLeft .con .text {
+  font-family: montserrat-regular;
+  font-size: 1.45833vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.LocationRoot .LocationLeft .con .text1 {
+  margin-top: 2.60417vw;
+  font-size: 1.14583vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  overflow-wrap: break-word;
+}
+
+.LocationRoot .LocationRight {
+  margin-top: 2.60417vw;
+  width: 41.66667vw;
+  border: solid 1px;
+}
+/*# sourceMappingURL=Location.css.map */

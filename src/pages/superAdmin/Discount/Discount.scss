@@ -1,0 +1,41 @@
+@import "../../../utilities/variables";
+
+.discountRootContainer {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  padding-right: 100 * $desk + vw;
+  padding-left: 100 * $desk + vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  @media only screen and (max-device-width: $other) {
+    padding-top: 50 * $desk + vw;
+
+  }
+  .headerContainer {
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .innerContainer {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100 * $desk + vw;
+    .pagination {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 50 * $desk + vw;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.root1 {
+  height: auto;
+  width: 100%;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.root1 .header {
+  margin-top: 0.26042vw;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+}
+
+.root1 .user-txt-1 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 3.64583vw;
+  width: 7.8125vw;
+}
+
+.root1 .user-txt-2 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 18.22917vw;
+}
+
+.root1 .user-txt-3 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  width: 10.41667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.root1 .user-txt-4 {
+  padding-right: 2.60417vw;
+  width: 5.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.root1 .headingg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 0.98958vw;
+  margin-right: 0.98958vw;
+  height: 3.125vw;
+  margin-top: 1.82292vw;
+  color: #646464;
+  font-size: 1.14583vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=UserHomeRect.css.map */

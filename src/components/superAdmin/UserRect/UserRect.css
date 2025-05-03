@@ -1,0 +1,21 @@
+.User-rect {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 1.5625vw;
+}
+
+.User-rect .header {
+  margin-top: 0.26042vw;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+}
+
+.User-rect .content {
+  margin-top: 2.60417vw;
+  margin-bottom: 2.60417vw;
+}
+/*# sourceMappingURL=UserRect.css.map */

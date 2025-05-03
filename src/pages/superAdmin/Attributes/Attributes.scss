@@ -1,0 +1,186 @@
+@import "../../../utilities/variables";
+.attrRootContainer {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  padding-right: 100 * $desk + vw;
+  padding-left: 100 * $desk + vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  @media only screen and (max-device-width: $other) {
+    padding-top: 50 * $desk + vw;
+  }
+
+  .attr-header-container {
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .attr-inner-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100 * $desk + vw;
+
+    .attr-table-container {
+      height: auto;
+      width: 100%;
+      border-radius: 5 * $desk + vw;
+      box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+        rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+
+      .attr-table-header {
+        margin-top: 5 * $desk + vw;
+        padding-right: 20 * $desk + vw;
+        padding-left: 20 * $desk + vw;
+      }
+
+      .attr-table-data-1 {
+        font-size: inherit;
+        font-weight: inherit;
+        display: flex;
+        justify-content: center;
+        width: 150 * $desk + vw;
+      }
+      .attr-table-data-2 {
+        font-size: inherit;
+        font-weight: inherit;
+        display: flex;
+        justify-content: center;
+        width: 300 * $desk + vw;
+      }
+      .attr-table-data-3 {
+        font-size: inherit;
+        font-weight: inherit;
+        display: flex;
+        justify-content: center;
+        width: 300 * $desk + vw;
+      }
+      .attr-table-data-4 {
+        font-size: inherit;
+        font-weight: inherit;
+        display: flex;
+        justify-content: center;
+        width: 130 * $desk + vw;
+      }
+      .more-icon {
+        display: flex;
+        align-self: center;
+        cursor: pointer;
+        img {
+          width: 50 * $desk + vw;
+          height: 50 * $desk + vw;
+        }
+      }
+
+      .attr-table-heading {
+        margin-left: 20 * $desk + vw;
+        justify-content: space-between;
+        margin-right: 20 * $desk + vw;
+        // margin-bottom: 22 * $desk + vw;
+        height: 100 * $desk + vw;
+        display: flex;
+        align-items: center;
+        color: #646464;
+        font-size: 22 * $desk + vw;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+
+        @media only screen and (max-width: $other) {
+          font-size: 25 * $desk + vw;
+        }
+      }
+
+      .attr-table-content {
+        margin-left: 20 * $desk + vw;
+        margin-right: 20 * $desk + vw;
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        font-size: 22 * $desk + vw;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        color: #7e7e7e;
+        flex-wrap: wrap;
+        text-transform: capitalize;
+
+        @media only screen and (max-width: $other) {
+          font-size: 30 * $desk + vw;
+        }
+        .attr-table-row {
+          background-color: rgba(238, 238, 238, 0.24);
+          margin-bottom: 22 * $desk + vw;
+          justify-content: space-between;
+          padding-top: 40 * $desk + vw;
+          padding-bottom: 40 * $desk + vw;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+      }
+    }
+    .pagination {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      // margin-top: 20 * $desk + vw;
+      margin-bottom: 50 * $desk + vw;
+    }
+
+    .attr-create-table-container {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      padding-right: 20 * $desk + vw;
+      padding-left: 20 * $desk + vw;
+      margin-bottom: 50 * $desk + vw;
+
+      .attr-create-table-header {
+        margin-top: 5 * $desk + vw;
+      }
+
+      .attr-create-table-content {
+        .attr-create-table-input {
+          margin-top: 50 * $desk + vw;
+        }
+        .attr-create-table-save {
+          cursor: pointer;
+          height: 86 * $desk + vw;
+          font-weight: 100;
+          border-radius: 5 * $desk + vw;
+          box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+          margin-bottom: 20 * $desk + vw;
+          margin-top: 20 * $desk + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          //   margin-left: 20 * $desk + vw;
+          //   margin-right: 20 * $desk + vw;
+          color: #0e0030;
+          font-size: 20 * $desk + vw;
+          .txtsave {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}

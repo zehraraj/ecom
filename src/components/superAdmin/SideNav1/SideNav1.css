@@ -1,0 +1,21 @@
+.sidenavContainer {
+  display: relative;
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  float: left;
+  width: 18.22917vw;
+  height: 54.6875vw;
+  background-color: #0e0030;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  margin-top: 3.54167vw;
+  padding-top: 0.78125vw;
+}
+
+.sidenavContainer .nav :hover {
+  left: 0;
+  background-color: #ffffff;
+  color: #0e0030;
+}
+/*# sourceMappingURL=SideNav1.css.map */

@@ -1,0 +1,25 @@
+.ProDImg-flex-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 41.66667vw;
+  height: 25vw;
+  overflow: hidden;
+}
+
+.ProDImg-flex-container .img {
+  width: 18.75vw;
+  height: 25vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 1.04167vw;
+  margin-left: 2.08333vw;
+}
+/*# sourceMappingURL=ProductDetailsImg.css.map */

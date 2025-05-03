@@ -1,0 +1,67 @@
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .page-container {
+    width: 21.97917vw;
+    height: 44.79167vw;
+    background-color: #ffffff;
+  }
+  .page-container .content-container {
+    width: 21.97917vw;
+    height: 47.91667vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    margin-top: 3.64583vw;
+  }
+  .page-container .content-container .category-container {
+    width: 100vw;
+    height: 15.10417vw;
+    position: relative;
+    background-size: 100% 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -1.04167vw;
+  }
+}
+/*# sourceMappingURL=UserHome.css.map */

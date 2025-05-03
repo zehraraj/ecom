@@ -1,0 +1,36 @@
+.Dissline {
+  margin-left: 1.04167vw;
+  margin-right: 1.04167vw;
+  margin-bottom: 1.14583vw;
+  height: 5.20833vw;
+  background-color: rgba(238, 238, 238, 0.24);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.14583vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #7e7e7e;
+}
+
+.Dissline .more-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+.Dissline .more-icon img {
+  width: 2.60417vw;
+  height: 2.60417vw;
+}
+/*# sourceMappingURL=DissLine.css.map */

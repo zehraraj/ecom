@@ -1,0 +1,48 @@
+.Box2 {
+  width: 20.10417vw;
+  height: 3.85417vw;
+  border-radius: 0.625vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin: 0vw;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.Box2 .tt {
+  font-size: 1.875vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #0e0030;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Box2 {
+    width: 20.83333vw;
+    height: 5.20833vw;
+    border-radius: 0.15625vw;
+    -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+            box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 1.04167vh;
+  }
+  .Box2 .tt {
+    font-size: 2.08333vw;
+  }
+}
+/*# sourceMappingURL=Box2.css.map */

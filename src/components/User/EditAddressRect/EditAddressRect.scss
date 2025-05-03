@@ -1,0 +1,61 @@
+$desk: 100 / 1920;
+.editadd-rect{
+    // width: 1396 * $desk + vw;
+    // height: 998.6 * $desk + vw;
+    // box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+    // background-color: #ffffff;
+    // margin-top: 40 * $desk + vw;
+    // margin-left: 40 * $desk + vw;
+    // position: relative;
+    // overflow: auto;
+    .title{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50 * $desk + vw;
+    }
+    .headtitle{
+        width: 321* $desk + vw;
+        height: 53* $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 40* $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0e0030;
+        white-space: nowrap;
+        margin-left: 40 * $desk + vw;
+    }
+    .hr { 
+        display: block;
+        margin-top: 2 * $desk + vw;
+        margin-bottom: 0.5 * $desk + vw;
+        margin-left: 40 * $desk + vw;
+        margin-right: 50.7 * $desk + vw;
+        border-style: inset;
+        border-width: 1px;
+    }
+    .EditAdd-line-container{
+        width: 1396* $desk + vw;
+        height: 755* $desk + vw;
+        display: flex;
+        flex-direction: row;     
+        flex-wrap: wrap;
+        margin-top: 10 * $desk + vw;
+        // padding-bottom: 50 * $desk + vw;
+
+        .one{
+        width: 655* $desk + vw;
+        height: 665* $desk + vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0 * $desk + vw;
+        margin-left: 0 * $desk + vw;
+        }
+    }
+    .nav{
+        text-decoration: none;
+    }
+}

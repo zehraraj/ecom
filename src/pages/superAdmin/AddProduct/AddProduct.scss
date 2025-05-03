@@ -1,0 +1,201 @@
+@import "../../../utilities/variables";
+.addProductRootContainer {
+  // width: 1920 * $desk + vw;
+  height: 100%;
+  // overflow-x: hidden !important;
+  overflow: hidden;
+  display: flex;
+  // flex-direction: row;
+  // position: absolute;
+  padding-right: 100 * $desk + vw;
+  padding-left: 100 * $desk + vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  @media only screen and (max-device-width: $other) {
+  }
+
+  // @media only screen and(max-width:$other) {
+  //   margin-left: 20 * $desk + vw;
+  //   margin-top: 400 * $desk + vw;
+  // }
+  .headerContainer {
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .nav {
+      text-decoration: none;
+    }
+  }
+  .innerContainer {
+    // width: 1530 * $desk + vw;
+    // position: relative;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100 * $desk + vw;
+
+    .ssdfsdfprodu {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      padding-right: 20 * $desk + vw;
+      padding-left: 20 * $desk + vw;
+      margin-bottom: 50 * $desk + vw;
+      .header {
+        margin-top: 5 * $desk + vw;
+      }
+
+      .content {
+        .input {
+          margin-top: 20 * $desk + vw;
+          .productQuestionsButton {
+            cursor: pointer;
+            height: 50 * $desk + vw;
+            font-weight: 100;
+            border-radius: 5 * $desk + vw;
+            box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            color: #0e0030;
+            font-size: 20 * $desk + vw;
+            .txtsave {
+              font-weight: 300;
+            }
+          }
+
+          .variantContainer {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            border-radius: 2 * $desk + vw;
+            // background-color: red;
+            background-color: #fbfbfb;
+            font-size: 20 * $desk + vw;
+            margin-bottom: 10 * $desk + vw;
+            padding-left: 100 * $desk + vw;
+            padding-right: 20 * $desk + vw;
+            padding-top: 30 * $desk + vw;
+            padding-bottom: 30 * $desk + vw;
+
+            .text {
+              color: #7e7e7e;
+              font-weight: 400;
+              width: 230 * $desk + vw;
+              margin-top: 9 * $desk + vw;
+              @media only screen and (max-device-width: $other) {
+                font-size: 25 * $desk + vw;
+              }
+            }
+
+            .variantContent {
+              width: 841 * $desk + vw;
+              @media only screen and (max-device-width: $other) {
+                width: 1200 * $desk + vw;
+              }
+              .bottom {
+                margin-bottom: 50 * $desk + vw;
+              }
+              .inputIcon {
+                box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0
+                  rgba(0, 0, 0, 0.16);
+                display: flex;
+                align-items: flex-start;
+                width: 100%;
+                .inputBox {
+                  width: 100%;
+                  height: 50 * $desk + vw;
+                  border: 5px black solid;
+                  border-top-style: hidden;
+                  border-right-style: hidden;
+                  border-left-style: hidden;
+                  border-bottom-style: hidden;
+                  padding-left: 20 * $desk + vw;
+                  padding-right: 20 * $desk + vw;
+                  background-color: #ffffff;
+                  font-family: inherit;
+                  font-size: 16 * $desk + vw;
+                  @media only screen and (max-device-width: $other) {
+                    font-size: 20 * $desk + vw;
+                    height: 70 * $desk + vw;
+                  }
+                }
+
+                .inputBox::placeholder {
+                  color: #777777;
+                }
+
+                .icon1 {
+                  display: flex;
+                  flex-direction: row;
+                  margin-top: 5 * $desk + vw;
+                  margin-right: 20 * $desk + vw;
+                  height: fit-content;
+                  width: fit-content;
+                  cursor: pointer;
+                  @media only screen and (max-device-width: $other) {
+                    margin-top: 10 * $desk + vw;
+                  }
+                  img {
+                    position: relative;
+                    height: 40 * $desk + vw;
+                    @media only screen and (max-device-width: $other) {
+                      height: 50 * $desk + vw;
+                    }
+                  }
+                }
+              }
+              .error {
+                color: red;
+                margin-top: 12 * $desk + vw;
+                margin-left: 10 * $desk + vw;
+                font-size: 15 * $desk + vw;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+
+        .saveDiv {
+          cursor: pointer;
+          height: 86 * $desk + vw;
+          font-weight: 100;
+          border-radius: 5 * $desk + vw;
+          box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+          margin-bottom: 20 * $desk + vw;
+          margin-top: 20 * $desk + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          //   margin-left: 20 * $desk + vw;
+          //   margin-right: 20 * $desk + vw;
+          color: #0e0030;
+          font-size: 20 * $desk + vw;
+          .txtsave {
+            font-weight: 300;
+          }
+        }
+        // .saveDiv:hover {
+        //   color: #ffffff;
+        //   background-color: #0e0030;
+        //   border: thin hidden #0e0030;
+        //   box-shadow: none;
+        // }
+      }
+    }
+  }
+}

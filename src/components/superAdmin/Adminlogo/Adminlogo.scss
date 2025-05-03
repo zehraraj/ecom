@@ -1,0 +1,12 @@
+$desk: 100 / 1920;
+.img{
+    float: left;
+    background:url("/home/suchit/Desktop/React/ecom/src/static/Invetry1.png");
+    width: 182.9 * $desk + vw;
+    height: 50 * $desk + vw;
+    object-fit: contain;
+    // padding-left: 32 * $desk + vw;
+    // padding-top: 24 * $desk + vw;
+    margin-left: 8 * $desk + vw;
+    margin-top: 8 * $desk + vw;
+}

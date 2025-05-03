@@ -1,0 +1,68 @@
+.productCollectionRoot {
+  margin-top: 7.8125vw;
+  margin-left: 2.60417vw;
+  margin-right: 2.60417vw;
+}
+
+.productCollectionRoot .productCollectionHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.productCollectionRoot .productCollectionHeading .productCollectionTitle {
+  font-family: montserrat-regular;
+  font-size: 2.70833vw;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.productCollectionRoot .productCollectionHeading .productCollectionDesc {
+  font-family: montserrat;
+  margin-top: 0.52083vw;
+  font-size: 1.04167vw;
+  font-weight: bold;
+}
+
+.productCollectionRoot .productCollectionContent {
+  margin-top: 5.20833vw;
+}
+
+.productCollectionRoot .productCollectionContent .productCollectionContentRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.productCollectionRoot .productCollectionSeeMore {
+  margin-top: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ProductCollection.css.map */

@@ -1,0 +1,60 @@
+@import "../../../utilities/variables";
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .table-title-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 25 * $desk + vw;
+    height: auto;
+    .TextImg {
+      margin-left: 20 * $desk + vw;
+      margin-top: 10 * $desk + vw;
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+
+      .table-title-text {
+        font-style: normal;
+        font-size: 35 * $desk + vw;
+        font-weight: 500;
+        color: #0e0030;
+        text-transform: capitalize;
+        white-space: nowrap;
+        text-transform: capitalize;
+
+        @media only screen and (max-device-width: $other) {
+          font-size: 50 * $desk + vw;
+          // margin-top: 10 * $desk + vh;
+          // margin-bottom: 10 * $desk + vh;
+        }
+      }
+
+      img {
+        margin-left: 20 * $desk + vw;
+        width: auto;
+        // width: 37.1 * $desk + vw;
+        // height: 80 * $desk + vw;
+        height: 45 * $desk + vw;
+        // height: 45 * $desk + vw;
+        @media only screen and (max-width: $mobile) {
+          height: 50 * $desk + vw;
+          // height: 45 * $desk + vw;
+          // margin-top: 29 * $desk + vw;
+        }
+      }
+    }
+  }
+
+  hr {
+    color: #c9c9c9;
+    margin-top: 10 * $desk + vw;
+    border-style: solid;
+    border-width: 1 * $desk + vw;
+    justify-content: center;
+  }
+}

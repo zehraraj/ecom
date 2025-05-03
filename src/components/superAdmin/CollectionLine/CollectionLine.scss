@@ -1,0 +1,42 @@
+@import "../../../utilities/variables";
+
+.colline {
+  margin-left: 19 * $desk + vw;
+  margin-right: 19 * $desk + vw;
+  margin-bottom: 22 * $desk + vw;
+  background-color: rgba(238, 238, 238, 0.24);
+  display: flex;
+  align-items: center;
+  font-size: 22 * $desk + vw;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5;
+  color: #7e7e7e;
+  flex-wrap: wrap;
+
+  .content {
+    padding-top: 40 * $desk + vw;
+    padding-bottom: 40 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .wrap {
+      word-wrap: break-word;
+    }
+
+    .more-icon {
+      // margin-left: 160 * $desk + vw;
+      display: flex;
+      align-self: center;
+      cursor: pointer;
+      img {
+        width: 50 * $desk + vw;
+        height: 50 * $desk + vw;
+      }
+    }
+  }
+}

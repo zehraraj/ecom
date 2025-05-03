@@ -1,0 +1,46 @@
+.page {
+  width: 2.51042vw;
+  height: 1.57292vw;
+  position: relative;
+  margin-top: 41.14583vw;
+  margin-left: 72.13542vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page .txt {
+  width: 0.52083vw;
+  height: 1.5625vw;
+  font-family: RobotoSlab;
+  font-size: 1.19792vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #060606;
+  margin-top: 0vw;
+  margin-left: 0.26042vw;
+  margin-Right: 0.26042vw;
+}
+
+.page .img {
+  margin-top: 0vw;
+  margin-left: 0vw;
+  width: 1.20833vw;
+  height: 1.36458vw;
+}
+
+.page .img2 {
+  margin-top: 0vw;
+  margin-left: 0vw;
+  width: 1.20833vw;
+  height: 1.26042vw;
+}
+/*# sourceMappingURL=Pagination.css.map */

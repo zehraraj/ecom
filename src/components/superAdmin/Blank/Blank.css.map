@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,GAAG,CAAA;EACC,KAAK,EAAE,UAAgB;EACvB,MAAM,EAAE,SAAgB;EACxB,UAAU,EAAG,SAAgB;EAC7B,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "Blank.scss"
+    ],
+    "names": [],
+    "file": "Blank.css"
+}

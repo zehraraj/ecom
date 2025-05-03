@@ -1,0 +1,58 @@
+@import "../../../utilities/variables";
+
+.CategorySliderRoot {
+  width: 100%;
+  position: relative;
+  margin-top: 70 * $desk + vw;
+
+  .CategorySliderCard {
+    width: inherit;
+    img {
+      object-fit: cover;
+      // border: 1 * $desk + vw black solid;
+      width: inherit;
+      height: inherit;
+    }
+  }
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0px 20 * $desk + vw;
+  div {
+    height: 100%;
+  }
+}
+/* the parent */
+.slick-track {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 400 * $desk + vw;
+}
+
+.slick-list {
+  margin: 0px 30 * $desk + vw;
+}
+
+.slick-arrow {
+  width: 20 * $desk + vw;
+  top: 170 * $desk + vw;
+  display: none !important;
+  img {
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.slick-prev {
+  left: 5 * $desk + vw;
+}
+
+.slick-arrow {
+  right: 5 * $desk + vw;
+}
+
+.CategorySliderRoot:hover .slick-arrow {
+  display: block !important;
+}

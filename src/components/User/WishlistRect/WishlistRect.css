@@ -1,0 +1,32 @@
+.Wish-page-cont {
+  width: 100vw;
+  height: 39.0625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -2.60417vw;
+  margin-bottom: 0.52083vw;
+}
+
+.Wish-page-cont .all-img-cont {
+  width: 86.25vw;
+  height: 31.77083vw;
+  margin-top: 1.25vw;
+  margin-left: 4.375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=WishlistRect.css.map */

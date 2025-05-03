@@ -1,0 +1,50 @@
+@import "../../../utilities/variables";
+
+.Button3 {
+    width: 200* $desk + vw;
+    height: 50* $desk + vw;
+    outline-style: solid;
+    outline-color: #d5d3da;
+    outline-width: 1px;
+    background-color: #ffffff;
+    margin-left: 100* $desk + vw;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+    margin-top: -100* $desk + vw;
+
+    @media only screen and (max-width: $other) {
+      width: 500 * $desk + vw;
+      height: 130 * $desk + vw;
+      margin-top: 1500 * $desk + vw;
+      margin-left: 500 * $desk + vw;
+    }
+
+    .text123{
+        font-family: BebasNeue;
+        font-size: 30* $desk + vw;
+        font-weight: lighter;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0e0030;
+        text-decoration: none !important;
+
+        text-align: center; 
+        @media only screen and (max-width: $other) {
+          font-size: 75* $desk + vw;
+
+        }
+    
+    }
+  }
+
+
+  .Button3:hover{
+    background-color: #0e0030;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+
+  }
+  .text123:hover{
+    color:#ffffff
+  }

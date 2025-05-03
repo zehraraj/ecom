@@ -1,0 +1,162 @@
+.sdfdsfsdf {
+  background-color: #fff;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-weight: 400;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sdfdsfsdf .img-container {
+  width: 61.5625vw;
+  height: 100vh;
+}
+
+.sdfdsfsdf .img-container img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .sdfdsfsdf .img-container {
+    display: none;
+  }
+}
+
+.sdfdsfsdf .right-container {
+  width: 38.4375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .sdfdsfsdf .right-container {
+    width: 52.08333vw;
+  }
+}
+
+.sdfdsfsdf .right-container .error {
+  margin-top: 1.5625vw;
+  color: red;
+}
+
+.sdfdsfsdf .right-container .form-container {
+  width: 23.4375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .sdfdsfsdf .right-container .form-container {
+    width: 100%;
+  }
+}
+
+.sdfdsfsdf .right-container .form-container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sdfdsfsdf .right-container .form-container .bottom-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 4.6875vw;
+}
+
+.sdfdsfsdf .right-container .form-container .bottom-container .right-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sdfdsfsdf .right-container .form-container .bottom-container .right-bottom .submit-button-container {
+  width: 8.07292vw;
+  height: 2.70833vw;
+  background-color: #2029a0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.04167vw;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .sdfdsfsdf .right-container .form-container .bottom-container .right-bottom .submit-button-container {
+    font-size: 2.60417vw;
+    width: 26.04167vw;
+    height: 6.875vw;
+    margin-left: 15.10417vw;
+  }
+}
+
+.sdfdsfsdf .right-container .form-container .bottom-container .right-bottom .submit-button-container h3 {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: white;
+}
+
+.sdfdsfsdf .right-container .form-container .bottom-container .right-bottom .a-user {
+  margin-top: 0.625vw;
+  font-size: 1.04167vw;
+  color: #ff094c;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .sdfdsfsdf .right-container .form-container .bottom-container .right-bottom .a-user {
+    font-size: 2.34375vw;
+    margin-top: 2.08333vw;
+  }
+}
+/*# sourceMappingURL=Register.css.map */

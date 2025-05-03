@@ -1,0 +1,71 @@
+.sh-flex-container {
+  width: 100vw;
+  height: 46.875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: fixed;
+}
+
+.sh-flex-container .p-contentContainer {
+  position: relative;
+  height: 52.08333vw;
+  width: 85.9375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20.20833vw;
+  margin-top: 4.79167vw;
+  margin-bottom: 3.90625vw;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+.sh-flex-container .p-contentContainer .p-innerContainer {
+  width: 79.6875vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  float: left;
+}
+
+.sh-flex-container .p-contentContainer .p-headerContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: left;
+  height: 3.125vw;
+  margin-top: 1.04167vw;
+}
+
+.sh-flex-container .p-contentContainer .p-headerContainer .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Shipping.css.map */

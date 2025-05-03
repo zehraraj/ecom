@@ -1,0 +1,109 @@
+.User-Main-rect {
+  width: 100%;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-top: 0vw;
+  position: relative;
+  padding-bottom: 2.60417vw;
+}
+
+.User-Main-rect .nav {
+  text-decoration: none;
+}
+
+.User-Main-rect .title {
+  margin-top: 0.26042vw;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+}
+
+.User-Main-rect .content {
+  margin-top: 2.60417vw;
+  margin-left: 2.60417vw;
+}
+
+.User-Main-rect .content .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.04167vw;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 26.04167vw;
+  color: #707070;
+  font-size: 1.19792vw;
+}
+
+.User-Main-rect .content .row .user-detail-text {
+  font-weight: bold;
+  white-space: nowrap;
+  width: 10.41667vw;
+}
+
+.User-Main-rect .content .row .colon {
+  font-weight: bold;
+  width: 1.04167vw;
+}
+
+.User-Main-rect .content .row .result {
+  font-weight: thin;
+}
+
+.User-Main-rect .content .row .caps {
+  text-transform: capitalize;
+}
+
+.User-Main-rect .addressButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: inherit;
+}
+
+.User-Main-rect .addressButton .box {
+  width: 20.10417vw;
+  height: 3.85417vw;
+  border-radius: 0.625vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.User-Main-rect .addressButton .box .tt {
+  font-size: 1.5625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #707070;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=UserMainRect.css.map */

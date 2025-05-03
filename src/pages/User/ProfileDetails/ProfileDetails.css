@@ -1,0 +1,91 @@
+.PD-flex-container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  height: 52.08333vw;
+  overflow: hidden;
+}
+
+.PD-flex-container .content-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 4.16667vw;
+  overflow-y: scroll;
+  overflow-x: hidden !important;
+  width: 100vw;
+  height: 47.29167vw;
+}
+
+.PD-flex-container .content-container1 {
+  position: relative;
+  margin-top: 2.60417vw;
+  width: 100vw;
+  height: 26.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.PD-flex-container .content-container2 {
+  position: relative;
+  margin-left: 1.5625vw;
+  margin-top: 2.60417vw;
+  width: 75vw;
+  height: 39.0625vw;
+}
+
+.PD-flex-container .mob-content-container {
+  position: relative;
+  margin-left: 0.52083vw;
+  margin-top: 2.60417vw;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .PD-flex-container {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .PD-flex-container .content-container {
+    display: none;
+  }
+  .PD-flex-container .mob-content-container {
+    display: block;
+  }
+}
+/*# sourceMappingURL=ProfileDetails.css.map */

@@ -1,0 +1,17 @@
+.Usrimg {
+  float: left;
+  background: url("/home/suchit/Desktop/React/ecom/src/static/Invetry1.png");
+  width: 9.52604vw;
+  height: 2.60417vw;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-left: 1.66667vw;
+  margin-top: 0.41667vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .Usrimg {
+    display: none;
+  }
+}
+/*# sourceMappingURL=UserLogo.css.map */

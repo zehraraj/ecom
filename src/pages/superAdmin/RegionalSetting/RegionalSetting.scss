@@ -1,0 +1,41 @@
+$desk: 100 / 1920;
+.RS-flex-container {
+  width: 1920 * $desk + vw;
+  height: 900 * $desk + vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+
+  .RS-contentContainer {
+    position: relative;
+    height: 1000 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 388 * $desk + vw;
+    margin-top: 92 * $desk + vw;
+
+    .RS-innerContainer {
+      width: 1530 * $desk + vw;
+      margin-top: 0 * $desk + vw;
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      float: left;
+    }
+    .RS-headerContainer {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      float: left;
+      height: 60 * $desk + vw;
+
+      .nav {
+        text-decoration: none;
+      }
+    }
+  }
+}

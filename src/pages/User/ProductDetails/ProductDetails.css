@@ -1,0 +1,306 @@
+.ProD-flex-container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  height: 52.08333vw;
+  overflow: hidden;
+}
+
+.ProD-flex-container .content-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5.20833vw;
+  overflow-y: scroll;
+  overflow-x: hidden !important;
+  width: 100vw;
+  height: 47.29167vw;
+}
+
+.ProD-flex-container .content-container1 {
+  position: relative;
+  margin-left: 4.79167vw;
+  margin-top: 3.75vw;
+  width: 42.70833vw;
+  height: 52.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ProD-flex-container .content-container1 .inner-content-container1 {
+  position: relative;
+  margin-left: 0vw;
+  margin-top: 0vw;
+  width: 42.70833vw;
+  height: 26.04167vw;
+}
+
+.ProD-flex-container .content-container2 {
+  position: relative;
+  margin-left: 4.89583vw;
+  margin-top: 4.79167vw;
+  width: 46.35417vw;
+  height: 52.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ProD-flex-container .main-txt-cont {
+  position: relative;
+  width: 46.35417vw;
+  height: 52.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ProD-flex-container .main-txt-cont .main-txt1 {
+  width: 6.45833vw;
+  height: 1.77083vw;
+  opacity: 0.66;
+  font-family: RobotoSlab;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+}
+
+.ProD-flex-container .main-txt-cont .main-txt2 {
+  width: 13.33333vw;
+  height: 1.875vw;
+  font-family: RobotoSlab;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afafaf;
+  white-space: nowrap;
+  margin-top: 0.41667vw;
+}
+
+.ProD-flex-container .main-txt-cont .main-txt3 {
+  width: 10.15625vw;
+  height: 1.35417vw;
+  font-family: RobotoSlab;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff2753;
+  white-space: nowrap;
+  margin-top: 0.52083vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont1 {
+  position: relative;
+  width: 21.45833vw;
+  height: 2.29167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 0.88542vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont1 .cont1-txt1 {
+  width: 6.09375vw;
+  height: 2.29167vw;
+  font-family: RobotoSlab;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afafaf;
+  white-space: nowrap;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont1 .cont1-txt2 {
+  width: 7.03125vw;
+  height: 2.29167vw;
+  font-family: RobotoSlab;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afafaf;
+  white-space: nowrap;
+  text-decoration: line-through;
+  margin-top: 0vw;
+  margin-left: -3.64583vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont1 .cont1-txt3 {
+  width: 8.33333vw;
+  height: 2.29167vw;
+  font-family: RobotoSlab;
+  font-size: 1.19792vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff2753;
+  white-space: nowrap;
+  margin-left: -3.64583vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont2 {
+  position: relative;
+  width: 21.45833vw;
+  height: 5.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2.96875vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont2 .cont2-txt1 {
+  width: 9.47917vw;
+  height: 1.35417vw;
+  font-family: RobotoSlab;
+  font-size: 1.30208vw;
+  opacity: 0.66;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-bottom: 0.625vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont2 .cont2-txt2 {
+  width: 8.125vw;
+  height: 1.04167vw;
+  font-family: RobotoSlab;
+  font-size: 0.83333vw;
+  opacity: 0.66;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont3 {
+  position: relative;
+  width: 21.45833vw;
+  height: 5.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1.40625vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont3 .cont3-txt1 {
+  width: 9.47917vw;
+  height: 1.35417vw;
+  font-family: RobotoSlab;
+  font-size: 1.19792vw;
+  opacity: 0.66;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-bottom: 0.625vw;
+}
+
+.ProD-flex-container .main-txt-cont .txt-cont3 .cont3-txt2 {
+  width: 8.125vw;
+  height: 0.98958vw;
+  font-family: RobotoSlab;
+  font-size: 0.83333vw;
+  opacity: 0.66;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+/*# sourceMappingURL=ProductDetails.css.map */

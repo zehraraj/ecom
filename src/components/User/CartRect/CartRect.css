@@ -1,0 +1,194 @@
+.cart-rect {
+  width: 24.6875vw;
+  height: 25.36458vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10.15625vw;
+  margin-left: 3.54167vw;
+}
+
+.cart-rect .header {
+  width: 24.6875vw;
+  height: 2.55208vw;
+  margin-top: 1.97917vw;
+}
+
+.cart-rect .header .txt {
+  width: 5.57292vw;
+  height: 1.77083vw;
+  opacity: 0.66;
+  font-family: Montserrat-Regular;
+  font-size: 1.35417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 0.9375vw;
+}
+
+.cart-rect .bill-cont {
+  width: 24.6875vw;
+  height: 12.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1.04167vw;
+}
+
+.cart-rect .bill-cont .txt-cont1 {
+  width: 12.34375vw;
+  height: 12.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cart-rect .bill-cont .txt-cont1 .txt {
+  width: 12.34375vw;
+  height: 1.77083vw;
+  opacity: 0.66;
+  font-family: Montserrat-Regular;
+  font-size: 1.35417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 0.9375vw;
+}
+
+.cart-rect .bill-cont .txt-cont2 {
+  width: 12.34375vw;
+  height: 12.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cart-rect .bill-cont .txt-cont2 .txt1 {
+  width: 12.34375vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-right: 1.92708vw;
+}
+
+.cart-rect .bill-cont .txt-cont2 .txt2 {
+  width: 12.34375vw;
+  height: 1.77083vw;
+  opacity: 0.99;
+  font-family: Montserrat-Regular;
+  font-size: 1.35417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ec3775;
+  white-space: nowrap;
+  margin-right: 1.92708vw;
+}
+
+.cart-rect .footer {
+  width: 24.6875vw;
+  height: 2.55208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1.09375vw;
+}
+
+.cart-rect .footer .txt1 {
+  width: 4.27083vw;
+  height: 1.77083vw;
+  opacity: 0.66;
+  font-family: Montserrat-Regular;
+  font-size: 1.35417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 0.9375vw;
+}
+
+.cart-rect .footer .txt2 {
+  width: 3.64583vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-right: 1.92708vw;
+  margin-left: 13.80208vw;
+}
+
+.cart-rect .hr {
+  display: block;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  margin-left: 0.9375vw;
+  margin-right: 1.92708vw;
+  border-style: inset;
+  border-width: 1px;
+}
+/*# sourceMappingURL=CartRect.css.map */

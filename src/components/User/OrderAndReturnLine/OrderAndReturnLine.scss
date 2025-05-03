@@ -1,0 +1,504 @@
+$desk: 100 / 1920;
+
+.ordr-line-cont {
+    width: 1163* $desk + vw;
+    height: 325* $desk + vw;
+    margin-top: 40 * $desk + vw;
+    margin-left: 40 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+
+    .datacont{
+    width: 1163* $desk + vw;
+    height: 30* $desk + vw;
+
+        .txt{
+            width: 223* $desk + vw;
+            height: 30* $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 23* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0e0030;
+            white-space: nowrap;
+        }
+    }
+
+    .container1{
+        width: 1163* $desk + vw;
+        height: 285* $desk + vw;
+        box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        margin-top: 10 * $desk + vw;
+
+        .container2{
+            width: 1141* $desk + vw;
+            height: 221* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            border-bottom: 2* $desk + vw solid rgb(158, 157, 157);
+            margin-top: 0 * $desk + vw;
+            margin-left: 0 * $desk + vw;
+
+
+            .blank{
+                width: 204* $desk + vw;
+                height: 221* $desk + vw;
+            }
+
+            .hr { 
+                display: block;
+                margin-top: 18 * $desk + vw;
+                margin-bottom: 0.5 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+                margin-right: 0 * $desk + vw;
+                border-style: inset;
+                border-width: 1* $desk + vw;
+                border-color: rgb(255, 249, 249);
+            }
+
+            .txt-cont{
+                width: 364* $desk + vw;
+                height: 221* $desk + vw;
+                display: flex;
+                flex-direction: column;
+
+                .txt1{
+                    width: 364* $desk + vw;
+                    height: 34* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 20* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #a2a0a8;
+                    margin-top: 38 * $desk + vw;
+                    margin-left: 28 * $desk + vw;
+                    white-space: nowrap;
+                }
+
+                .innertxt{
+                    width: 364* $desk + vw;
+                    height: 187* $desk + vw;
+                    display: flex;
+                    flex-direction: row;
+
+                    .txt2{
+                        width: 96* $desk + vw;
+                        height: 34* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 20* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #a2a0a8;
+                        margin-top: 10 * $desk + vw;
+                        margin-left: 28 * $desk + vw;
+                        white-space: nowrap;
+                    }
+
+                    .txt3{
+                        width: 75* $desk + vw;
+                        height: 34* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 20* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #a2a0a8;
+                        margin-top: 10 * $desk + vw;
+                        margin-left: 18 * $desk + vw;
+                        white-space: nowrap;
+                    }
+                }
+
+            }
+
+            .txt-cont2{
+                width: 348* $desk + vw;
+                height: 221* $desk + vw;
+
+                .txt{
+                    width: 348* $desk + vw;
+                    height: 29* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 20* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #afafaf;
+                    margin-top:68 * $desk + vw;
+                    white-space: nowrap;
+                    text-decoration: line-through;
+                }
+            }
+
+            .txt-cont3{
+                width: 218* $desk + vw;
+                height: 221* $desk + vw;
+                display: flex;
+                flex-direction: column;
+
+                .txt1{
+                    width: 218* $desk + vw;
+                    height: 40* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 25* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #0e0030;
+                    margin-top:25 * $desk + vw;
+                    white-space: nowrap;
+                    margin-left: 40 * $desk + vw;
+                }
+
+                .txt2{
+                    width: 218* $desk + vw;
+                    height: 33* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 20* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color:#ff2753;
+                    margin-top:2 * $desk + vw;
+                    white-space: nowrap;
+                    margin-left: 25 * $desk + vw;
+                }
+            }
+        }
+
+        .container3{
+            width: 1141* $desk + vw;
+            height: 44* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            margin-left:0 * $desk + vw;
+            margin-top:0 * $desk + vw;
+
+            .txt1{
+                width: 179* $desk + vw;
+                height: 34* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 20* $desk + vw;
+                opacity: 0.99* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #a2a0a8;
+                margin-top:15 * $desk + vw;
+                margin-left:20 * $desk + vw;
+                white-space: nowrap;
+            }
+
+            .txt2{
+                width: 150* $desk + vw;
+                height: 34* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 20* $desk + vw;
+                opacity: 0.99* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #a2a0a8;
+                margin-top:15 * $desk + vw;
+                margin-left:780 * $desk + vw;
+                white-space: nowrap;
+            }
+
+            .hr { 
+                display: block;
+                margin-top: 5 * $desk + vw;
+                margin-bottom: 8 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+                margin-right: 0 * $desk + vw;
+                border-style: inset;
+                border-width: 1* $desk + vw;
+                border-color: rgb(255, 249, 249);
+            }
+        }
+    }  
+}
+
+@media screen and (max-width: 480px) {
+    .ordr-line-cont {
+        width: 85%;
+        height: 455* $desk + vw;
+        margin-top: 40 * $desk + vw;
+        margin-left: 140 * $desk + vw;
+        margin-bottom: 50 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        
+        background-color: #ffffff;
+    
+        .datacont{
+            width: 1163* $desk + vw;
+            height: 60* $desk + vw;
+    
+            .txt{
+                width: 223* $desk + vw;
+                height: 60* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 60* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                white-space: nowrap;
+            }
+        }
+    
+        .container1{
+            width: 100%;
+            height: 385* $desk + vw;
+            box-shadow: 10* $desk + vw 15* $desk + vw 16* $desk + vw 10* $desk + vw rgba(0, 0, 0, 0.16);
+            background-color: #ffffff;
+            margin-top: 10 * $desk + vw;
+    
+            .container2{
+                width: 100%;
+                height: 291* $desk + vw;
+                display: flex;
+                flex-direction: row;
+                border-bottom: 2* $desk + vw solid rgb(158, 157, 157);
+                margin-top: 0 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+    
+    
+                .blank{
+                    width: 20%;;
+                    height: 291* $desk + vw;
+                }
+    
+                .hr { 
+                    display: block;
+                    margin-top: 18 * $desk + vw;
+                    margin-bottom: 0.5 * $desk + vw;
+                    margin-left: 0 * $desk + vw;
+                    margin-right: 0 * $desk + vw;
+                    border-style: inset;
+                    border-width: 1* $desk + vw;
+                    border-color: rgb(255, 249, 249);
+                }
+    
+                .txt-cont{
+                    width: 50%;
+                    height: 291* $desk + vw;
+                    display: flex;
+                    flex-direction: column;
+    
+                    .txt1{
+                        width: 364* $desk + vw;
+                        height: 50* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 50* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #a2a0a8;
+                        margin-top: 38 * $desk + vw;
+                        margin-left: 28 * $desk + vw;
+                        white-space: nowrap;
+                    }
+    
+                    .innertxt{
+                        width: 100%;
+                        height: 187* $desk + vw;
+                        display: flex;
+                        flex-direction: row;
+    
+                        .txt2{
+                            width: 280* $desk + vw;
+                            height: 34* $desk + vw;
+                            font-family: Montserrat-Regular;
+                            font-size: 50* $desk + vw;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.3;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #a2a0a8;
+                            margin-top: 10 * $desk + vw;
+                            margin-left: 28 * $desk + vw;
+                            white-space: nowrap;
+                        }
+    
+                        .txt3{
+                            width: 75* $desk + vw;
+                            height: 34* $desk + vw;
+                            font-family: Montserrat-Regular;
+                            font-size: 50* $desk + vw;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.3;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #a2a0a8;
+                            margin-top: 10 * $desk + vw;
+                            margin-left: 18 * $desk + vw;
+                            white-space: nowrap;
+                        }
+                    }
+    
+                }
+    
+                .txt-cont2{
+                    width: 11%;
+                    height: 291* $desk + vw;
+    
+                    .txt{
+                        width:100%;
+                        height: 29* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 50* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: right;
+                        color: #afafaf;
+                        margin-top:108 * $desk + vw;
+                        white-space: nowrap;
+                        text-decoration: line-through;
+                    }
+                }
+    
+                .txt-cont3{
+                    width: 19%;
+                    height: 291* $desk + vw;
+                    display: flex;
+                    flex-direction: column;
+    
+                    .txt1{
+                        width: 218* $desk + vw;
+                        height: 80* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 50* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #0e0030;
+                        margin-top:25 * $desk + vw;
+                        white-space: nowrap;
+                        margin-left: 40 * $desk + vw;
+                    }
+    
+                    .txt2{
+                        width: 218* $desk + vw;
+                        height: 33* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 45* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color:#ff2753;
+                        margin-top:2 * $desk + vw;
+                        white-space: nowrap;
+                        margin-left: 25 * $desk + vw;
+                    }
+                }
+            }
+    
+            .container3{
+                width: 100%;
+                height: 44* $desk + vw;
+                display: flex;
+                flex-direction: row;
+                margin-left:0 * $desk + vw;
+                margin-top:0 * $desk + vw;
+    
+                .txt1{
+                    width: 179* $desk + vw;
+                    height: 34* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 50* $desk + vw;
+                    opacity: 0.99* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #a2a0a8;
+                    margin-top:15 * $desk + vw;
+                    margin-left:20 * $desk + vw;
+                    white-space: nowrap;
+                }
+    
+                .txt2{
+                    width: 150* $desk + vw;
+                    height: 34* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 50* $desk + vw;
+                    opacity: 0.99* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #a2a0a8;
+                    margin-top:15 * $desk + vw;
+                    margin-left:200 * $desk + vw;
+                    white-space: nowrap;
+                }
+    
+                .hr { 
+                    display: block;
+                    margin-top: 5 * $desk + vw;
+                    margin-bottom: 8 * $desk + vw;
+                    margin-left: 0 * $desk + vw;
+                    margin-right: 0 * $desk + vw;
+                    border-style: inset;
+                    border-width: 1* $desk + vw;
+                    border-color: rgb(255, 249, 249);
+                }
+            }
+        }  
+    }
+}

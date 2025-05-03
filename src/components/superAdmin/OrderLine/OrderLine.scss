@@ -1,0 +1,27 @@
+@import "../../../utilities/variables";
+
+.Orderline1 {
+  margin-left: 19 * $desk + vw;
+  margin-right: 19 * $desk + vw;
+  margin-bottom: 22 * $desk + vw;
+  height: 100 * $desk + vw;
+  background-color: rgba(238, 238, 238, 0.24);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22 * $desk + vw;
+  font-stretch: normal;
+  font-style: normal;
+  text-transform: capitalize;
+  line-height: 1.3;
+  text-align: center;
+  color: #7e7e7e;
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 32 * $desk + vw;
+  }
+
+  .caps {
+    text-transform: capitalize;
+  }
+}

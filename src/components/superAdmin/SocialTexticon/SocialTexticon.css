@@ -1,0 +1,37 @@
+.SocialTexticonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5625vw;
+  width: 51.04167vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 1.5625vw;
+  margin-bottom: 1.04167vw;
+  margin-left: 4.42708vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.SocialTexticonContainer .txt {
+  width: 19.27083vw;
+  height: 3.125vw;
+  font-family: BebasNeue;
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  white-space: nowrap;
+}
+
+.SocialTexticonContainer .img {
+  padding-left: 0.26042vw;
+  width: 2.08333vw;
+  height: 2.08333vw;
+}
+/*# sourceMappingURL=SocialTexticon.css.map */

@@ -1,0 +1,320 @@
+.Prorect .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Prorect .headtitle {
+  width: 16.71875vw;
+  height: 2.76042vw;
+  font-family: Montserrat-Regular;
+  font-size: 2.08333vw;
+  font-weight: normal;
+  text-align: left;
+  color: #0e0030;
+  margin-left: 2.08333vw;
+  margin-top: 2.60417vw;
+  margin-bottom: 0.78125vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .headtitle {
+    width: 37.55208vw;
+    height: 5.20833vw;
+    font-family: Montserrat-Regular;
+    font-size: 5.20833vw;
+    font-weight: normal;
+    text-align: left;
+    color: #0e0030;
+    margin-top: 2.60417vw;
+    margin-bottom: 0.78125vw;
+    margin-left: 2.08333vw;
+  }
+}
+
+.Prorect .hr {
+  display: block;
+  margin-top: 0.10417vw;
+  margin-bottom: 0.02604vw;
+  margin-left: 2.08333vw;
+  margin-right: 2.64063vw;
+  border-style: inset;
+  border-width: 1px;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .hr {
+    display: block;
+    margin-top: 0.10417vw;
+    margin-bottom: 0.02604vw;
+    margin-left: 2.08333vw;
+    margin-right: 2.64063vw;
+    border-style: inset;
+    border-width: 1px;
+  }
+}
+
+.Prorect .Procont {
+  width: 62.03125vw;
+  height: 19.53125vw;
+  margin-top: 2.08333vw;
+  margin-left: 2.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont {
+    width: 100%;
+    height: 46.875vw;
+    margin-top: 2.08333vw;
+    margin-left: 2.08333vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.Prorect .Procont .datacont {
+  width: 62.03125vw;
+  height: 16.92708vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont {
+    width: 100%;
+    height: 46.875vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.Prorect .Procont .datacont .txt1-cont {
+  width: 20.59896vw;
+  height: 16.92708vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont .txt1-cont {
+    width: 50%;
+    height: 46.875vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.Prorect .Procont .datacont .txt1-cont .txt1 {
+  width: 13.33333vw;
+  height: 1.5625vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.40625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont .txt1-cont .txt1 {
+    width: 28.95833vw;
+    height: 7.8125vw;
+    font-family: Montserrat-Regular;
+    font-size: 4.16667vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+}
+
+.Prorect .Procont .datacont .txt1-cont .txt2 {
+  width: 13.33333vw;
+  height: 1.5625vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.40625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-top: 1.5625vw;
+  margin-bottom: 0vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont .txt1-cont .txt2 {
+    width: 39.375vw;
+    height: 7.8125vw;
+    font-family: Montserrat-Regular;
+    font-size: 4.16667vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-top: 1.5625vw;
+    margin-bottom: 0vw;
+  }
+}
+
+.Prorect .Procont .datacont .txt2-cont {
+  width: 20.59896vw;
+  height: 16.92708vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont .txt2-cont {
+    width: 50%;
+    height: 46.875vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.Prorect .Procont .datacont .txt2-cont .txt1 {
+  width: 13.33333vw;
+  height: 1.5625vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.40625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont .txt2-cont .txt1 {
+    width: 28.95833vw;
+    height: 7.8125vw;
+    font-family: Montserrat-Regular;
+    font-size: 4.16667vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+}
+
+.Prorect .Procont .datacont .txt2-cont .txt2 {
+  width: 13.33333vw;
+  height: 1.5625vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.40625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-top: 1.5625vw;
+  margin-bottom: 0vw;
+}
+
+@media screen and (max-width: 1023px) {
+  .Prorect .Procont .datacont .txt2-cont .txt2 {
+    width: 28.95833vw;
+    height: 7.8125vw;
+    font-family: Montserrat-Regular;
+    font-size: 4.16667vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-top: 1.5625vw;
+    margin-bottom: 0vw;
+  }
+}
+
+.Prorect .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=ProfileDetailRect.css.map */

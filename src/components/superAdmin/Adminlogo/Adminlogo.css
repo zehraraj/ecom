@@ -1,0 +1,11 @@
+.img {
+  float: left;
+  background: url("/home/suchit/Desktop/React/ecom/src/static/Invetry1.png");
+  width: 9.52604vw;
+  height: 2.60417vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 0.41667vw;
+  margin-top: 0.41667vw;
+}
+/*# sourceMappingURL=Adminlogo.css.map */

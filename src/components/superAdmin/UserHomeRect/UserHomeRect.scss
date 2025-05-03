@@ -1,0 +1,91 @@
+$desk: 100/ 1920;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.root1 {
+  height: auto;
+  width: 100%;
+  border-radius: 5 * $desk + vw;
+  box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+    rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .header {
+    margin-top: 5 * $desk + vw;
+    padding-right: 20 * $desk + vw;
+    padding-left: 20 * $desk + vw;
+  }
+
+  .user-txt-1 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    display: flex;
+    justify-content: center;
+    padding-left: 70 * $desk + vw;
+    width: 150 * $desk + vw;
+  }
+
+  .user-txt-2 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    display: flex;
+    justify-content: center;
+    width: 350 * $desk + vw;
+    // padding-left: 100 * $desk + vw;
+  }
+
+  .user-txt-3 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 200 * $desk + vw;
+    // padding-left: 100 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .user-txt-4 {
+    padding-right: 50 * $desk + vw;
+    width: 100 * $desk + vw;
+    // padding-left: 100 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headingg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 19 * $desk + vw;
+    margin-right: 19 * $desk + vw;
+    height: 60 * $desk + vw;
+    margin-top: 35 * $desk + vw;
+    color: #646464;
+    font-size: 22 * $desk + vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+  }
+}

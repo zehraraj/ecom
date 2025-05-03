@@ -1,0 +1,48 @@
+.titlecontainer {
+  width: 100vw;
+  height: 5.20833vw;
+  position: relative;
+}
+
+.titlecontainer .first {
+  width: 7.29167vw;
+  height: 1.97917vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.51042vw;
+  padding-left: 6.5625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  margin-top: 3.07292vw;
+  margin-bottom: 0vw;
+}
+
+.titlecontainer .secound {
+  width: 11.30208vw;
+  height: 1.45833vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.09375vw;
+  padding-left: 6.5625vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+.titlecontainer .hr {
+  display: block;
+  margin-top: 0.42188vw;
+  margin-bottom: 0.02604vw;
+  margin-left: 6.58854vw;
+  margin-right: 4.41146vw;
+  border-style: inset;
+  border-width: 1px;
+}
+/*# sourceMappingURL=Title.css.map */

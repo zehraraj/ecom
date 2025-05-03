@@ -1,0 +1,30 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url("./bebas_neue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url("./roboto-slab/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+  font-family: simsun-extb;
+  src: url("./simsun-extb/simsunb.ttf");
+}
+
+@font-face {
+  font-family: PTSans;
+  src: url("./pt-sans/PTC55F.ttf");
+}
+
+@font-face {
+  font-family: SegoeUIEmoji;
+  src: url("./segoeuiemoji/seguiemj.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./Montserrat/Montserrat-Regular.ttf");
+}
+/*# sourceMappingURL=master.css.map */

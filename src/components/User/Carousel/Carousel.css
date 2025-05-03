@@ -1,0 +1,31 @@
+.carouselRoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  height: 44.79167vw;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1023px) {
+  .carouselRoot {
+    height: 41.66667vw;
+  }
+}
+
+.carouselRoot .carousel {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .carouselRoot .carousel {
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+}
+/*# sourceMappingURL=Carousel.css.map */

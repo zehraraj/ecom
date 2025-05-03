@@ -1,0 +1,58 @@
+.colline {
+  margin-left: 0.98958vw;
+  margin-right: 0.98958vw;
+  margin-bottom: 1.14583vw;
+  background-color: rgba(238, 238, 238, 0.24);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.14583vw;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5;
+  color: #7e7e7e;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.colline .content {
+  padding-top: 2.08333vw;
+  padding-bottom: 2.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.colline .content .wrap {
+  word-wrap: break-word;
+}
+
+.colline .content .more-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+.colline .content .more-icon img {
+  width: 2.60417vw;
+  height: 2.60417vw;
+}
+/*# sourceMappingURL=CollectionLine.css.map */

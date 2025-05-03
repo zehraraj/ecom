@@ -1,0 +1,65 @@
+.CategorySliderRoot {
+  width: 100%;
+  position: relative;
+  margin-top: 3.64583vw;
+}
+
+.CategorySliderRoot .CategorySliderCard {
+  width: inherit;
+}
+
+.CategorySliderRoot .CategorySliderCard img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0px 1.04167vw;
+}
+
+.slick-slide div {
+  height: 100%;
+}
+
+/* the parent */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20.83333vw;
+}
+
+.slick-list {
+  margin: 0px 1.5625vw;
+}
+
+.slick-arrow {
+  width: 1.04167vw;
+  top: 8.85417vw;
+  display: none !important;
+}
+
+.slick-arrow img {
+  width: inherit;
+  height: inherit;
+}
+
+.slick-prev {
+  left: 0.26042vw;
+}
+
+.slick-arrow {
+  right: 0.26042vw;
+}
+
+.CategorySliderRoot:hover .slick-arrow {
+  display: block !important;
+}
+/*# sourceMappingURL=CategorySlider.css.map */

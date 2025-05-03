@@ -1,0 +1,73 @@
+$desk: 100 / 1920;
+.Av-flex-container {
+  width: 1920 * $desk + vw;
+  height: 900 * $desk + vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+
+  .Av-contentContainer {
+    position: relative;
+    height: 1000 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  margin-left: 388 * $desk + vw;
+    margin-top: 92 * $desk + vw;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+
+    .Av-innerContainer {
+      width: 1530 * $desk + vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      float: left;
+      // margin-top: 20 * $desk + vw;
+    }
+    .Av-headerContainer {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      float: left;
+      height: 60 * $desk + vw;
+      margin-top: 20 * $desk + vw;
+
+      .nav {
+        text-decoration: none;
+      }
+    }
+
+    .save {
+      width: 1360 * $desk + vw;
+      height: 86 * $desk + vw;
+      border-radius: 7 * $desk + vw;
+      box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+        rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
+      margin-left: 85 * $desk + vw;
+      margin-bottom: 50 * $desk + vw;
+      margin-top: 0 * $desk + vw;
+      position: relative;
+
+      .txtsave {
+        width: 199 * $desk + vw;
+        height: 34 * $desk + vw;
+        font-family: RobotoSlab;
+        font-size: 26 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        color: #0e0030;
+        white-space: nowrap;
+        margin-left: 580 * $desk + vw;
+        margin-top: 26 * $desk + vw;
+      }
+    }
+  }
+}

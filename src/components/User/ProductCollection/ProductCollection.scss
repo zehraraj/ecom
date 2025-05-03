@@ -1,0 +1,44 @@
+@import "../../../utilities/variables";
+
+.productCollectionRoot {
+  // width: 100%;
+  margin-top: 150 * $desk + vw;
+  margin-left: 50 * $desk + vw;
+  margin-right: 50 * $desk + vw;
+  .productCollectionHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .productCollectionTitle {
+      font-family: montserrat-regular;
+      font-size: 52 * $desk + vw;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    .productCollectionDesc {
+      font-family: montserrat;
+      margin-top: 10 * $desk + vw;
+      font-size: 20 * $desk + vw;
+      font-weight: bold;
+    }
+  }
+  .productCollectionContent {
+    margin-top: 100 * $desk + vw;
+    .productCollectionContentRow {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .productCollectionSeeMore {
+    
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

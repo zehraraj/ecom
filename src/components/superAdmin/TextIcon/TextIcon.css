@@ -1,0 +1,52 @@
+.textIconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.textIconContainer .text {
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1023px) {
+  .textIconContainer .text {
+    font-size: 4.16667vw;
+  }
+}
+
+.textIconContainer .text-icon-img {
+  margin-left: 1.04167vw;
+  height: 2.34375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.textIconContainer .text-icon-img img {
+  height: inherit;
+}
+
+@media only screen and (max-width: 1023px) {
+  .textIconContainer .text-icon-img {
+    margin-left: 1.25vw;
+    height: 3.125vw;
+  }
+}
+/*# sourceMappingURL=TextIcon.css.map */

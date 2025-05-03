@@ -1,0 +1,24 @@
+.content-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content-cont .inner-container {
+  width: 83.02083vw;
+  height: 21.77083vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.88542vw;
+  margin-left: 13.02083vw;
+}
+/*# sourceMappingURL=Cards.css.map */

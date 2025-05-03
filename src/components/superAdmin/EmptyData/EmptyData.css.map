@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,SAAe;EAC1B,MAAM,EAAE,UAAgB;EACxB,cAAc,EAAE,SAAS;CAK1B;;AAHC,MAAM,EAAE,SAAS,EAAE,MAAM;EAR3B,AAAA,UAAU,CAAC;IASP,SAAS,EAAE,QAAe;GAE7B",
+    "sources": [
+        "EmptyData.scss",
+        "../../../utilities/_variables.scss"
+    ],
+    "names": [],
+    "file": "EmptyData.css"
+}

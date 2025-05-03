@@ -1,0 +1,75 @@
+.AU-Main-Cont {
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.AU-Main-Cont .U-contentContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: inherit;
+  height: auto;
+  margin-left: 1.04167vw;
+  margin-top: 4.21875vw;
+  overflow-y: auto;
+  overflow-x: visible;
+  padding-left: 4.6875vw;
+  padding-right: 4.6875vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .AU-Main-Cont .U-contentContainer {
+    margin-top: 7.96875vh;
+    padding-top: 2.60417vw;
+    margin-left: 0vw;
+  }
+}
+
+.AU-Main-Cont .U-contentContainer .U-headerContainer {
+  margin-top: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.AU-Main-Cont .U-contentContainer .innerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5.20833vw;
+}
+
+.AU-Main-Cont .U-contentContainer .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=CreateUsers.css.map */

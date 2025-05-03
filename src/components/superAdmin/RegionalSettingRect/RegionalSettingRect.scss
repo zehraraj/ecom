@@ -1,0 +1,174 @@
+$desk: 100 / 1920;
+.RS-Rect{
+    width: 1330 * $desk + vw;
+    height: auto;
+    // height: 100%;
+    border-radius: 7 * $desk + vw;;
+    box-shadow: 10 * $desk + vw  10 * $desk + vw  30 * $desk + vw  0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    // align-items: inline;
+    margin-top: 70 * $desk + vw;
+    margin-left: 85 * $desk + vw;
+    // margin-bottom: 50 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    // z-index: 1000;
+
+    .inner{
+        width: 1330 * $desk + vw;
+        height: auto;
+        position: relative;
+        margin-top: 31.5 * $desk + vw;
+        margin-bottom: 31.5 * $desk + vw;
+    }
+
+    .custom-drop-container {
+        margin-bottom: 7 * $desk + vw;
+        margin-left: 20 * $desk + vw;
+        width: 1258 * $desk + vw;
+        height: 100 * $desk + vw;
+        display: flex;
+        background-color: rgba(238, 238, 238, 0.24);
+        z-index: 120;
+        .text {
+          width: 124 * $desk + vw;
+          height: 26 * $desk + vw;
+          font-family: RobotoSlab;
+          font-size: 20 * $desk + vw;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #7e7e7e;
+          padding-left: 52 * $desk + vw;
+          padding-top: 30 * $desk + vw;
+          // padding-right: 63 * $desk + vw ;
+          white-space: nowrap;
+          float: left;
+        }
+    
+        .option:hover {
+          background-color: #aeacac;
+          color: white;
+        }
+    }
+    .custom-drop-container2 {
+        margin-bottom: 7 * $desk + vw;
+        margin-left: 20 * $desk + vw;
+        width: 1258 * $desk + vw;
+        height: 100 * $desk + vw;
+        display: flex;
+        background-color: rgba(238, 238, 238, 0.24);
+        z-index: 100;
+        .text {
+            width: 124 * $desk + vw;
+            height: 26 * $desk + vw;
+            font-family: RobotoSlab;
+            font-size: 20 * $desk + vw;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: left;
+            color: #7e7e7e;
+            padding-left: 52 * $desk + vw;
+            padding-top: 30 * $desk + vw;
+            // padding-right: 63 * $desk + vw ;
+            white-space: nowrap;
+            float: left;
+        }
+    }
+
+    .dropdown {
+        display: table;
+        // position: absolute;
+        // left: 50%;
+        // transform: translateX(-50%);
+        // top: 3vw;background-color: white;
+        background-color: white;
+        font-family: Segoe UI;
+        font-size: 20 * $desk + vw;
+        width: 44.58333vw;
+        height: 2.96875vw;
+        margin-left: 5.20833vw;
+        margin-top: 0.78125vw;
+        box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+        .dropdown-content {
+            // display: none;
+            border: 1 * $desk + vw solid gray;
+            background-color: white;
+            height: 250 * $desk + vw;
+            font-size: 22 * $desk + vw;
+            z-index: 999;
+            overflow-y: auto;
+            // margin-top: 0.5vw;
+            font-family: RobotoSlab;
+            font-size: 16 * $desk + vw;
+            color: #aeacac;
+        }
+
+        .option {
+            // text-align: center;
+            padding: 8 * $desk + vw 20 * $desk + vw;
+            cursor: pointer;
+        }
+        .normal-option .option:hover,
+        .dropdown-content .option:hover {
+            background-color: #aeacac;
+            color: white;
+        }
+        .dropdown-header {
+            position: relative;
+            padding: 18 * $desk + vw 20 * $desk + vw;
+            cursor: pointer;
+            font-family: RobotoSlab;
+            font-size: 16 * $desk + vw;
+            color: #aeacac;
+            // border-bottom: 2 * $desk + vw solid gray;
+        }
+    }
+    .downArrow {
+        position: absolute;
+        right: 14 * $desk + vw;
+        width: 40 * $desk + vw;
+        height: 19 * $desk + vw;
+    }
+
+    .custom-drop-container3{
+        margin-bottom: 7 * $desk + vw;
+        margin-left: 20 * $desk + vw;
+        width: 1258 * $desk + vw;
+        height: 100 * $desk + vw;
+        display: flex;
+        background-color: rgba(238, 238, 238, 0.24);
+        z-index: 120;
+        .text {
+          width: 124 * $desk + vw;
+          height: 26 * $desk + vw;
+          font-family: RobotoSlab;
+          font-size: 20 * $desk + vw;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #7e7e7e;
+          padding-left: 52 * $desk + vw;
+          padding-top: 30 * $desk + vw;
+          // padding-right: 63 * $desk + vw ;
+          white-space: nowrap;
+          float: left;
+        }
+    
+        .option:hover {
+          background-color: #aeacac;
+          color: white;
+        }
+    }
+    
+}

@@ -1,0 +1,117 @@
+.Rectangle {
+  width: 70.83333vw;
+  height: 38.54167vw;
+  border-radius: 0.36458vw;
+  -webkit-box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  -webkit-box-align: inline;
+      -ms-flex-align: inline;
+          align-items: inline;
+  margin-top: 3.64583vw;
+  margin-left: 4.42708vw;
+  margin-bottom: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Rectangle .headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Rectangle .headerContainer .tt {
+  width: 6.14583vw;
+  height: 2.23958vw;
+  font-family: BebasNeue;
+  font-size: 1.875vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-top: 0.52083vw;
+  margin-left: 1.04167vw;
+}
+
+.Rectangle .headerContainer .img {
+  width: 1.95312vw;
+  height: 2.08333vw;
+  margin-top: 0.52083vw;
+  margin-left: 3.54167vw;
+  padding-top: 0vw;
+}
+
+.Rectangle .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 66.66667vw;
+  height: 2.60417vw;
+  margin-left: 2.08333vw;
+  float: left;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Rectangle .heading .h3 {
+  width: 6.45833vw;
+  height: 1.35417vw;
+  font-family: RobotoSlab;
+  font-size: 1.14583vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  color: #030303;
+  padding-top: 0.625vw;
+  white-space: nowrap;
+}
+
+.Rectangle .lineContainer {
+  width: 66.66667vw;
+  height: 30.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+}
+
+.Rectangle .t {
+  width: 5.52083vw;
+  height: 1.77083vw;
+  font-family: RobotoSlab;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  color: #646464;
+  float: right;
+  padding-right: 0.52083vw;
+}
+
+.Rectangle .hr {
+  display: block;
+  margin-top: 0.02604vw;
+  margin-bottom: 0.52083vw;
+  margin-left: 1.06771vw;
+  margin-right: 1.38021vw;
+  border-style: inset;
+  border-width: 1px;
+}
+/*# sourceMappingURL=Rectangle.css.map */

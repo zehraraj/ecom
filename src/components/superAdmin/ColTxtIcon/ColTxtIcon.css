@@ -1,0 +1,39 @@
+.ColTxtIconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.125vw;
+  width: 14.58333vw;
+  height: 3.125vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 0.52083vw;
+  margin-bottom: 4.16667vw;
+  margin-left: 4.42708vw;
+  margin-right: 35.41667vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ColTxtIconContainer .txt {
+  width: 9.89583vw;
+  height: 3.125vw;
+  font-family: BebasNeue;
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  white-space: nowrap;
+}
+
+.ColTxtIconContainer .img {
+  padding-left: 0.26042vw;
+  width: 2.08333vw;
+  height: 2.08333vw;
+}
+/*# sourceMappingURL=ColTxtIcon.css.map */

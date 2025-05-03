@@ -1,0 +1,77 @@
+@import "../../../utilities/variables";
+
+.SettingsRoootContainer {
+  // width: 1920 * $desk + vw;
+  // overflow-x: hidden !important;
+  overflow: hidden;
+  display: flex;
+  // flex-direction: row;
+  // position: absolute;
+  padding-right: 100 * $desk + vw;
+  padding-left: 100 * $desk + vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  @media only screen and (max-device-width: $other) {
+  }
+
+  @media only screen and(max-device-width:$mobile) {
+    // margin-top: 390 * $desk + vw;
+    // margin-left: 20 * $desk + vw;
+    padding-top: 50 * $desk + vw;
+    width: 100%;
+  }
+  @media only screen and(max-device-width:$other) {
+    padding-top: 50 * $desk + vw;
+    // margin-top: 300 * $desk + vw;
+    // margin-left: 20 * $desk + vw;
+    width: 100%;
+  }
+  .headerContainer {
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .innerContainerres {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    .handle {
+      margin-top: 250 * $desk + vh;
+      display: flex;
+      justify-content: space-between;
+      width: inherit;
+      // margin-bottom: 400 * $desk + vh;
+      @media only screen and(max-width:$other) {
+        width: 100%;
+      justify-content: space-around;
+      height: 1300 * $desk + vw;
+        margin-top: 200 * $desk + vw;
+        margin-left: 0 * $desk + vw;
+        flex-direction: column;
+      }
+    }
+    .handle1 {
+      margin-top: 250 * $desk + vh;
+      display: flex;
+      justify-content: space-around;
+      width: inherit;
+      // margin-bottom: 400 * $desk + vh;
+      @media only screen and(max-width:$other) {
+        width: 100%;
+        height: 1300 * $desk + vw;
+        margin-top: -299 * $desk + vw;
+        margin-left: 0 * $desk + vw;
+        flex-direction: column;
+      }
+    }
+  }
+}

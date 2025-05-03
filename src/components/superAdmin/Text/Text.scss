@@ -1,0 +1,25 @@
+$desk: 100 / 1920;
+.textContainer{
+    // margin-top: 36 * $desk + vw;
+    width: 350 * $desk + vw;
+
+    .menu{
+        width: 324 * $desk + vw;
+        height: 26 * $desk + vw;
+        font-family: RobotoSlab;
+        font-size: 20 * $desk + vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color:#ffffff;
+        padding-left: 20 * $desk + vw ;
+        padding-bottom: 22 * $desk + vw;
+        padding-top: 22 * $desk + vw;
+        // padding-right: 63 * $desk + vw ;
+        white-space: nowrap;
+        justify-content: space-evenly;
+    }   
+}

@@ -1,0 +1,30 @@
+$desk: 100 / 1920;
+.SearchContainer {
+  width: 70 * $desk + vw;
+  height: 58 * $desk + vw;
+  margin-left: 500 * $desk + vw;
+  margin-top: 31 * $desk + vw;
+
+  .inpt {
+    width: 563 * $desk + vw;
+    height: 38 * $desk + vw;
+    border-radius: 8 * $desk + vw;
+    background-color: #ffffff;
+    // box-shadow: 0 * $desk + vw 3 * $desk + vw 0 * $desk + vw 0 * $desk + vw rgba(0, 0, 0, 0.77);
+    margin-left: -5 * $desk + vw;
+  }
+
+  .img {
+    width: 20.4 * $desk + vw;
+    height: 20.4 * $desk + vw;
+    margin-top: 12 * $desk + vw;
+    float: left;
+    // position: absolute;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .SearchContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,42 @@
+.SM-Line {
+  margin-left: 1.04167vw;
+  margin-bottom: 0.36458vw;
+  width: 65.52083vw;
+  height: 5.20833vw;
+  background-color: rgba(238, 238, 238, 0.24);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SM-Line .SM-text {
+  width: 6.45833vw;
+  height: 1.35417vw;
+  font-family: RobotoSlab;
+  font-size: 1.04167vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  margin-left: 2.70833vw;
+  margin-top: 1.82292vw;
+  white-space: nowrap;
+  float: left;
+}
+
+.SM-Line .SM-addBox2 {
+  width: 44.58333vw;
+  height: 2.96875vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  margin-top: 0.88542vw;
+  margin-left: 5.20833vw;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+/*# sourceMappingURL=SocialMediaLine.css.map */

@@ -1,0 +1,21 @@
+$desk: 100 / 1920;
+
+.Wish-page-cont{
+    width: 1920 * $desk + vw;
+    height: 750 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -50 * $desk + vw;
+    margin-bottom: 10 * $desk + vw;
+
+    .all-img-cont{
+        width: 1656 * $desk + vw;
+        height: 610 * $desk + vw;
+        margin-top: 24 * $desk + vw;
+        margin-left: 84 * $desk + vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

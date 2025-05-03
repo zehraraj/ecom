@@ -1,0 +1,59 @@
+.col-container {
+  width: 99.89583vw;
+  height: 34.73958vw;
+  -webkit-box-shadow: 0 0.36458vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.36458vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.col-container .equal {
+  width: 31.25vw;
+  height: 31.25vw;
+}
+
+.col-container .coll-txt {
+  width: 17.8125vw;
+  height: 2.60417vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: Montserrat-Regular;
+  font-size: 2.08333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  margin-top: 12.23958vw;
+  margin-left: 5.20833vw;
+}
+
+.col-container .img1 {
+  width: 26.04167vw;
+  height: 34.73958vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.col-container .img2 {
+  width: 26.04167vw;
+  height: 34.73958vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 2.60417vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=HomeCollContainer.css.map */

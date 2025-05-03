@@ -1,0 +1,32 @@
+@import "../../../utilities/variables";
+
+#sidenavContainer {
+  text-decoration-color: #ffffff;
+  position: fixed;
+  float: left;
+  width: 360 * $desk + vw;
+  height: 100vh;
+  background-color: #0e0030;
+  overflow-y: auto;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  margin-top: 80 * $desk + vw;
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 80 * $desk + vh;
+    // Change "none" to "block" if you want to enable sidenav in phone
+    display: none;
+  }
+
+  .nav {
+    :hover {
+      background-color: #ffffff;
+      color: #0e0030;
+    }
+
+    :active {
+      background-color: #ffffff;
+      color: #0e0030;
+    }
+  }
+}

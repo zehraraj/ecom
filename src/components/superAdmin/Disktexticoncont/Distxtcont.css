@@ -1,0 +1,40 @@
+.diss-textIconContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.64583vw;
+  width: 18.75vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 0.67708vw;
+  margin-bottom: 1.04167vw;
+  margin-left: 4.42708vw;
+  margin-right: 31.77083vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.diss-textIconContainer2 .txt {
+  width: 16.14583vw;
+  height: 3.125vw;
+  font-family: BebasNeue;
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  margin-top: 1.04167vw;
+  white-space: nowrap;
+}
+
+.diss-textIconContainer2 .imgdiss {
+  padding-left: 0vw;
+  width: 2.08333vw;
+  height: 2.08333vw;
+  padding-top: 0.52083vw;
+}
+/*# sourceMappingURL=Distxtcont.css.map */

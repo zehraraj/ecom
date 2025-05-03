@@ -1,0 +1,341 @@
+$desk: 100 / 1920;
+
+.maim-img{
+    width: 400 * $desk + vw;
+    height: 640 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .img-box1{
+        width: 300 * $desk + vw;
+        height: 440 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0 * $desk + vw;
+        margin-top: -10 * $desk + vw;
+
+        // box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        
+        .img{
+            
+            width: 339* $desk + vw;
+            height: 450* $desk + vw;
+            object-fit: contain;
+            margin-top: 0 * $desk + vw;
+            margin-left: 0 * $desk + vw;
+        }
+    }
+
+    .img-box{
+        width: 300 * $desk + vw;
+        height: 240 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0 * $desk + vw;
+        margin-top: -10 * $desk + vw;
+
+        // box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+
+
+        .btn-cont{
+            width: 367 * $desk + vw;
+            height: 53* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 20* $desk + vw;
+
+            .bttn1{
+                width: 337* $desk + vw;
+                height: 53* $desk + vw;     
+                border-radius: 5* $desk + vw;    
+                box-shadow: 0 5* $desk + vw 5* $desk + vw 0 rgba(0, 0, 0, 0.1);
+                background-color: #ffffff;
+                margin-top: 105 * $desk +vw;
+
+                .btn-txt{
+                    width: 140 * $desk + vw;
+                    height: 36* $desk + vw;
+                    font-family: BebasNeue;
+                    font-size: 30* $desk + vw;
+                    font-weight: lighter;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.2;
+                    letter-spacing: normal;
+                    text-align: left;         
+                    color: #0e0030;
+                    white-space: nowrap;
+                    margin-left: 100* $desk + vw;
+                    margin-top: 15* $desk + vw;
+                }
+            }
+        
+        }
+
+        .p-txt-cont{
+            width: 337 * $desk + vw;
+            height: 100 * $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: -60 * $desk + vw;
+            margin-left: 10 * $desk + vw;
+
+        
+            .txt1{
+                width: 109* $desk + vw;
+                height: 33* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 25* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.32;
+                letter-spacing: normal;
+                text-align: left;         
+                color: #0e0030;
+                white-space: nowrap;
+            }
+            .txt2{
+                width: 256* $desk + vw;
+                height: 33* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 25* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.32;
+                letter-spacing: normal;
+                text-align: left;         
+                color: #afafaf;
+                white-space: nowrap;
+            }
+
+            .iner-txt{
+                width: 337 * $desk + vw;
+                height: 29 * $desk + vw;  
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .txt1{
+                    width: 74* $desk + vw;
+                    height: 29* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 20* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.32;
+                    letter-spacing: normal;
+                    text-align: left;         
+                    color: #afafaf;
+                    text-decoration: line-through;
+                    white-space: nowrap;
+                    margin-top: 10 * $desk + vw;
+
+                }
+                .txt2{
+                    width: 74* $desk + vw;
+                    height: 29* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 20* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.32;
+                    letter-spacing: normal;
+                    text-align: left;         
+                    color: #afafaf;
+                    white-space: nowrap;
+                    margin-top: 10 * $desk + vw;
+                    margin-left: 10 * $desk + vw;
+                }
+                .txt3{
+                    width: 117* $desk + vw;
+                    height: 33* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 23* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.32;
+                    letter-spacing: normal;
+                    text-align: left;         
+                    color: #ff2753;
+                    white-space: nowrap;
+                    margin-top: 7 * $desk + vw;
+                    margin-left: 10 * $desk + vw;
+                }
+            }
+        }
+
+        .heart{
+            color: grey;
+            margin-top: -95 * $desk + vw;
+            margin-left: 297 * $desk + vw;
+        }
+        .heart:hover{
+
+            color: #EC3775;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .maim-img{
+        width: 890 * $desk + vw;
+        height: 1590 * $desk + vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 45 * $desk + vw;
+
+        .img-box1{
+            width: 890 * $desk + vw;
+            height: 990 * $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-left: 0 * $desk + vw;
+            margin-top: -10 * $desk + vw;
+        
+            // box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color: #ffffff;
+            
+            .img{
+                
+                width: 890* $desk + vw;
+                height: 1090* $desk + vw;
+                object-fit: contain;
+                margin-top: 0 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+            }
+        }
+        .img-box{
+            width: 890 * $desk + vw;
+            height: 390 * $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-left:50 * $desk + vw;
+            margin-top: 0 * $desk + vw;
+        
+            // box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color: #ffffff;
+            
+            .btn-cont{
+                display: none;
+            }
+        
+            .p-txt-cont{
+                width: 480 * $desk + vw;
+                height: 150 * $desk + vw;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                margin-top: 30 * $desk + vw;
+                margin-left: 10 * $desk + vw;
+        
+            
+                .txt1{
+                    width: 159* $desk + vw;
+                    height: 60* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 65* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.32;
+                    letter-spacing: normal;
+                    text-align: left;         
+                    color: #0e0030;
+                    white-space: nowrap;
+                }
+                .txt2{
+                    width: 256* $desk + vw;
+                    height: 60* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 60* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.32;
+                    letter-spacing: normal;
+                    text-align: left;         
+                    color: #afafaf;
+                    white-space: nowrap;
+                }
+        
+                .iner-txt{
+                    width: 780 * $desk + vw;
+                    height: 29 * $desk + vw;  
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+        
+                    .txt1{
+                        width: 230* $desk + vw;
+                        height: 35* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 48* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.32;
+                        letter-spacing: normal;
+                        text-align: left;         
+                        color: #afafaf;
+                        text-decoration: line-through;
+                        white-space: nowrap;
+                        margin-top: 10 * $desk + vw;
+        
+                    }
+                    .txt2{
+                        width: 250* $desk + vw;
+                        height: 35* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 48* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.32;
+                        letter-spacing: normal;
+                        text-align: left;         
+                        color: #afafaf;
+                        white-space: nowrap;
+                        margin-top: 10 * $desk + vw;
+                        margin-left: 10 * $desk + vw;
+                    }
+                    .txt3{
+                        width: 16* $desk + vw;
+                        height: 38* $desk + vw;
+                        font-family: Montserrat-Regular;
+                        font-size: 47* $desk + vw;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.32;
+                        letter-spacing: normal;
+                        text-align: left;         
+                        color: #ff2753;
+                        white-space: nowrap;
+                        margin-top: 7 * $desk + vw;
+                        margin-left: 0 * $desk + vw;
+                    }
+                }
+            }
+        }
+        .heart{
+            display: none;
+        }
+    }
+
+}

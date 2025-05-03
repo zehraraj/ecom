@@ -1,0 +1,45 @@
+$desk: 100/1920;
+
+.checkbox {
+  cursor: pointer;
+  width: fit-content;
+  border: 1 * $desk + vw solid #707070;
+  border-radius: 100 * $desk + vw;
+  padding-left: 5 * $desk + vw;
+  padding-right: 5 * $desk + vw;
+  margin-left: 10 * $desk + vw;
+  margin-right: 10 * $desk + vw;
+  margin-top: 10 * $desk + vw;
+  margin-bottom: 10 * $desk + vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .tickCircle {
+    border: 1 * $desk + vw solid #707070;
+    border-radius: 100vh;
+    width: 18 * $desk + vw;
+    height: 18 * $desk + vw;
+  }
+  .checkboxText {
+    font-weight: thin;
+    font-size: 20 * $desk + vw;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    padding-left: 20 * $desk + vw;
+    padding-right: 20 * $desk + vw;
+    padding-top: 6 * $desk + vw;
+    padding-bottom: 6 * $desk + vw;
+    color: #aeacac;
+  }
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+  }
+  .activate {
+    background-color: #0e0030;
+  }
+}

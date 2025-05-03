@@ -1,0 +1,75 @@
+$desk: 100 / 1920;
+
+.Button {
+  width: 200* $desk + vw;
+  height: 50* $desk + vw;
+  outline-style: solid;
+  outline-color: #d5d3da;
+  outline-width: 1px;
+  background-color: #ffffff;
+  margin-top: -60* $desk + vw;
+  margin-left: 40 * $desk + vw;
+  box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+
+
+  .txt{
+    font-family: BebasNeue;
+    font-size: 30* $desk + vw;
+    font-weight: lighter;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.80;
+    letter-spacing: normal;
+    color: #0e0030;
+    text-decoration: none !important; 
+    text-align: center;       
+  }
+}
+
+.Button:hover{
+  background-color: #0e0030;
+  box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+
+}
+.txt:hover{
+  color:#ffffff
+}
+
+@media screen and (max-width: 480px) {
+  .Button {
+    width: 500* $desk + vw;
+    height: 150* $desk + vw;
+    outline-style: solid;
+    outline-color: #d5d3da;
+    outline-width: 0px;
+    background-color: #ffffff;
+    margin-top: 50* $desk + vw;
+    margin-left: 600 * $desk + vw;
+    box-shadow: 10* $desk + vw 15* $desk + vw 16* $desk + vw 10* $desk + vw rgba(0, 0, 0, 0.16);
+  
+  
+    .txt{
+      font-family: BebasNeue;
+      font-size: 100* $desk + vw;
+      font-weight: lighter;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.80;
+      letter-spacing: normal;
+      color: #0e0030;
+      text-decoration: none !important; 
+      text-align: center;     
+      margin-top: 50* $desk + vw;  
+    }  
+  }
+
+  .Button:hover{
+    background-color: #0e0030;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+
+  }
+
+  .txt:hover{
+    color:#ffffff
+  }
+}

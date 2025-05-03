@@ -1,0 +1,69 @@
+.i-flex-container {
+  width: 100vw;
+  height: 46.875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: fixed;
+}
+
+.i-flex-container .p-contentContainer {
+  position: relative;
+  height: 52.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20.20833vw;
+  margin-top: 4.79167vw;
+  margin-bottom: 3.90625vw;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+.i-flex-container .p-innerContainer {
+  width: 79.6875vw;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  float: left;
+}
+
+.i-flex-container .p-headerContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: left;
+  height: 3.125vw;
+}
+
+.i-flex-container .p-headerContainer .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Inventory.css.map */

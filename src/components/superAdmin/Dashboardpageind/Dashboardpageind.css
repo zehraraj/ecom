@@ -1,0 +1,38 @@
+.dpage1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 1.04167vw;
+}
+
+.dpage1 .pagination-txt {
+  width: 0.52083vw;
+  height: 1.5625vw;
+  font-size: 1.19792vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #060606;
+  margin-top: 0vw;
+  margin-left: 0.26042vw;
+  margin-right: 0.26042vw;
+}
+
+.dpage1 img {
+  height: 1.04167vw;
+}
+/*# sourceMappingURL=Dashboardpageind.css.map */

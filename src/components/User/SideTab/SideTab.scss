@@ -1,0 +1,88 @@
+@import "../../../utilities/variables";
+
+#sidenavCont{
+  text-decoration-color: #ffffff;
+  position: fixed;
+  float: left;
+  width: 360 * $desk + vw;
+  height: 100vh;
+  background-color: #0e0030;
+  overflow-y: auto;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  // margin-top: 85 * $desk + vw;
+  @media only screen and (max-width: $other) {
+    display: none;
+  }
+
+  .nav {
+    :hover {
+      background-color: #ffffff;
+      color: #0e0030;
+    }
+
+    :active {
+      background-color: #ffffff;
+      color: #0e0030;
+    }
+  }
+}
+
+.Tabcontainer {
+  width: 350 * $desk + vw;
+  height: 840 * $desk + vw;
+  margin-left:0 * $desk + vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: $other) {
+    display: none;
+  }
+  
+    
+  .tabtxt {
+    width: 350.6 * $desk + vw;
+    height: 840 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+
+    .txt {
+      width: 180 * $desk + vw;
+      height: 28 * $desk + vw;
+      font-family: Montserrat-Regular;
+      font-size: 21 * $desk + vw;
+      // padding-left: 126 * $desk + vw;
+      margin-top: 91 * $desk + vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      // line-height: 1.31 * $desk + vw;
+      letter-spacing: normal;
+      text-align: left;
+      color: #0e0030;
+      white-space: nowrap;
+      margin-bottom: 0 * $desk + vw;
+    }
+
+    .hr1 {
+      display: block;
+      margin-bottom: 0 * $desk + vw;
+      margin-left: 0 * $desk + vw;
+      margin-right: 18.7 * $desk + vw;
+      border-style: inset;
+      border-width: 1px;
+    }
+  }
+
+  .hr2 {
+    display: block;
+    margin-top: 12 * $desk + vw;
+    margin-bottom: 170 * $desk + vw;
+    // margin-left: 126.5 * $desk + vw;
+    // margin-right: 158.7 * $desk + vw;
+    border-style: inset;
+    border-width: 1px;
+  }
+}
+
+

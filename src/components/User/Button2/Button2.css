@@ -1,0 +1,38 @@
+.Button2 {
+  width: 10.41667vw;
+  height: 2.60417vw;
+  outline-style: solid;
+  outline-color: #d5d3da;
+  outline-width: 1px;
+  background-color: #ffffff;
+  margin-left: 34.89583vw;
+  margin-top: 1.71875vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  text-decoration: none !important;
+}
+
+.Button2 .btntxt {
+  font-family: BebasNeue;
+  font-size: 1.5625vw;
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  color: #0e0030;
+  text-decoration: none !important;
+  padding-bottom: 0.52083vw;
+  text-align: center;
+}
+
+.Button2:hover {
+  background-color: #0e0030;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+}
+
+.btntxt:hover {
+  color: #ffffff;
+}
+/*# sourceMappingURL=Button2.css.map */

@@ -1,0 +1,22 @@
+$desk: 100 / 1920;
+.Usrimg {
+  float: left;
+  background: url("/home/suchit/Desktop/React/ecom/src/static/Invetry1.png");
+  width: 182.9 * $desk + vw;
+  height: 50 * $desk + vw;
+  object-fit: fill;
+  // padding-left: 32 * $desk + vw;
+  // padding-top: 24 * $desk + vw;
+  margin-left: 32 * $desk + vw;
+  margin-top: 8 * $desk + vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .Usrimg {
+    // width: 500 * $desk + vw;
+    // height: 300 * $desk + vw;
+    // margin-left: 350 * $desk + vw;
+    // margin-top: 500 * $desk + vw;
+    display: none;
+  }
+}

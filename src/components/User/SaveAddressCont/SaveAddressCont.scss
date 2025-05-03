@@ -1,0 +1,361 @@
+$desk: 100 / 1920;
+
+.Addresscont {
+    width: 1191* $desk + vw;
+    height: 305* $desk + vw;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 40 * $desk + vw;
+    margin-left: 40 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+
+    .datacont{
+        width: 330* $desk + vw;
+        height: 310* $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        .namecont{
+            width: 330* $desk + vw;
+            height: 35* $desk + vw;
+            margin-top: 15 * $desk + vw;
+            margin-left: 50 * $desk + vw;
+
+            .name{
+                width: 256* $desk + vw;
+                height: 35* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 23* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #707070;
+                margin-left: 20* $desk + vw ;
+                white-space: nowrap;
+            }
+        }
+
+        .addresscont{
+            width: 330* $desk + vw;
+            height: 140* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 15 * $desk + vw;
+            margin-left: 50 * $desk + vw;
+
+            .address{
+                width: 256* $desk + vw;
+                height: 35* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 23* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #707070;
+                margin-left: 20* $desk + vw ;
+                margin-top: 0* $desk + vw ;
+                white-space: nowrap;
+            }
+        }
+
+        .numcont{
+            width: 330* $desk + vw;
+            height: 35* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 15 * $desk + vw;
+            margin-left: 50 * $desk + vw;
+
+            .num1{
+                width: 100* $desk + vw;
+                height: 35* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 23* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #707070;
+                margin-left: 20* $desk + vw ;
+                margin-top: -5* $desk + vw ;
+                white-space: nowrap;
+            }
+            .num2{
+                width: 100* $desk + vw;
+                height: 35* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 23* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: left;
+                color: #707070;
+                margin-left: 20* $desk + vw ;
+                white-space: nowrap;
+            }
+        }
+        
+
+    }
+
+    .hr { 
+        display: block;
+        margin-top: 0 * $desk + vw;
+        margin-bottom: 0 * $desk + vw;
+        margin-left: 0 * $desk + vw;
+        margin-right: 0 * $desk + vw;
+        border-style: inset;
+        border-width: 1px;
+        border-color: #dad8d8;
+    }
+
+    .container3{
+        width: 1191* $desk + vw;
+        height: 63* $desk + vw;
+        display: flex;
+        flex-direction: row;
+        margin-left:0 * $desk + vw;
+        margin-top:0 * $desk + vw;
+
+        .txt1{
+            width: 48* $desk + vw;
+            height: 28* $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 20* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0e0030;
+            margin-right:363 * $desk + vw;
+            margin-left:193 * $desk + vw;
+            margin-top:10 * $desk + vw;
+            white-space: nowrap;
+        }
+
+        .txt2{
+            width: 48* $desk + vw;
+            height: 28* $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 20* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: left;
+            color: #0e0030;
+            margin-top:10 * $desk + vw;
+            margin-left:250 * $desk + vw;
+            white-space: nowrap;
+        }
+
+        .hr { 
+            display: block;
+            margin-top: 0 * $desk + vw;
+            margin-bottom: 0 * $desk + vw;
+            margin-left: 0 * $desk + vw;
+            margin-right: 0 * $desk + vw;
+            border-style: inset;
+            border-width: 1* $desk + vw;
+            border-color: #dad8d8;
+        }
+        .nav {
+            text-decoration: none !important;
+        }
+    }
+
+    .container4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .Addresscont {
+        width: 80%;
+        height: 605* $desk + vw;
+        box-shadow: 10* $desk + vw 15* $desk + vw 16* $desk + vw 10* $desk + vw rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-top: 40 * $desk + vw;
+        margin-left: 180 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+
+        .datacont{
+            width: 100%;
+            height: 510* $desk + vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+            .namecont{
+                width: 80%;
+                height: 60* $desk + vw;
+                margin-top: 15 * $desk + vw;
+                margin-left: 50 * $desk + vw;
+
+                .name{
+                    width: 256* $desk + vw;
+                    height: 60* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 60* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #707070;
+                    margin-left: 20* $desk + vw ;
+                    white-space: nowrap;
+                }
+            }
+
+            .addresscont{
+                width: 80%;
+                height: 230* $desk + vw;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                margin-top: 50 * $desk + vw;
+                margin-left: 50 * $desk + vw;
+
+                .address{
+                    width: 256* $desk + vw;
+                    height: 50* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 50* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #707070;
+                    margin-left: 20* $desk + vw ;
+                    margin-top: 0* $desk + vw ;
+                    white-space: nowrap;
+                }
+            }
+
+            .numcont{
+                width: 80%;
+                height: 50* $desk + vw;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 40 * $desk + vw;
+                margin-left: 50 * $desk + vw;
+
+                .num1{
+                    width: 200* $desk + vw;
+                    height: 50* $desk + vw;
+                    font-family: Montserrat-Regular;
+                    font-size: 50* $desk + vw;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.3;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #707070;
+                    margin-left: 20* $desk + vw ;
+                    margin-top: -5* $desk + vw ;
+                    white-space: nowrap;
+                }
+            }
+            
+
+        }
+
+        .hr { 
+            display: block;
+            margin-top: 0 * $desk + vw;
+            margin-bottom: 0 * $desk + vw;
+            margin-left: 0 * $desk + vw;
+            margin-right: 0 * $desk + vw;
+            border-style: inset;
+            border-width: 1px;
+            border-color: #dad8d8;
+        }
+
+        .container3{
+            display: none;
+        }
+
+        .container4{
+            width: 100%;
+            height: 63* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            margin-left:0 * $desk + vw;
+            margin-top:0 * $desk + vw;
+
+            .txt1{
+                width: 48* $desk + vw;
+                height: 48* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 40* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                margin-right:363 * $desk + vw;
+                margin-left:330 * $desk + vw;
+                margin-top:10 * $desk + vw;
+                white-space: nowrap;
+            }
+
+            .txt2{
+                width: 48* $desk + vw;
+                height: 48* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 40* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: left;
+                color: #0e0030;
+                margin-top:10 * $desk + vw;
+                margin-left:200 * $desk + vw;
+                white-space: nowrap;
+            }
+
+            .hr { 
+                display: block;
+                margin-top: 0 * $desk + vw;
+                margin-bottom: 0 * $desk + vw;
+                margin-left: 0 * $desk + vw;
+                margin-right: 0 * $desk + vw;
+                border-style: inset;
+                border-width: 1* $desk + vw;
+                border-color: #dad8d8;
+            }
+            .nav {
+                text-decoration: none !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+$desk: 100 / 1920;
+
+.Product-page-container{
+    width: 100%;
+    height: 100%/*1000 * $desk + vw*/;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+
+    .content-container{
+        width: 100%;
+        height: 100%/*908 * $desk + vw*/;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        overflow-y: auto;
+        overflow-x: hidden!important;
+        margin-top: 70 * $desk + vw;
+    }
+
+    .nav{
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Product-page-container{
+        width: 100%;
+        height: 100vh/*1000 * $desk + vw*/;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: fixed;
+    
+        .content-container{
+            width: 100%;
+            height: 100vh/*908 * $desk + vw*/;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            overflow-y: auto;
+            overflow-x: hidden!important;
+            margin-top: 70 * $desk + vw;
+        }
+    
+        .nav{
+            text-decoration: none;
+        }
+    }
+}

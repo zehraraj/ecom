@@ -1,0 +1,100 @@
+@import "../../../utilities/variables";
+
+.sdfdsfsdf {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  font-weight: 400;
+  justify-content: center;
+
+  .img-container {
+    width: 1182 * $desk + vw;
+    height: 100vh;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    @media only screen and (max-device-width: $other) {
+      display: none;
+    }
+  }
+
+  .right-container {
+    width: 738 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-device-width: $other) {
+      width: 1000 * $desk + vw;
+    }
+    .error {
+      margin-top: 30 * $desk + vw;
+      color: red;
+    }
+
+    .form-container {
+      width: 450 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media only screen and (max-device-width: $other) {
+        width: 100%;
+      }
+      .title {
+        // width: fit-content;
+        display: flex;
+        justify-content: center;
+      }
+      .bottom-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 90 * $desk + vw;
+        .right-bottom {
+          display: flex;
+          // justify-content: flex-end;
+          align-items: flex-end;
+          flex-direction: column;
+          .submit-button-container {
+            // margin-left: 50 * $desk + vw;
+            width: 155 * $desk + vw;
+            height: 52 * $desk + vw;
+            background-color: #2029a0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20 * $desk + vw;
+            cursor: pointer;
+            @media only screen and (max-device-width: $other) {
+              font-size: 50 * $desk + vw;
+              width: 500 * $desk + vw;
+              height: 132 * $desk + vw;
+              margin-left: 290 * $desk + vw;
+              // border-radius: 5px;
+            }
+            h3 {
+              font-size: inherit;
+              font-family: inherit;
+              font-weight: inherit;
+              color: white;
+            }
+          }
+
+          .a-user {
+            margin-top: 12 * $desk + vw;
+            font-size: 20 * $desk + vw;
+            color: #ff094c;
+            cursor: pointer;
+            @media only screen and (max-device-width: $other) {
+              font-size: 45 * $desk + vw;
+              margin-top: 40 * $desk + vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

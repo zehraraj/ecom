@@ -1,0 +1,72 @@
+$desk: 100 / 1920;
+
+.PD-flex-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1920 * $desk + vw;
+    height: 1000 * $desk + vw;
+    overflow: hidden;
+    
+    .content-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top:80* $desk +vw;
+        overflow-y: scroll;
+        overflow-x: hidden !important;
+        width: 1920 * $desk + vw;
+        height: 908 * $desk + vw;
+    }
+
+    .content-container1{
+        position: relative;
+        // margin-left: 430 * $desk +vw ;
+        margin-top:50 * $desk +vw;
+        width: 1920 * $desk + vw; 
+        height: 500 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .content-container2{
+        position: relative;
+        margin-left: 30 * $desk +vw ;
+        margin-top:50 * $desk +vw;
+        width: 1440 * $desk + vw;
+        height: 750 * $desk + vw;
+    }
+
+    .mob-content-container{
+        position: relative;
+        margin-left: 10 * $desk +vw ;
+        margin-top:50 * $desk +vw;
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .PD-flex-container{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        
+        .content-container{
+            display: none;
+        }
+    
+        .mob-content-container{
+            display: block;
+        }
+    }
+}

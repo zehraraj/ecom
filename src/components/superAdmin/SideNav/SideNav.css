@@ -1,0 +1,31 @@
+#sidenavContainer {
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+  position: fixed;
+  float: left;
+  width: 18.75vw;
+  height: 100vh;
+  background-color: #0e0030;
+  overflow-y: auto;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  margin-top: 4.16667vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  #sidenavContainer {
+    margin-top: 4.16667vh;
+    display: none;
+  }
+}
+
+#sidenavContainer .nav :hover {
+  background-color: #ffffff;
+  color: #0e0030;
+}
+
+#sidenavContainer .nav :active {
+  background-color: #ffffff;
+  color: #0e0030;
+}
+/*# sourceMappingURL=SideNav.css.map */

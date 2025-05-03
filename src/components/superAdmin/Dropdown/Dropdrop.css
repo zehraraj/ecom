@@ -1,0 +1,186 @@
+.dropdown-root-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0.10417vw;
+  background-color: #fbfbfb;
+  font-size: 1.04167vw;
+  margin-bottom: 0.52083vw;
+  padding-left: 5.20833vw;
+  padding-right: 1.04167vw;
+  padding-top: 1.5625vw;
+  padding-bottom: 1.5625vw;
+  width: inherit;
+}
+
+.dropdown-root-div .dropdown-content-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.dropdown-root-div .dropdown-content-div .text {
+  margin-top: 0.46875vw;
+  width: 11.97917vw;
+  color: #7e7e7e;
+  white-space: nowrap;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .dropdown-root-div .dropdown-content-div .text {
+    font-size: 1.30208vw;
+    margin-top: 0.78125vw;
+  }
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper {
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  width: 43.75vw;
+  position: relative;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .dropdown-root-div .dropdown-content-div .wrapper {
+    width: 62.5vw;
+  }
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .error {
+  border: 1px solid red;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .dropdownBox {
+  width: 100%;
+  height: 2.60417vw;
+  border: 5px black solid;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  padding-left: 1.04167vw;
+  padding-right: 1.04167vw;
+  background-color: #ffffff;
+  font-family: inherit;
+  font-size: 0.83333vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .dropdown-root-div .dropdown-content-div .wrapper .inputIcon .dropdownBox {
+    height: 3.90625vw;
+    font-size: 1.19792vw;
+  }
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .inputBox::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .inputBox:-ms-input-placeholder {
+  color: #777777;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .inputBox::-ms-input-placeholder {
+  color: #777777;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .inputBox::placeholder {
+  color: #777777;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .icon {
+  right: 1.04167vw;
+  top: 0.83333vw;
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .dropdown-root-div .dropdown-content-div .wrapper .inputIcon .icon {
+    top: 1.40625vw;
+  }
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .inputIcon .icon img {
+  position: absolute;
+  height: 1.04167vw;
+  position: relative;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .none {
+  display: none;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .optionContainer {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #7e7e7e;
+  z-index: 50;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .optionContainer .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding-top: 1.04167vw;
+  padding-bottom: 1.04167vw;
+}
+
+.dropdown-root-div .dropdown-content-div .wrapper .optionContainer .option:hover {
+  background-color: #0e0030;
+  color: white;
+}
+
+.dropdown-root-div .dropdown-error-div {
+  width: 100%;
+  margin-top: 0.52083vw;
+}
+
+.dropdown-root-div .dropdown-error-div .dropdown-error-text {
+  width: auto;
+  margin-left: 12.5vw;
+  text-transform: capitalize;
+  font-size: 0.78125vw;
+  color: red;
+}
+/*# sourceMappingURL=Dropdrop.css.map */

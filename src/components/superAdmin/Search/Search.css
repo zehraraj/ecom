@@ -1,0 +1,73 @@
+.Search-root {
+  position: relative;
+  width: 26.04167vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: space-between;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Search-root {
+    width: 41.66667vw;
+  }
+}
+
+.Search-root .search-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.05208vw #c9c9c9 solid;
+  padding-left: 0.52083vw;
+  padding-bottom: 0.26042vw;
+  width: 26.04167vw;
+  height: 100%;
+  color: #575757;
+  font-size: 0.88542vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Search-root .search-input {
+    width: 41.66667vw;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .Search-root .search-input {
+    font-size: 0.88542vh;
+    padding-bottom: 0.78125vw;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .Search-root .search-input {
+    font-size: 1.04167vw;
+    padding-bottom: 0.78125vw;
+  }
+}
+
+.Search-root .search-icon-div {
+  position: absolute;
+  left: 23.95833vw;
+  bottom: 0.41667vw;
+  float: right;
+  cursor: pointer;
+  height: 1.5625vw;
+}
+
+.Search-root .search-icon-div .search-icon {
+  position: absolute;
+  height: 1.5625vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Search-root .search-icon-div .search-icon {
+    left: 15.625vw;
+    bottom: 0.26042vh;
+  }
+}
+/*# sourceMappingURL=Search.css.map */

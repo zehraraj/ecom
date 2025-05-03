@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Main1 {
+  height: auto;
+  width: 100%;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.Main1 .header {
+  margin-top: 0.26042vw;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+}
+
+.Main1 .voucher-txt1 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 5.20833vw;
+}
+
+.Main1 .voucher-txt2 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 10.41667vw;
+}
+
+.Main1 .voucher-txt3 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 7.8125vw;
+}
+
+.Main1 .voucher-txt4 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 9.375vw;
+}
+
+.Main1 .voucher-txt5 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 9.375vw;
+}
+
+.Main1 .voucher-txt6 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 9.375vw;
+}
+
+.Main1 .voucher-txt7 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 9.375vw;
+}
+
+.Main1 .voucher-8 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 5.20833vw;
+}
+
+.Main1 .heading {
+  margin-left: 1.04167vw;
+  margin-right: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 3.125vw;
+  margin-top: 1.82292vw;
+  color: #646464;
+  font-size: 1.14583vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=VoucherRect.css.map */

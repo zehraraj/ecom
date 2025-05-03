@@ -1,0 +1,16 @@
+$desk: 100 / 1920;
+
+.logo{
+    width: 180 * $desk + vw;
+    height: 60 * $desk + vw;
+    font-family: BebasNeue;
+    font-size: 50 * $desk + vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 75 * $desk + vw;
+}

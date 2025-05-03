@@ -1,0 +1,58 @@
+.MultiImageInputRootContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 200px;
+  border: thin solid peru;
+  width: auto;
+}
+
+.MultiImageInputRootContainer .labelInputContainer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 7.8125vw;
+  margin-right: 15.625vw;
+}
+
+.MultiImageInputRootContainer .labelInputContainer .inputLabel {
+  font-size: 1.25vw;
+  text-transform: capitalize;
+}
+
+.MultiImageInputRootContainer .labelInputContainer .imageInputCollection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 31.25vw;
+}
+
+.MultiImageInputRootContainer .labelInputContainer .imageInputCollection .imageInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 7.8125vw;
+  width: 6.25vw;
+  border: 1px solid black;
+}
+
+.MultiImageInputRootContainer .labelInputContainer .imageInputCollection .imageInput .addImageDiv {
+  cursor: pointer;
+}
+/*# sourceMappingURL=MultiImageInput.css.map */

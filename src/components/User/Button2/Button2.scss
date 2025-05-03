@@ -1,0 +1,39 @@
+$desk: 100 / 1920;
+
+.Button2 {
+    width: 200* $desk + vw;
+    height: 50* $desk + vw;
+    outline-style: solid;
+    outline-color: #d5d3da;
+    outline-width: 1px;
+    background-color: #ffffff;
+    margin-left: 670* $desk + vw;
+    margin-top: 33* $desk + vw;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+    text-decoration: none !important;
+
+
+    .btntxt{
+        font-family: BebasNeue;
+        font-size: 30* $desk + vw;
+        font-weight: lighter;
+        font-stretch: normal;
+        font-style: normal; 
+        line-height: 1.7;
+        letter-spacing: normal;
+        color: #0e0030;
+        text-decoration: none !important;
+        padding-bottom: 10 * $desk + vw ;
+        // margin-left: 83* $desk + vw;
+        text-align: center; 
+    }
+  }
+
+  .Button2:hover{
+    background-color: #0e0030;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+
+  }
+  .btntxt:hover{
+    color:#ffffff
+  }

@@ -1,0 +1,98 @@
+.Av-flex-container {
+  width: 100vw;
+  height: 46.875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: fixed;
+}
+
+.Av-flex-container .Av-contentContainer {
+  position: relative;
+  height: 52.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20.20833vw;
+  margin-top: 4.79167vw;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+.Av-flex-container .Av-contentContainer .Av-innerContainer {
+  width: 79.6875vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  float: left;
+}
+
+.Av-flex-container .Av-contentContainer .Av-headerContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: left;
+  height: 3.125vw;
+  margin-top: 1.04167vw;
+}
+
+.Av-flex-container .Av-contentContainer .Av-headerContainer .nav {
+  text-decoration: none;
+}
+
+.Av-flex-container .Av-contentContainer .save {
+  width: 70.83333vw;
+  height: 4.47917vw;
+  border-radius: 0.36458vw;
+  -webkit-box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-left: 4.42708vw;
+  margin-bottom: 2.60417vw;
+  margin-top: 0vw;
+  position: relative;
+}
+
+.Av-flex-container .Av-contentContainer .save .txtsave {
+  width: 10.36458vw;
+  height: 1.77083vw;
+  font-family: RobotoSlab;
+  font-size: 1.35417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 30.20833vw;
+  margin-top: 1.35417vw;
+}
+/*# sourceMappingURL=AddVariant.css.map */

@@ -1,0 +1,69 @@
+.pro-edit-rect .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.pro-edit-rect .headtitle {
+  width: 16.71875vw;
+  height: 2.76042vw;
+  font-family: Montserrat-Regular;
+  font-size: 2.08333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 2.08333vw;
+  margin-bottom: 0.78125vw;
+  margin-top: 2.60417vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  .pro-edit-rect .headtitle {
+    width: 37.55208vw;
+    height: 5.20833vw;
+    font-family: Montserrat-Regular;
+    font-size: 5.20833vw;
+    font-weight: normal;
+    text-align: left;
+    color: #0e0030;
+    margin-top: 2.60417vw;
+    margin-bottom: 0.78125vw;
+    margin-left: 2.08333vw;
+  }
+}
+
+.pro-edit-rect .hr {
+  display: block;
+  margin-top: 0.10417vw;
+  margin-bottom: 0.02604vw;
+  margin-left: 2.08333vw;
+  margin-right: 2.64063vw;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.pro-edit-rect .line-container {
+  width: 67.23958vw;
+  height: 38.02083vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.52083vw;
+}
+
+.pro-edit-rect .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=ProEditRect.css.map */

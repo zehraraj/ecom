@@ -1,0 +1,60 @@
+.checkbox {
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0.05208vw solid #707070;
+  border-radius: 5.20833vw;
+  padding-left: 0.26042vw;
+  padding-right: 0.26042vw;
+  margin-left: 0.52083vw;
+  margin-right: 0.52083vw;
+  margin-top: 0.52083vw;
+  margin-bottom: 0.52083vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkbox .tickCircle {
+  border: 0.05208vw solid #707070;
+  border-radius: 100vh;
+  width: 0.9375vw;
+  height: 0.9375vw;
+}
+
+.checkbox .checkboxText {
+  font-weight: thin;
+  font-size: 1.04167vw;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  padding-left: 1.04167vw;
+  padding-right: 1.04167vw;
+  padding-top: 0.3125vw;
+  padding-bottom: 0.3125vw;
+  color: #aeacac;
+}
+
+.checkbox .noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+.checkbox .activate {
+  background-color: #0e0030;
+}
+/*# sourceMappingURL=Checkbox.css.map */

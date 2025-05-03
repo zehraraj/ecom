@@ -1,0 +1,120 @@
+.gen {
+  width: 67.23958vw;
+  height: 5.20833vw;
+  background-color: #ffffff;
+  margin-top: 2.08333vw;
+  margin-left: 2.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.gen .txt {
+  width: 67.23958vw;
+  height: 1.51042vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.14583vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  white-space: nowrap;
+}
+
+.gen .input-cont1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gen .input-cont1 .input-cont2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin-left: 0.52083vw;
+  margin-top: 1.04167vw;
+  width: 5.20833vw;
+}
+
+.gen .input-cont1 .input-cont2 .txt1 {
+  width: 2.60417vw;
+  height: 1.51042vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.14583vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  white-space: nowrap;
+  margin-left: 0.52083vw;
+  margin-top: 0.15625vw;
+}
+
+.gen .input-cont1 .input-cont3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin-left: 0.52083vw;
+  margin-top: 1.04167vw;
+  width: 6.25vw;
+}
+
+.gen .input-cont1 .input-cont3 .txt1 {
+  width: 2.60417vw;
+  height: 1.51042vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.14583vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  white-space: nowrap;
+  margin-left: 0.52083vw;
+  margin-top: 0.15625vw;
+}
+
+.gen .ip {
+  width: 0.9375vw;
+  height: 0.9375vw;
+  border-radius: 0.83333vw;
+  border: solid 0.05208vw #707070;
+  background-color: #ffffff;
+  margin-top: 0.52083vw;
+}
+/*# sourceMappingURL=GenderLine.css.map */

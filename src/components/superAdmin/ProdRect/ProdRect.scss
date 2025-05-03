@@ -1,0 +1,134 @@
+@import "../../../utilities/variables";
+
+.sdf {
+  height: auto;
+  width: 100%;
+  border-radius: 5 * $desk + vw;
+  box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+    rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 15 * $desk + vw;
+
+  .header {
+    margin-top: 5 * $desk + vw;
+    padding-right: 20 * $desk + vw;
+    padding-left: 20 * $desk + vw;
+  }
+
+  .prod-txt1 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    text-transform: inherit;
+    padding-left: 50 * $desk + vw;
+    width: 150 * $desk + vw;
+  }
+
+  .prod-txt2 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 200 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prod-txt3 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 200 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prod-txt4 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 150 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prod-txt5 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 250 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prod-txt6 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 145 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prod-txt7 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    width: 150 * $desk + vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .heading {
+    margin-left: 19 * $desk + vw;
+    margin-right: 19 * $desk + vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 60 * $desk + vw;
+    margin-top: 35 * $desk + vw;
+    color: #646464;
+    font-size: 20 * $desk + vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    text-align: center;
+    white-space: wrap;
+    text-transform: capitalize;
+
+    @media only screen and (max-width: $other) {
+      font-size: 30 * $desk + vw;
+    }
+  }
+}

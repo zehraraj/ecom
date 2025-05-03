@@ -1,0 +1,258 @@
+$desk: 100 / 1920;
+
+.cart-line-cont {
+  width: 1640 * $desk + vw;
+  height: 180 * $desk + vw;
+  margin-top: 40 * $desk + vw;
+  margin-left: 85 * $desk + vw;
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  margin-top: -20 * $desk + vw;
+  border-bottom: solid 1px #9d9797;
+  border-width: 1 * $desk + vw;
+  width: 1640 * $desk + vw;
+  height: 170 * $desk + vw;
+  background-color: #ffffff;
+  .container2 {
+    width: 1640 * $desk + vw;
+    height: 100 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    .blank {
+      width: 170 * $desk + vw;
+      height: 150 * $desk + vw;
+      border: solid 1 * $desk + vw #707070;
+      background-color: #ffffff;
+    }
+
+    .hr {
+      display: block;
+      margin-top: 1 * $desk + vw;
+      margin-bottom: 65 * $desk + vw;
+      margin-left: 0 * $desk + vw;
+      margin-right: 0 * $desk + vw;
+      border-style: inset;
+      border-width: 1 * $desk + vw;
+      border-color: rgb(158, 157, 157);
+    }
+
+    .txt-cont {
+      width: 364 * $desk + vw;
+      height: 221 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+
+      .txt1 {
+        margin-left: 42 * $desk + vw;
+        width: 190 * $desk + vw;
+        height: 26 * $desk + vw;
+        font-family: Montserrat-regular;
+        font-size: 23 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+      .txt11 {
+        width: 106 * $desk + vw;
+        height: 26 * $desk + vw;
+        margin-left: 42 * $desk + vw;
+        margin-top: 12 * $desk + vw;
+        font-family: Montserrat-regular;
+        font-size: 23 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+
+      .innertxt {
+        width: 364 * $desk + vw;
+        height: 50 * $desk + vw;
+        display: flex;
+        flex-direction: row;
+
+        .txt2 {
+          width: 106 * $desk + vw;
+          height: 26 * $desk + vw;
+          margin-left: 42 * $desk + vw;
+          margin-top: 12 * $desk + vw;
+          font-family: Montserrat-regular;
+          font-size: 23 * $desk + vw;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.17;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+        }
+
+        .txt3 {
+          width: 75 * $desk + vw;
+          height: 34 * $desk + vw;
+          font-family: Montserrat-Regular;
+          font-size: 26 * $desk + vw;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #5e5d5d;
+          margin-top: 18 * $desk + vw;
+          margin-left: 18 * $desk + vw;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .txt-cont2 {
+      .blank1 {
+        display: flex;
+        margin-left: 330 * $desk + vw;
+        width: 161 * $desk + vw;
+        height: 65 * $desk + vw;
+        border: solid 1 * $desk + vw #707070;
+        background-color: #ffffff;
+        .blank1-minus {
+          margin-top: 25 * $desk + vw;
+          margin-left: 20 * $desk + vw;
+          width: 19 * $desk + vw;
+          height: 19 * $desk + vw;
+          object-fit: contain;
+        }
+        .txt-num {
+          margin-left: 30 * $desk + vw;
+          margin-top: 20 * $desk + vw;
+          width: 16 * $desk + vw;
+          height: 32 * $desk + vw;
+          font-family: Montserrat-regular;
+          font-size: 29 * $desk + vw;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.14;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+        }
+        .blank1-plus {
+          margin-left: 30 * $desk + vw;
+          margin-top: 25 * $desk + vw;
+          width: 19 * $desk + vw;
+          height: 19 * $desk + vw;
+          object-fit: contain;
+        }
+        .remove {
+          text-decoration: underline;
+          width: 78 * $desk + vw;
+          margin-left: -90 * $desk + vw;
+          margin-top: 90 * $desk + vw;
+          height: 20 * $desk + vw;
+          font-family: Montserrat-regular;
+          font-size: 18 * $desk + vw;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.17;
+          letter-spacing: normal;
+          text-align: left;
+          color: #707070;
+        }
+      }
+    }
+
+    .txt-cont3 {
+      width: 218 * $desk + vw;
+      height: 121 * $desk + vw;
+      display: flex;
+      flex-direction: column;
+
+      .txt-cont3-1 {
+        width: 106 * $desk + vw;
+        height: 26 * $desk + vw;
+        margin-left: 400 * $desk + vw;
+        margin-top: 12 * $desk + vw;
+        font-family: Montserrat-regular;
+        font-size: 23 * $desk + vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+      }
+    }
+  }
+
+  .container3 {
+    width: 1141 * $desk + vw;
+    height: 44 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0 * $desk + vw;
+    margin-top: 0 * $desk + vw;
+
+    .txt1 {
+      width: 154 * $desk + vw;
+      height: 34 * $desk + vw;
+      font-family: Montserrat-Regular;
+      font-size: 26 * $desk + vw;
+      opacity: 0.99 * $desk + vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+      text-align: left;
+      color: #5e5d5d;
+      margin-top: 5 * $desk + vw;
+      margin-left: 50 * $desk + vw;
+      white-space: nowrap;
+    }
+
+    .txt2 {
+      width: 150 * $desk + vw;
+      height: 34 * $desk + vw;
+      font-family: Montserrat-Regular;
+      font-size: 26 * $desk + vw;
+      opacity: 0.99 * $desk + vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+      text-align: left;
+      color: #5e5d5d;
+      margin-top: 5 * $desk + vw;
+      margin-left: 231 * $desk + vw;
+      white-space: nowrap;
+    }
+
+    .hr {
+      display: block;
+      margin-top: 5 * $desk + vw;
+      margin-bottom: 8 * $desk + vw;
+      margin-left: 0 * $desk + vw;
+      margin-right: 0 * $desk + vw;
+      border-style: inset;
+      border-width: 1 * $desk + vw;
+      border-color: rgb(158, 157, 157);
+    }
+    .cross {
+      color: rgb(158, 157, 157);
+      margin-left: 1129 * $desk + vw;
+      margin-top: -149 * $desk + vw;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../../utilities/variables";
+
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  // margin-top: -430 * $desk + vw;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  // box-shadow: 0 * $desk + vw 3 * $desk + vw 20 * $desk + vw 0 * $desk + vw
+    // rgba(0, 0, 0, 0.1);
+  // border-bottom: solid 0.01px lightgray;
+
+  @media only screen and (max-width: $max-other) {
+    display: none;
+  }
+  .nav {
+    text-decoration: none;
+  }
+
+  .logo {
+    height: inherit;
+    margin-left: 15 * $desk + vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    img {
+      height: 50 * $desk + vw;
+    }
+  }
+
+  .headerRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270 * $desk + vw;
+  }
+}

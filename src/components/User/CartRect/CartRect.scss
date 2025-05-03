@@ -1,0 +1,164 @@
+$desk: 100 / 1920;
+
+.cart-rect{
+    width: 474* $desk + vw;
+    height: 487* $desk + vw;
+    box-shadow: 0 3* $desk + vw 6* $desk + vw 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top:195* $desk + vw ;
+    margin-left:68* $desk + vw ;
+
+    .header{
+        width: 474* $desk + vw;
+        height: 49* $desk + vw;
+        margin-top:38* $desk + vw ;
+
+        .txt{
+            width: 107* $desk + vw;
+            height: 34* $desk + vw;
+            opacity: 0.66;
+            font-family: Montserrat-Regular;
+            font-size: 26* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.31;
+            letter-spacing: normal;
+            text-align: left;         
+            color: #0e0030;
+            white-space: nowrap;
+            margin-left:18* $desk + vw ;
+        }
+    }
+
+    .bill-cont{
+        width: 474* $desk + vw;
+        height: 240* $desk + vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top:20* $desk + vw ;
+
+        .txt-cont1{
+            width: 237* $desk + vw;
+            height: 240* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .txt{
+                width: 237* $desk + vw;
+                height: 34* $desk + vw;
+                opacity: 0.66;
+                font-family: Montserrat-Regular;
+                font-size: 26* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.31;
+                letter-spacing: normal;
+                text-align: left;         
+                color: #0e0030;
+                white-space: nowrap;
+                margin-left:18* $desk + vw ;
+            }
+        }
+        .txt-cont2{
+            width: 237* $desk + vw;
+            height: 240* $desk + vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .txt1{
+                width: 237* $desk + vw;
+                height: 34* $desk + vw;
+                font-family: Montserrat-Regular;
+                font-size: 25* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.31;
+                letter-spacing: normal;
+                text-align: right;         
+                color: #0e0030;
+                white-space: nowrap;
+                margin-right: 37 * $desk + vw;
+            }
+    
+            .txt2{
+                width: 237* $desk + vw;
+                height: 34* $desk + vw;
+                opacity: 0.99;
+                font-family: Montserrat-Regular;
+                font-size: 26* $desk + vw;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.31;
+                letter-spacing: normal;
+                text-align: right;         
+                color: #ec3775;
+                white-space: nowrap;
+                margin-right: 37 * $desk + vw;
+            }
+        }
+    }
+
+    .footer{
+        width: 474* $desk + vw;
+        height: 49* $desk + vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top:21* $desk + vw ;
+
+        .txt1{
+            width: 82* $desk + vw;
+            height: 34* $desk + vw;
+            opacity: 0.66;
+            font-family: Montserrat-Regular;
+            font-size: 26* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.31;
+            letter-spacing: normal;
+            text-align: left;         
+            color: #0e0030;
+            white-space: nowrap;
+            margin-left:18* $desk + vw ;
+        }
+
+        .txt2{
+            width: 70* $desk + vw;
+            height: 34* $desk + vw;
+            font-family: Montserrat-Regular;
+            font-size: 25* $desk + vw;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.31;
+            letter-spacing: normal;
+            text-align: left;         
+            color: #0e0030;
+            white-space: nowrap;
+            margin-right: 37 * $desk + vw;
+            margin-left: 265 * $desk + vw;
+        }
+    }
+    .hr { 
+        display: block;
+        margin-top: 0 * $desk + vw;
+        margin-bottom: 0 * $desk + vw;
+        margin-left: 18 * $desk + vw;
+        margin-right: 37 * $desk + vw;
+        border-style: inset;
+        border-width: 1px;
+    }
+
+    
+}

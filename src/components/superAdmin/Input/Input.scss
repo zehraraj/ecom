@@ -1,0 +1,148 @@
+@import "../../../utilities/variables";
+
+.Input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 2 * $desk + vw;
+  // background-color: red;
+  background-color: #fbfbfb;
+  font-size: 20 * $desk + vw;
+  margin-bottom: 10 * $desk + vw;
+  padding-left: 100 * $desk + vw;
+  padding-right: 20 * $desk + vw;
+  padding-top: 30 * $desk + vw;
+  padding-bottom: 30 * $desk + vw;
+
+  .input-error {
+    width: 100%;
+    margin-top: 10 * $desk + vw;
+    .input-text {
+      width: auto;
+      margin-left: 240 * $desk + vw;
+      text-transform: capitalize;
+      font-size: 15 * $desk + vw;
+      color: red;
+    }
+  }
+
+  .input-content {
+    display: flex;
+    align-items: center;
+
+    .input-text {
+      // margin-top: 9 * $desk + vw;
+      width: 230 * $desk + vw;
+      color: #7e7e7e;
+      word-wrap: break-word;
+      font-weight: 400;
+      text-transform: uppercase;
+      @media only screen and (max-device-width: $other) {
+        font-size: 25 * $desk + vw;
+      }
+    }
+
+    .input-main-div {
+      display: flex;
+      position: relative;
+      // align-items: center;
+      // border: thin red solid;
+
+      .error {
+        border: red 1 * $desk + vw solid !important;
+      }
+
+      .inputBox {
+        width: 840 * $desk + vw;
+        height: 50 * $desk + vw;
+        border: 5px black solid;
+        box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        padding-left: 20 * $desk + vw;
+        padding-right: 20 * $desk + vw;
+        background-color: #ffffff;
+        font-family: inherit;
+        color: #916d6d;
+        font-size: 16 * $desk + vw;
+        @media only screen and (max-width: $mobile) {
+          width: 1200 * $desk + vw;
+          height: 80 * $desk + vw;
+          font-size: 25 * $desk + vw;
+          margin-bottom: 10 * $desk + vw;
+        }
+      }
+
+      .inputBox::placeholder {
+        color: #777777;
+      }
+
+      textarea {
+        resize: none;
+        padding-top: 20 * $desk + vw;
+        overflow: hidden;
+        min-height: 150 * $desk + vw;
+        outline: none;
+        @media only screen and (max-device-width: $other) {
+          padding-top: 30 * $desk + vw;
+          min-height: 250 * $desk + vw;
+        }
+      }
+
+      .fileInput {
+        display: block;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+      }
+
+      .icon {
+        right: 20 * $desk + vw;
+        top: 5 * $desk + vw;
+        // margin-right: 100 * $desk + vw;
+        position: absolute;
+        // display: flex;
+        // flex-direction: column;
+        cursor: pointer;
+        img {
+          height: 40 * $desk + vw;
+          position: relative;
+
+          @media only screen and (max-width: $mobile) {
+            width: 60 * $desk + vw;
+            height: 50 * $desk + vw;
+            margin-top: 14 * $desk + vw;
+          }
+        }
+      }
+
+      .show-password-icon {
+        right: 20 * $desk + vw;
+        top: 15 * $desk + vw;
+        // margin-right: 100 * $desk + vw;
+        position: absolute;
+        // display: flex;
+        // flex-direction: column;
+        cursor: pointer;
+        img {
+          height: 23 * $desk + vw;
+          position: relative;
+        }
+      }
+
+      .checkboxContainer {
+        width: 800 * $desk + vw;
+        min-height: 100%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        // align-items: flex-end;
+        // justify-content: space-between;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

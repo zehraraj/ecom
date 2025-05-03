@@ -1,0 +1,22 @@
+$desk: 100 / 1920;
+
+.User-rect {
+  //   width: 1396 * $desk + vw;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 30 * $desk + vw;
+
+  .header {
+    margin-top: 5 * $desk + vw;
+    padding-right: 20 * $desk + vw;
+    padding-left: 20 * $desk + vw;
+  }
+
+  .content {
+    margin-top: 50 * $desk + vw;
+    margin-bottom: 50 * $desk + vw;
+  }
+}

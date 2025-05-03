@@ -1,0 +1,67 @@
+.RS-flex-container {
+  width: 100vw;
+  height: 46.875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: fixed;
+}
+
+.RS-flex-container .RS-contentContainer {
+  position: relative;
+  height: 52.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20.20833vw;
+  margin-top: 4.79167vw;
+}
+
+.RS-flex-container .RS-contentContainer .RS-innerContainer {
+  width: 79.6875vw;
+  margin-top: 0vw;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  float: left;
+}
+
+.RS-flex-container .RS-contentContainer .RS-headerContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: left;
+  height: 3.125vw;
+}
+
+.RS-flex-container .RS-contentContainer .RS-headerContainer .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=RegionalSetting.css.map */

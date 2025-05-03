@@ -1,0 +1,93 @@
+@import "../../../utilities/variables";
+
+.SettingBox {
+  width: 550 * $desk + vw;
+  // width: 100%;
+  height: 180 * $desk + vw;
+  border-radius: 7 * $desk + vw;
+  box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+    rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  @media only screen and (max-width: $other) {
+    // margin-top: 390 * $desk + vw;
+    // margin-left: 20 * $desk + vw;
+    // margin-top: 10 * $desk + vw;
+    width: 100%;
+    height: 400 * $desk + vw;
+  }
+  .content {
+    // margin-left: 10 * $desk + vw;
+    width: 100%;
+    .titeleee {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: fit-content;
+      margin-left: 40 * $desk + vw;
+      // width: 180 * $desk + vw;
+      .text {
+        // width: 97 * $desk + vw;
+        // height: 43 * $desk + vw;
+        font-size: 36 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        color: #0e0030;
+        margin-right: 20 * $desk + vw;
+        // margin-left: 20 * $desk + vw;
+        // margin-top: 20 * $desk + vw;
+        white-space: nowrap;
+        @media only screen and(max-width:$other) {
+          margin-left: 20 * $desk + vw;
+          font-size: 85 * $desk + vw;
+        }
+      }
+
+      img {
+        // width: 30 * $desk + vw;
+        height: 30 * $desk + vw;
+
+        @media only screen and(max-width:$other) {
+          margin-left: 20 * $desk + vw;
+          // width: 60 * $desk + vw;
+          height: 60 * $desk + vw;
+        }
+      }
+    }
+    .linesdf {
+      // display: block;
+      margin-top: 15 * $desk + vw;
+      margin-bottom: 15 * $desk + vw;
+      margin-left: 20.5 * $desk + vw;
+      margin-right: 26.5 * $desk + vw;
+      border-style: inset;
+      color: #c9c9c9;
+      border-width: 1px;
+      @media only screen and(max-width:$other) {
+        border-width: 3 * $desk + vw;
+      }
+    }
+    .value {
+      margin-right: 30 * $desk + vw;
+      margin-top: 0 * $desk + vw;
+      font-size: 25 * $desk + vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.32;
+      letter-spacing: normal;
+      color: #646464;
+      float: right;
+      @media only screen and(max-width:$other) {
+        font-size: 55 * $desk + vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.Button {
+  width: 10.41667vw;
+  height: 2.60417vw;
+  outline-style: solid;
+  outline-color: #d5d3da;
+  outline-width: 1px;
+  background-color: #ffffff;
+  margin-top: -3.125vw;
+  margin-left: 2.08333vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+}
+
+.Button .txt {
+  font-family: BebasNeue;
+  font-size: 1.5625vw;
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.80;
+  letter-spacing: normal;
+  color: #0e0030;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.Button:hover {
+  background-color: #0e0030;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+}
+
+.txt:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  .Button {
+    width: 26.04167vw;
+    height: 7.8125vw;
+    outline-style: solid;
+    outline-color: #d5d3da;
+    outline-width: 0px;
+    background-color: #ffffff;
+    margin-top: 2.60417vw;
+    margin-left: 31.25vw;
+    -webkit-box-shadow: 0.52083vw 0.78125vw 0.83333vw 0.52083vw rgba(0, 0, 0, 0.16);
+            box-shadow: 0.52083vw 0.78125vw 0.83333vw 0.52083vw rgba(0, 0, 0, 0.16);
+  }
+  .Button .txt {
+    font-family: BebasNeue;
+    font-size: 5.20833vw;
+    font-weight: lighter;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.80;
+    letter-spacing: normal;
+    color: #0e0030;
+    text-decoration: none !important;
+    text-align: center;
+    margin-top: 2.60417vw;
+  }
+  .Button:hover {
+    background-color: #0e0030;
+    -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+            box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  }
+  .txt:hover {
+    color: #ffffff;
+  }
+}
+/*# sourceMappingURL=Button.css.map */

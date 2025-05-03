@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "Base.scss",
+        "../../../utilities/_variables.scss"
+    ],
+    "names": [],
+    "file": "Base.css"
+}

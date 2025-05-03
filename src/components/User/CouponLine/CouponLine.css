@@ -1,0 +1,541 @@
+.Coupon-line-cont {
+  width: 52.08333vw;
+  height: 11.19792vw;
+  margin-top: 2.08333vw;
+  margin-left: 7.29167vw;
+  margin-bottom: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.Coupon-line-cont .container2 {
+  width: 51.51042vw;
+  height: 8.59375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0vw;
+  margin-left: 0.26042vw;
+}
+
+.Coupon-line-cont .container2 .blank {
+  width: 10.625vw;
+  height: 8.54167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Coupon-line-cont .container2 .blank .txt-cont {
+  width: 3.33333vw;
+  height: 4.6875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 2.76042vw;
+  margin-left: 4.21875vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Coupon-line-cont .container2 .blank .txt-cont .txt1 {
+  width: 3.33333vw;
+  height: 1.82292vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.82292vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container2 .hr2 {
+  display: block;
+  margin-top: 0.9375vw;
+  margin-bottom: 2.89062vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  border-style: inset;
+  border-width: 0.05208vw;
+  border-color: #cecbcb;
+}
+
+.Coupon-line-cont .container2 .txt-cont {
+  width: 18.95833vw;
+  height: 11.51042vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Coupon-line-cont .container2 .txt-cont .innertxt1 {
+  width: 18.95833vw;
+  height: 4.53125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Coupon-line-cont .container2 .txt-cont .innertxt1 .txt1 {
+  width: 18.95833vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a2a0a8;
+  margin-top: 1.97917vw;
+  margin-left: 1.45833vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container2 .txt-cont .innertxt1 .txt2 {
+  width: 18.95833vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  margin-top: 1.97917vw;
+  margin-left: 0.52083vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container2 .txt-cont .innertxt2 {
+  width: 18.95833vw;
+  height: 4.53125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Coupon-line-cont .container2 .txt-cont .innertxt2 .txt3 {
+  width: 5vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a2a0a8;
+  margin-top: 0.52083vw;
+  margin-left: 1.45833vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container2 .txt-cont .innertxt2 .txt4 {
+  width: 3.90625vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a2a0a8;
+  margin-top: 0.52083vw;
+  margin-left: 0.9375vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container3 {
+  width: 52.13542vw;
+  height: 2.29167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-top: 0.10417vw solid #cecbcb;
+  margin-left: 0vw;
+  margin-top: 0vw;
+}
+
+.Coupon-line-cont .container3 .txt-cont {
+  width: 14.0625vw;
+  height: 2.29167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Coupon-line-cont .container3 .txt-cont .txt1 {
+  width: 5.20833vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  opacity: 0.05156vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a2a0a8;
+  margin-top: 0.52083vw;
+  margin-left: 41.66667vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container3 .txt-cont .txt2 {
+  width: 10.41667vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  opacity: 0.05156vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a2a0a8;
+  margin-top: 0.52083vw;
+  margin-left: 0.26042vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container3 .txt3 {
+  width: 7.8125vw;
+  height: 1.77083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.04167vw;
+  opacity: 0.05156vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a2a0a8;
+  margin-top: 0.52083vw;
+  margin-left: -13.48958vw;
+  white-space: nowrap;
+}
+
+.Coupon-line-cont .container3 .hr {
+  display: block;
+  margin-top: 0.26042vw;
+  margin-bottom: 0.41667vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  border-style: inset;
+  border-width: 0.05208vw;
+  border-color: #9e9d9d;
+}
+
+@media screen and (max-width: 480px) {
+  .Coupon-line-cont {
+    width: 80%;
+    height: 22.65625vw;
+    margin-top: 2.08333vw;
+    margin-left: 7.29167vw;
+    margin-bottom: 2.60417vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: 0.52083vw 0.78125vw 0.83333vw 0.52083vw rgba(0, 0, 0, 0.16);
+            box-shadow: 0.52083vw 0.78125vw 0.83333vw 0.52083vw rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+  }
+  .Coupon-line-cont .container2 {
+    width: 100%;
+    height: 16.66667vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 0vw;
+    margin-left: 0.26042vw;
+  }
+  .Coupon-line-cont .container2 .blank {
+    width: 25%;
+    height: 15.625vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .Coupon-line-cont .container2 .blank .txt-cont {
+    width: 100%;
+    height: 15.625vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1.5625vw;
+    margin-left: 2.60417vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Coupon-line-cont .container2 .blank .txt-cont .txt1 {
+    width: 100%;
+    height: 6.25vw;
+    font-family: Montserrat-Regular;
+    font-size: 6.25vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0e0030;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container2 .hr2 {
+    display: none;
+  }
+  .Coupon-line-cont .container2 .txt-cont {
+    width: 75%;
+    height: 15.625vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Coupon-line-cont .container2 .txt-cont .innertxt1 {
+    width: 100%;
+    height: 7.8125vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .Coupon-line-cont .container2 .txt-cont .innertxt1 .txt1 {
+    width: 73%;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a2a0a8;
+    margin-top: 1.97917vw;
+    margin-left: 1.45833vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container2 .txt-cont .innertxt1 .txt2 {
+    width: 27%;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0e0030;
+    margin-top: 1.97917vw;
+    margin-left: 0.52083vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container2 .txt-cont .innertxt2 {
+    width: 100%;
+    height: 7.8125vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .Coupon-line-cont .container2 .txt-cont .innertxt2 .txt3 {
+    width: 5vw;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a2a0a8;
+    margin-top: 0.52083vw;
+    margin-left: 1.45833vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container2 .txt-cont .innertxt2 .txt4 {
+    width: 3.90625vw;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a2a0a8;
+    margin-top: 0.52083vw;
+    margin-left: 0.9375vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container3 {
+    width: 75%;
+    height: 5.20833vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-top: 0.10417vw solid #cecbcb;
+    margin-left: 25%;
+    margin-top: 0vw;
+  }
+  .Coupon-line-cont .container3 .txt-cont {
+    width: 75%;
+    height: 2.29167vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .Coupon-line-cont .container3 .txt-cont .txt1 {
+    width: 11.45833vw;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    opacity: 0.05156vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a2a0a8;
+    margin-top: 0.52083vw;
+    margin-left: 0vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container3 .txt-cont .txt2 {
+    width: 10.41667vw;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    opacity: 0.05156vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a2a0a8;
+    margin-top: 0.52083vw;
+    margin-left: 0.26042vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container3 .txt3 {
+    width: 7.8125vw;
+    height: 1.77083vw;
+    font-family: Montserrat-Regular;
+    font-size: 3.125vw;
+    opacity: 0.05156vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a2a0a8;
+    margin-top: 0.52083vw;
+    margin-left: 0vw;
+    white-space: nowrap;
+  }
+  .Coupon-line-cont .container3 .hr {
+    display: block;
+    margin-top: 0.26042vw;
+    margin-bottom: 0.41667vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border-style: inset;
+    border-width: 0.05208vw;
+    border-color: #9e9d9d;
+  }
+}
+/*# sourceMappingURL=CouponLine.css.map */

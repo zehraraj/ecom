@@ -1,0 +1,300 @@
+.footer-container {
+  height: inherit;
+  background-color: #f8f8f8;
+  position: relative;
+  border-top: solid 2px gray;
+}
+
+.footer-container .cont1 {
+  width: 100vw;
+  height: 23.64583vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-container .cont1 .info-container {
+  width: 58.33333vw;
+  height: 3.125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .cont1 .info-container .logo {
+  float: left;
+  background: url("/home/suchit/Desktop/React/ecom/src/static/Invetry1.png");
+  width: 11.45833vw;
+  height: 2.13542vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 2.23958vw;
+  margin-top: 6.30208vw;
+}
+
+.footer-container .cont1 .info-container .copy {
+  width: 1.30208vw;
+  height: 1.30208vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 4.16667vw;
+  margin-top: 2.91667vw;
+}
+
+.footer-container .cont1 .info-container .info {
+  width: 10.52083vw;
+  height: 1.5625vw;
+}
+
+.footer-container .cont1 .info-container .info .infotxt {
+  width: 24.0625vw;
+  height: 1.04167vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+  white-space: nowrap;
+  margin-left: 6.25vw;
+  margin-top: -1.30208vw;
+}
+
+.footer-container .cont1 .info-container .info .infotxt1 {
+  width: 24.0625vw;
+  height: 1.04167vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+  line-height: 1.9;
+  white-space: nowrap;
+  margin-left: 4.42708vw;
+  margin-top: 1.04167vw;
+}
+
+.footer-container .cont1 .about-container {
+  margin-left: -33.85417vw;
+  width: 15.625vw;
+  height: 25.72917vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .cont1 .about-container .txt1 {
+  margin-top: 7.65625vw;
+  width: 3.59375vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.footer-container .cont1 .about-container .txt2 {
+  line-height: 1.2;
+  margin-top: 1.04167vw;
+  white-space: nowrap;
+  width: 4.27083vw;
+  height: 1.14583vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+}
+
+.footer-container .cont1 .icon-container {
+  width: 15.625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3.33333vw;
+}
+
+.footer-container .cont1 .icon-container .icon {
+  margin-top: 1.04167vw;
+  width: 1.30208vw;
+  height: 1.30208vw;
+  background-color: #707070;
+}
+
+.footer-container .cont1 .icon-container .icon2 {
+  width: 1.30208vw;
+  height: 1.30208vw;
+  background-color: #707070;
+}
+
+.footer-container .cont1 .icon-container .txt1 {
+  margin-top: 4.16667vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.footer-container .cont1 .icon-container .txt2 {
+  line-height: 1.2;
+  margin-top: 1.04167vw;
+  white-space: nowrap;
+  width: 4.27083vw;
+  height: 1.14583vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+}
+
+.footer-container .cont1 .icon-container .socialLogoText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.04167vw;
+}
+
+.footer-container .cont1 .icon-container .socialLogoText img {
+  width: 1.30208vw;
+  height: 1.30208vw;
+  background-color: #707070;
+}
+
+.footer-container .cont1 .icon-container .socialLogoText .socialText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin-left: 0.52083vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+}
+
+.footer-container .cont1 .contact-container {
+  width: 16.875vw;
+  height: 25.72917vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .cont1 .contact-container .txt1 {
+  margin-top: 7.65625vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.footer-container .cont1 .contact-container .txt2 {
+  line-height: 1.2;
+  margin-top: 1.04167vw;
+  white-space: nowrap;
+  width: 4.27083vw;
+  height: 1.14583vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+}
+
+.footer-container .cont1 .feedback-container {
+  width: 15.625vw;
+  height: 25.72917vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .cont1 .feedback-container .txt1 {
+  margin-top: 7.65625vw;
+  font-family: Montserrat-Regular;
+  font-size: 1.30208vw;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.footer-container .cont1 .feedback-container .feed-inp {
+  width: 26.04167vw;
+  height: 5.20833vw;
+}
+
+.footer-container .cont1 .feedback-container .feed-inp .inp {
+  height: 1.5625vw;
+  width: 20.83333vw;
+  margin-top: 3.125vw;
+  border: none;
+  border-bottom: solid 1px #000000;
+}
+
+.footer-container .cont1 .feedback-container .feed-sub {
+  margin-top: 0.52083vw;
+  margin-left: 15.625vw;
+}
+/*# sourceMappingURL=Footer.css.map */

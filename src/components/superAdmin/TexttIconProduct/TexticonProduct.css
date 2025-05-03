@@ -1,0 +1,38 @@
+.pr-textIconContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.64583vw;
+  width: 50vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 1.04167vw;
+  margin-left: 4.42708vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pr-textIconContainer2 .txt {
+  width: 7.29167vw;
+  height: 3.125vw;
+  font-family: BebasNeue;
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  margin-top: 0vw;
+  white-space: nowrap;
+}
+
+.pr-textIconContainer2 .img {
+  padding-left: 0.78125vw;
+  width: 2.08333vw;
+  height: 2.08333vw;
+  padding-top: 0.52083vw;
+}
+/*# sourceMappingURL=TexticonProduct.css.map */

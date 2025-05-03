@@ -1,0 +1,29 @@
+.Box3 {
+  width: 20.10417vw;
+  height: 3.85417vw;
+  border-radius: 0.625vw;
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-top: 1.5625vw;
+  margin-left: 0vw;
+  text-align: center;
+}
+
+.Box3 .tt {
+  width: 5.05208vw;
+  height: 2.23958vw;
+  font-family: BebasNeue;
+  font-size: 1.875vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #0e0030;
+  margin-left: 6.25vw;
+  white-space: nowrap;
+  padding-top: 0.78125vw;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=Box3.css.map */

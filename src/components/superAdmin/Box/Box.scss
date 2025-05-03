@@ -1,0 +1,122 @@
+@import "../../../utilities/variables";
+
+.Box {
+  width: 410 * $desk + vw;
+  height: 154 * $desk + vw;
+  border-radius: 7 * $desk + vw;
+  box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+    rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // margin-left: 15 * $desk + vw;
+  // margin-right: 15 * $desk + vw;
+
+  @media only screen and (max-device-width: $other) {
+    height: 350 * $desk + vw;
+    width: 100%;
+    margin-top: 25 * $desk + vh;
+    margin-bottom: 25 * $desk + vh;
+  }
+
+  // @media only screen and (min-device-width: $min-mobile) and (max-device-width: $max-mobile) {
+  //   width: 100%;
+  //   height: 280 * $desk + vw;
+  //   margin-top: 25 * $desk + vh;
+  //   margin-bottom: 25 * $desk + vh;
+  // }
+
+  // @media only screen and (min-device-width: $min-tablet) and (max-device-width: $max-tablet) {
+  //   width: 100%;
+  //   height: 300 * $desk + vw;
+  //   margin-top: 25 * $desk + vh;
+  //   margin-bottom: 25 * $desk + vh;
+  // }
+
+  .box-inner {
+    margin-left: 25 * $desk + vw;
+    margin-right: 25 * $desk + vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // height: 60%;
+    justify-content: space-between;
+
+    @media only screen and (max-device-width: $other) {
+      height: 200 * $desk + vw;
+    }
+
+    .tt {
+      font-size: 35 * $desk + vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.19;
+      letter-spacing: normal;
+      text-transform: capitalize;
+      color: #0e0030;
+      margin-left: 10 * $desk + vw;
+      white-space: nowrap;
+      text-transform: capitalize;
+
+      @media only screen and (max-device-width: $other) {
+        font-size: 70 * $desk + vw;
+        // margin-bottom: 20 * $desk + vh;
+      }
+
+      // @media only screen and (min-device-width: $min-mobile) and (max-device-width: $max-mobile) {
+      //   margin-top: 30 * $desk + vw;
+      //   font-size: 50 * $desk + vw;
+      //   margin-bottom: 10 * $desk + vw;
+      // }
+
+      // @media only screen and (min-device-width: $min-tablet) and (max-device-width: $max-tablet) {
+      //   margin-top: 30 * $desk + vw;
+      //   font-size: 50 * $desk + vw;
+      //   margin-bottom: 20 * $desk + vw;
+      // }
+    }
+    .hr {
+      display: block;
+      margin-top: 15 * $desk + vw;
+      // margin-bottom: 15 * $desk + vw;
+      // margin-left: 20.5 * $desk + vw;
+      // margin-right: 26.5 * $desk + vw;
+      border-style: solid;
+      color: #c9c9c9;
+      border-width: 1 * $desk + vw;
+      @media only screen and (max-device-width: $other) {
+        border-width: 3 * $desk + vw;
+      }
+    }
+    .t {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10 * $desk + vw;
+      margin-top: 10 * $desk + vw;
+      font-size: 25 * $desk + vw;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.32;
+      letter-spacing: normal;
+      color: #646464;
+
+      @media only screen and (max-device-width: $other) {
+        font-size: 60 * $desk + vw;
+        // margin-top: 20 * $desk + vh;
+      }
+
+      // @media only screen and (min-device-width: $min-mobile) and (max-device-width: $max-mobile) {
+      //   font-size: 40 * $desk + vw;
+      //   margin-top: 20 * $desk + vw;
+      // }
+
+      // @media only screen and (min-device-width: $min-tablet) and (max-device-width: $max-tablet) {
+      //   font-size: 35 * $desk + vw;
+      //   margin-top: 20 * $desk + vw;
+      // }
+    }
+  }
+}

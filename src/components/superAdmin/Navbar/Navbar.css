@@ -1,0 +1,94 @@
+.Header-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 4.16667vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0vw 0.15625vw 1.04167vw 0vw rgba(0, 0, 0, 0.2);
+          box-shadow: 0vw 0.15625vw 1.04167vw 0vw rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Header-Container {
+    height: 7.8125vh;
+  }
+}
+
+.Header-Container .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 1.04167vw;
+}
+
+.Header-Container .icon img {
+  height: 2.60417vw;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Header-Container .icon img {
+    height: 3.64583vh;
+    margin-left: 1.04167vh;
+  }
+}
+
+.Header-Container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2.08333vw;
+}
+
+.Header-Container .right .email {
+  font-size: 1.04167vw;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Header-Container .right .email {
+    font-size: 1.5625vh;
+  }
+}
+
+.Header-Container .right .logout {
+  cursor: pointer;
+  height: 1.04167vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 1.30208vw;
+}
+
+@media only screen and (max-width: 1023px) {
+  .Header-Container .right .logout {
+    height: 1.5625vh;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

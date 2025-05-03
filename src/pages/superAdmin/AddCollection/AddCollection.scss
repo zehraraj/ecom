@@ -1,0 +1,67 @@
+@import "../../../utilities/variables";
+
+.rot {
+  // width: 1920 * $desk + vw;
+  height: 100%;
+  // overflow-x: hidden !important;
+  overflow: hidden;
+  display: flex;
+  // flex-direction: row;
+  // position: absolute;
+  padding-right: 100 * $desk + vw;
+  padding-left: 100 * $desk + vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  @media only screen and (max-device-width: $other) {
+    padding-top: 50 * $desk + vw;
+  }
+  .headerContainer {
+    margin-top: 50 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .innerContainer {
+    // width: 1530 * $desk + vw;
+    // position: relative;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100 * $desk + vw;
+    .savediv {
+      width: 1360 * $desk + vw;
+      height: 86 * $desk + vw;
+      border-radius: 7 * $desk + vw;
+      box-shadow: 10 * $desk + vw 10 * $desk + vw 30 * $desk + vw 0
+        rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
+      margin-left: 85 * $desk + vw;
+      margin-bottom: 50 * $desk + vw;
+      margin-top: 0 * $desk + vw;
+      position: relative;
+
+      .txtsave {
+        width: 199 * $desk + vw;
+        height: 34 * $desk + vw;
+        font-family: RobotoSlab;
+        font-size: 26 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.31;
+        letter-spacing: normal;
+        color: #0e0030;
+        white-space: nowrap;
+        margin-left: 580 * $desk + vw;
+        margin-top: 26 * $desk + vw;
+      }
+    }
+  }
+}

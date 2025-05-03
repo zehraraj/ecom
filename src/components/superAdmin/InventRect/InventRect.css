@@ -1,0 +1,113 @@
+.root2 {
+  width: 100%;
+  height: auto;
+  border-radius: 0.26042vw;
+  -webkit-box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  margin-top: 5.20833vw;
+  margin-bottom: 2.60417vw;
+}
+
+.root2 .header {
+  margin-top: 0.26042vw;
+  padding-right: 1.04167vw;
+  padding-left: 1.04167vw;
+}
+
+.root2 .inventory-txt-1 {
+  text-transform: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  width: 7.8125vw;
+  padding-left: 4.16667vw;
+}
+
+.root2 .inventory-txt-2 {
+  text-transform: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  width: 13.02083vw;
+}
+
+.root2 .inventory-txt-3 {
+  font-size: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  width: 13.02083vw;
+}
+
+.root2 .inventory-txt-4 {
+  font-size: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  width: 10.41667vw;
+}
+
+.root2 .inventory-txt-5 {
+  font-size: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
+  width: 7.8125vw;
+  padding-right: 5.20833vw;
+}
+
+.root2 .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 0.98958vw;
+  margin-right: 0.98958vw;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 3.125vw;
+  margin-top: 1.82292vw;
+  color: #646464;
+  font-size: 1.14583vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=InventRect.css.map */

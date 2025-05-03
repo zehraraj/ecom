@@ -1,0 +1,8 @@
+$desk: 100 / 1920;
+
+.tp{
+    width: 400 * $desk + vw;
+    height: 100 * $desk + vw; 
+    margin-top:  130 * $desk + vw;
+    position: relative;
+}

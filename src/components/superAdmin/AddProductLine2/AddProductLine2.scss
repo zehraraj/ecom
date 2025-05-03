@@ -1,0 +1,47 @@
+$desk: 100 / 1920;
+
+.addline2{
+    //margin-left: 20 * $desk + vw;
+    margin-bottom: 18 * $desk + vw;
+    width: 1280 * $desk + vw;
+    height: 92 * $desk + vw;
+    display: flex;
+    background-color: rgba(238, 238, 238, 0.24);
+    .text{
+        width: 124 * $desk + vw;
+        height: 26 * $desk + vw;
+        font-family: RobotoSlab;
+        font-size: 20 * $desk + vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color:#7e7e7e;
+        padding-left: 52 * $desk + vw ;
+        padding-top: 30 * $desk + vw;
+        // padding-right: 63 * $desk + vw ;
+        white-space: nowrap;
+        float: left;
+    }
+
+    .addBox2{
+        width: 856 * $desk + vw;
+        height: 57 * $desk + vw;;
+        //border-radius: 12 * $desk + vw;;
+        box-shadow: 0  3 * $desk + vw  6 * $desk + vw  0 rgba(0, 0, 0, 0.16);
+        //background-color: #ffffff;
+        margin-top: 15 * $desk + vw;
+        margin-left: 100 * $desk + vw;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+    }
+
+    ::placeholder {
+        color: #7e7e7e;
+        font-family: RobotoSlab;
+    }
+}

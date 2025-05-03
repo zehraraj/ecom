@@ -1,0 +1,53 @@
+$desk: 100 / 1920;
+
+.titlecontainer{
+    width: 1920 * $desk + vw;
+    height: 100 * $desk + vw;
+    // margin-top: 105 * $desk +vw;
+    position: relative;
+
+    .first{
+        width: 140* $desk + vw;
+        height: 38* $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 29* $desk + vw;
+        padding-left: 126 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.31 * $desk + vw;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0e0030;
+        margin-top: 59 * $desk + vw;
+        margin-bottom: 0 * $desk + vw;
+    }
+
+    .secound{
+        width: 217* $desk + vw;
+        height: 28* $desk + vw;
+        font-family: Montserrat-Regular;
+        font-size: 21* $desk + vw;
+        padding-left: 126 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.31 * $desk + vw;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0e0030;
+        margin-top: 0 * $desk + vw;
+        margin-bottom: 0 * $desk + vw;
+    }
+    
+    .hr { 
+        display: block;
+        margin-top: 8.1 * $desk + vw;
+        margin-bottom: 0.5 * $desk + vw;
+        margin-left: 126.5 * $desk + vw;
+        margin-right: 84.7 * $desk + vw;
+        border-style: inset;
+        border-width: 1px;
+      }
+}
+

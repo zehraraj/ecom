@@ -1,0 +1,194 @@
+$desk: 100 / 1920;
+.Cart-flex-container {
+  width: 1920 * $desk + vw;
+  height: 1000 * $desk + vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+  .content-container {
+    width: 1920 * $desk + vw;
+    height: 908 * $desk + vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    margin-top: 70 * $desk + vw;
+    .content-container1 {
+      width: 1920 * $desk + vw;
+      .titlecontr {
+        width: 1270 * $desk + vw;
+        height: 100 * $desk + vw;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        .txt-cont1 {
+          display: flex;
+          flex-direction: row;
+          margin-left: 85 * $desk + vw;
+          .first {
+            width: 114 * $desk + vw;
+            height: 26 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 23 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+          .second {
+            margin-left: 765 * $desk + vw;
+            width: 114 * $desk + vw;
+            height: 26 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 23 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+          .third {
+            margin-left: 430 * $desk + vw;
+            width: 114 * $desk + vw;
+            height: 26 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 23 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+        }
+      }
+      .hr-div .hr-1 {
+        display: block;
+        margin-top: 20 * $desk + vw;
+        margin-right: 150 * $desk + vw;
+        margin-left: 60 * $desk + vw;
+        border-width: 1 * $desk + vw;
+      }
+      .inner-cont {
+        position: relative;
+        margin-left: 0 * $desk + vw;
+        margin-top: 10 * $desk + vw;
+        width: 1920 * $desk + vw;
+        height: 814 * $desk + vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .checkout {
+        margin-left: 1300 * $desk + vw;
+        margin-top: -350 * $desk + vw;
+        width: 500 * $desk + vw;
+        height: 300 * $desk + vw;
+        .div1 {
+          display: flex;
+          .ship {
+            margin-left: 95 * $desk + vw;
+            width: 20 * $desk + vw;
+            height: 23 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 21 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+          .cost {
+            margin-left: 200 * $desk + vw;
+            width: 56 * $desk + vw;
+            height: 23 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 21 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+        }
+
+        .hr-2 {
+          margin-top: 20 * $desk + vw;
+          margin-right: 70 * $desk + vw;
+          margin-left: 60 * $desk + vw;
+          border-width: 1.5 * $desk + vw;
+        }
+        .div2 {
+          display: flex;
+          .total {
+            margin-top: 20 * $desk + vw;
+            margin-left: 135 * $desk + vw;
+            width: 150 * $desk + vw;
+            height: 25 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 22 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.18;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+          .amt {
+            margin-top: 20 * $desk + vw;
+            width: 73 * $desk + vw;
+            height: 26 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 23 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+        }
+
+        .b1 {
+          margin-top: 20 * $desk + vw;
+          margin-left: 120 * $desk + vw;
+          height: 75 * $desk + vw;
+          border: solid 1 * $desk + vw #707070;
+          background-color: #ffffff;
+          width: 255 * $desk + vw;
+          .btnn {
+            padding-right: 20 * $desk + vw;
+            padding-top: 20 * $desk + vw;
+            padding-left: 20 * $desk + vw;
+            width: 216 * $desk + vw;
+            height: 30 * $desk + vw;
+            font-family: Montserrat-regular;
+            font-size: 26 * $desk + vw;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.19;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+          }
+        }
+      }
+    }
+  }
+}

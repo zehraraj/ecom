@@ -1,0 +1,55 @@
+.pro-edit-flex-container {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  height: 52.08333vw;
+}
+
+.pro-edit-flex-container .content-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 4.11458vw;
+  width: 100vw;
+  height: 47.29167vw;
+}
+
+.pro-edit-flex-container .content-container1 {
+  position: relative;
+  margin-top: 2.60417vw;
+  width: 100vw;
+  height: 26.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pro-edit-flex-container .content-container2 {
+  position: relative;
+  margin-left: 1.5625vw;
+  margin-top: 0vw;
+  width: 80.20833vw;
+  height: 32.91667vw;
+}
+/*# sourceMappingURL=EditProfile.css.map */

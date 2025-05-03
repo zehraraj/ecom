@@ -1,0 +1,69 @@
+.editadd-rect .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 2.60417vw;
+}
+
+.editadd-rect .headtitle {
+  width: 16.71875vw;
+  height: 2.76042vw;
+  font-family: Montserrat-Regular;
+  font-size: 2.08333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0e0030;
+  white-space: nowrap;
+  margin-left: 2.08333vw;
+}
+
+.editadd-rect .hr {
+  display: block;
+  margin-top: 0.10417vw;
+  margin-bottom: 0.02604vw;
+  margin-left: 2.08333vw;
+  margin-right: 2.64063vw;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.editadd-rect .EditAdd-line-container {
+  width: 72.70833vw;
+  height: 39.32292vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 0.52083vw;
+}
+
+.editadd-rect .EditAdd-line-container .one {
+  width: 34.11458vw;
+  height: 34.63542vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+.editadd-rect .nav {
+  text-decoration: none;
+}
+/*# sourceMappingURL=EditAddressRect.css.map */

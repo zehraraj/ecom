@@ -1,0 +1,98 @@
+.cardRoot {
+  margin-top: 2.60417vw;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.cardRoot .cardImage {
+  width: 13.54167vw;
+  height: 17.96875vw;
+  position: relative;
+}
+
+.cardRoot .cardImage img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+.cardRoot .cardImage .cardBubbleContainer {
+  position: absolute;
+  left: 0.78125vw;
+  top: 0.78125vw;
+  font-size: 0.83333vw;
+}
+
+.cardRoot .cardImage .cardBubbleContainer .cardSaleBubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #98d8ca;
+  color: white;
+  font-weight: bold;
+  width: 2.86458vw;
+  height: 2.86458vw;
+  border-radius: 2.60417vw;
+  margin-bottom: 0.78125vw;
+  text-transform: lowercase;
+}
+
+.cardRoot .cardImage .cardBubbleContainer .cardRibbonBubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  background: #c61932;
+  color: white;
+  width: 2.86458vw;
+  height: 2.86458vw;
+  border-radius: 2.60417vw;
+  text-transform: lowercase;
+}
+
+.cardRoot .cardTitle {
+  font-family: montserrat-regular;
+  font-size: 1.25vw;
+  margin-top: 1.04167vw;
+  margin-left: 1.04167vw;
+}
+
+.cardRoot .cardRates {
+  margin-top: 0.625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.cardRoot .cardRates .cardRatesSale {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 0.83333vw;
+  margin-left: 1.04167vw;
+  font-weight: bold;
+}
+
+.cardRoot .cardRates .cardRatesPrice {
+  font-weight: bold;
+  margin-left: 1.04167vw;
+  margin-left: 0.52083vw;
+  font-size: 0.9375vw;
+}
+/*# sourceMappingURL=Card.css.map */

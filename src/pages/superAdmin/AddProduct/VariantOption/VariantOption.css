@@ -1,0 +1,163 @@
+.AddVariant .bottom {
+  margin-bottom: 2.60417vw;
+}
+
+.AddVariant .variantOptionRoot {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 0.10417vw;
+  background-color: #fbfbfb;
+  font-size: 1.04167vw;
+  margin-bottom: 0.52083vw;
+  padding-left: 5.20833vw;
+  padding-right: 1.04167vw;
+  padding-top: 1.5625vw;
+  padding-bottom: 1.5625vw;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer,
+.AddVariant .variantOptionRoot .optionValueContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .text,
+.AddVariant .variantOptionRoot .optionValueContainer .text {
+  text-transform: uppercase;
+  margin-top: 0.46875vw;
+  width: 11.97917vw;
+  color: #7e7e7e;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper {
+  -webkit-box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0.15625vw 0.3125vw 0 rgba(0, 0, 0, 0.16);
+  width: 43.80208vw;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .inputBox,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .inputBox {
+  background-color: #ffffff;
+  width: 100%;
+  height: 2.60417vw;
+  border: 5px black solid;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  padding-left: 1.04167vw;
+  padding-right: 1.04167vw;
+  font-family: inherit;
+  font-size: 0.83333vw;
+  text-transform: capitalize;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .inputBox::-webkit-input-placeholder,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .inputBox::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .inputBox:-ms-input-placeholder,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .inputBox:-ms-input-placeholder {
+  color: #777777;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .inputBox::-ms-input-placeholder,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .inputBox::-ms-input-placeholder {
+  color: #777777;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .inputBox::placeholder,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .inputBox::placeholder {
+  color: #777777;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .icon,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .icon {
+  margin-top: 0.78125vw;
+  margin-right: 0.52083vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .inputIcon .icon img,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .inputIcon .icon img {
+  position: relative;
+  height: 1.04167vw;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .none,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .none {
+  display: none;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .optionContainer,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .optionContainer {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #7e7e7e;
+  z-index: 50;
+  position: relative;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .optionContainer .option,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .optionContainer .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding-top: 1.04167vw;
+  padding-bottom: 1.04167vw;
+}
+
+.AddVariant .variantOptionRoot .optionGroupContainer .optionWrapper .optionContainer .option:hover,
+.AddVariant .variantOptionRoot .optionValueContainer .optionWrapper .optionContainer .option:hover {
+  background-color: #0e0030;
+  color: white;
+}
+/*# sourceMappingURL=VariantOption.css.map */

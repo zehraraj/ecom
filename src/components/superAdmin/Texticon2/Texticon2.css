@@ -1,0 +1,37 @@
+.textIconContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.125vw;
+  width: 50vw;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 0.52083vw;
+  margin-bottom: 1.04167vw;
+  margin-left: 4.375vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.textIconContainer2 .txt {
+  width: 9.89583vw;
+  height: 2.60417vw;
+  font-family: BebasNeue;
+  font-size: 2.60417vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7e7e7e;
+  white-space: nowrap;
+}
+
+.textIconContainer2 .img {
+  padding-left: 0.78125vw;
+  width: 2.08333vw;
+  height: 2.08333vw;
+}
+/*# sourceMappingURL=Texticon2.css.map */

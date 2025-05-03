@@ -1,0 +1,78 @@
+$desk: 100 / 1920;
+
+.User-Main-rect {
+  width: 100%;
+  box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-top: 0 * $desk + vw;
+  position: relative;
+  padding-bottom: 50 * $desk + vw;
+  .nav {
+    text-decoration: none;
+  }
+
+  .title {
+    margin-top: 5 * $desk + vw;
+    padding-right: 20 * $desk + vw;
+    padding-left: 20 * $desk + vw;
+  }
+
+  .content {
+    margin-top: 50 * $desk + vw;
+    margin-left: 50 * $desk + vw;
+    .row {
+      display: flex;
+      margin-bottom: 20 * $desk + vw;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: fit-content;
+      width: 500 * $desk + vw;
+      color: #707070;
+      font-size: 23 * $desk + vw;
+      .user-detail-text {
+        font-weight: bold;
+        white-space: nowrap;
+        width: 200 * $desk + vw;
+      }
+      .colon {
+        font-weight: bold;
+        width: 20 * $desk + vw;
+      }
+      .result {
+        font-weight: thin;
+      }
+      .caps {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .addressButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+
+    .box {
+      width: 386 * $desk + vw;
+      height: 74 * $desk + vw;
+      border-radius: 12 * $desk + vw;
+      box-shadow: 0 3 * $desk + vw 6 * $desk + vw 0 rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .tt {
+        font-size: 30 * $desk + vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        color: #707070;
+        white-space: nowrap;
+      }
+    }
+  }
+}

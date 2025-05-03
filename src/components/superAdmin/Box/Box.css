@@ -1,0 +1,107 @@
+.Box {
+  width: 21.35417vw;
+  height: 8.02083vw;
+  border-radius: 0.36458vw;
+  -webkit-box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0.52083vw 0.52083vw 1.5625vw 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .Box {
+    height: 18.22917vw;
+    width: 100%;
+    margin-top: 1.30208vh;
+    margin-bottom: 1.30208vh;
+  }
+}
+
+.Box .box-inner {
+  margin-left: 1.30208vw;
+  margin-right: 1.30208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .Box .box-inner {
+    height: 10.41667vw;
+  }
+}
+
+.Box .box-inner .tt {
+  font-size: 1.82292vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  color: #0e0030;
+  margin-left: 0.52083vw;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .Box .box-inner .tt {
+    font-size: 3.64583vw;
+  }
+}
+
+.Box .box-inner .hr {
+  display: block;
+  margin-top: 0.78125vw;
+  border-style: solid;
+  color: #c9c9c9;
+  border-width: 0.05208vw;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .Box .box-inner .hr {
+    border-width: 0.15625vw;
+  }
+}
+
+.Box .box-inner .t {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 0.52083vw;
+  margin-top: 0.52083vw;
+  font-size: 1.30208vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  color: #646464;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .Box .box-inner .t {
+    font-size: 3.125vw;
+  }
+}
+/*# sourceMappingURL=Box.css.map */

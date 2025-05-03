@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,UAAgB;EAG5B,QAAQ,EAAE,QAAQ;EAClB,cAAc,EAAE,MAAM;CAcvB;;AApBD,AAOE,aAPW,CAOX,eAAe,CAAC;EACd,MAAM,EAAE,SAAgB;EACxB,OAAO,EAAE,KAAK;CACf;;AAVH,AAWE,aAXW,CAWX,gBAAgB,CAAC;EACf,KAAK,EAAE,IAAI;EAEX,UAAU,EAAE,oCAAuD;EACnE,cAAc,EAAE,UAAgB;CACjC;;AAhBH,AAiBE,aAjBW,CAiBX,eAAe,CAAC;EACd,MAAM,EAAE,UAAgB;CACzB",
+    "sources": [
+        "UserBase.scss",
+        "../../../utilities/_variables.scss"
+    ],
+    "names": [],
+    "file": "UserBase.css"
+}
